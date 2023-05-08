@@ -6,8 +6,16 @@ author_profile: true
 
 {% include base_path %}
 
-Education
+Mentorship
 ======
-* **B.Tech** in Information Technology, Silicon Institute of Technology, Bhubaneswar, India, 2013
-* **M.Tech** in Computer Science and Engineering, International Institute of Information Technology (IIIT) Bhubaneswar, India, 2019
-* **Ph.D.** in Computer Science and Engineering, Indian Institute of Technology (IIT), Kharagpur, 2026 (expected)
+* **Clock Synchronisation in Provenance Systems for Serverless Computing Platforms**
+  * Mentored Ishan Sharma, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
+* **Reverse Engineering on Docker Images**,
+  * Mentored Vamshidhar Reddy Dudyala, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
+* **Performance Analysis of eBPF Tail Calls**
+  * Mentored Narayan Gupta, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
+* **Unified System Call Log and Application Log Generation on Serverless Environ- ment using eBPF**
+  * Mentored Rajat Bachhawat, Undergraduate student at IIT Kharagpur, Department of
+Computer Science and Engineering, for his Thesis work.
+* **Universal Provenance Log Regeneration from Packet Traces for System Vulnerability Analysis**
+  * Mentored Narayan Gupta, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
