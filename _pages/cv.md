@@ -15,7 +15,7 @@ Education
 * M.Tech. in Computer Science and Engineering, International Institute of Information Technology (IIIT) Bhubaneswar, India, 2019
 * Ph.D. in Computer Science and Engineering, Indian Institute of Technology (IIT), Kharagpur, 2026 (expected)
 
-Work experience
+Internships
 ======
 * Summer 2023: Research Intern
   * [IBM India Research Lab (IRL)](https://research.ibm.com/), Bangalore, India
@@ -23,20 +23,34 @@ Work experience
   * Duration: 3 Months (May - August 2023)
   * Supervisor: [Sayandeep Sen](https://researcher.watson.ibm.com/researcher/view.php?person=in-sayandes), [Palani Kondeswaran](https://researcher.watson.ibm.com/researcher/view.php?person=in-palani.kodeswaran)
 
-* Spring 2023: Senior Reasrch Fellow (SRF)
+* Summer 2018: Research Intern
+  * IIT Kharagpur, India
+  * Project: SilentInformer: A framework for Information Dispersion using Inaudible Acoustic Signals
+  * Duration: 2 Months (May - June 2023)
+  * Supervisor: Prof. Sandip Chakraborthy
+
+Work experience
+======
+* Spring 2023: Senior Research Fellow (SRF)
   * IIT Kharagpur and sponsored by IGCAR
   * Duration: 1.5 Years (Feb 2023 - August 2024)
   * Project: Development of Algorithms and Tools for Log Analytics
-  * Supervisor: Prof. Sandeip Chakraborthy, Subhrendu Chatopadhay
+  * Supervisor: Prof. Sandip Chakraborty, Subhrendu Chattopadhyay
 
-* Spring 2021: Junior Reasrch Fellow (JRF)
+* Spring 2021: Junior Research Fellow (JRF)
   * IIT Kharagpur and sponsored by IGCAR, Hyderabad, India
-  * Duration: 2 Years (Feb 2021 - Fen 2023)
+  * Duration: 2 Years (Feb 2021 - Feb 2023)
   * Project: Development of Algorithms and Tools for Log Analytics
-  * Supervisor: Prof. Sandeip Chakraborthy, Subhrendu Chatopadhay
+  * Supervisor: Prof. Sandip Chakraborty, Subhrendu Chattopadhyay
 
 * Autumn 2019: Assistant Professor
   * College of Engineering and Technology, Odisha, India
+  * Duration: 1.3 Years (Sep 2019 - Jan 2021)
+
+* Autumn 2013: Senior System Engineer
+  * Infosys Ltd., Bhubaneswar, India
+  * Duties: Java Developer, at AMEX Account.
+  * Duration: 3.10 Years (Sep 2013 - Jun 2017)
 
 
 <!--
