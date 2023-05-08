@@ -19,13 +19,25 @@ Work experience
 ======
 * Summer 2023: Research Intern
   * [IBM India Research Lab (IRL)](https://research.ibm.com/), Bangalore, India
-  * Duties included: Tagging issues
+  * Project: OPENED Policy Enforcer
+  * Duration: 3 Months (May - August 2023)
   * Supervisor: [Sayandeep Sen](https://researcher.watson.ibm.com/researcher/view.php?person=in-sayandes), [Palani Kondeswaran](https://researcher.watson.ibm.com/researcher/view.php?person=in-palani.kodeswaran)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2023: Senior Reasrch Fellow (SRF)
+  * IIT Kharagpur and sponsored by IGCAR
+  * Duration: 1.5 Years (Feb 2023 - August 2024)
+  * Project: Development of Algorithms and Tools for Log Analytics
+  * Supervisor: Prof. Sandeip Chakraborthy, Subhrendu Chatopadhay
+
+* Spring 2021: Junior Reasrch Fellow (JRF)
+  * IIT Kharagpur and sponsored by IGCAR, Hyderabad, India
+  * Duration: 2 Years (Feb 2021 - Fen 2023)
+  * Project: Development of Algorithms and Tools for Log Analytics
+  * Supervisor: Prof. Sandeip Chakraborthy, Subhrendu Chatopadhay
+
+* Autumn 2019: Assistant Professor
+  * College of Engineering and Technology, Odisha, India
+
 
 <!--
 Research Intern - Confidential Computing Group
