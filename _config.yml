@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Utkalika Satapathy / About Me"
+title                    : "Utkalika Satapathy"
 title_separator          : "-"
 name                     : &name "Utkalika Satapathy"
 description              : &description "personal description"
