@@ -9,7 +9,7 @@ location: "India"
 ---
 
 [Course Page](https://onlinecourses.nptel.ac.in/noc23_cs47/preview) 
-* **Instructor**: By Prof. Sandip Chakraborty, Prof. Shamik Sural
+* **Instructor**: Prof. Sandip Chakraborty, Prof. Shamik Sural
 * **Teaching Assistance**: Utkalika Satapathy, Tirthankar Sengupta
 * **Duration** :	12 weeks
 * **Level** :	Undergraduate Students, Postgraduate Students
