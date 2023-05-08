@@ -27,7 +27,7 @@ Internships
   * IIT Kharagpur, India
   * Project: SilentInformer: A framework for Information Dispersion using Inaudible Acoustic Signals
   * Duration: 2 Months (May - June 2023)
-  * Supervisor: Prof. Sandip Chakraborthy
+  * Supervisor: [Dr. Sandip Chakraborty](https://cse.iitkgp.ac.in/~sandipc/)
 
 Work experience
 ======
