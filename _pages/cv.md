@@ -31,26 +31,26 @@ Internships
 
 Work experience
 ======
-* Spring 2023: Senior Research Fellow (SRF)
-  * IIT Kharagpur and sponsored by IGCAR
-  * Duration: 1.5 Years (Feb 2023 - August 2024)
+* Feb 2023 - August 2024: Senior Research Fellow (SRF)
+  * IIT Kharagpur and sponsored by [IGCAR](http://www.igcar.gov.in/), India
+  * Duration: 1.5 Years
   * Project: Development of Algorithms and Tools for Log Analytics
-  * Supervisor: Prof. Sandip Chakraborty, Subhrendu Chattopadhyay
+  * Supervisor: [Dr. Sandip Chakraborty](https://cse.iitkgp.ac.in/~sandipc/), [Dr. Subhrendu Chattopadhyay](https://www.idrbt.ac.in/dr-subhrendu-chattopadhyay/)
 
-* Spring 2021: Junior Research Fellow (JRF)
-  * IIT Kharagpur and sponsored by IGCAR, Hyderabad, India
-  * Duration: 2 Years (Feb 2021 - Feb 2023)
+* Feb 2021 - Feb 2023: Junior Research Fellow (JRF)
+  * IIT Kharagpur and sponsored by [IGCAR](http://www.igcar.gov.in/), India
+  * Duration: 2 Years
   * Project: Development of Algorithms and Tools for Log Analytics
-  * Supervisor: Prof. Sandip Chakraborty, Subhrendu Chattopadhyay
+  * Supervisor: [Dr. Sandip Chakraborty](https://cse.iitkgp.ac.in/~sandipc/), [Dr. Subhrendu Chattopadhyay](https://www.idrbt.ac.in/dr-subhrendu-chattopadhyay/)
 
-* Autumn 2019: Assistant Professor
-  * College of Engineering and Technology, Odisha, India
-  * Duration: 1.3 Years (Sep 2019 - Jan 2021)
+* Sep 2019 - Jan 2021: Assistant Professor
+  * [College of Engineering and Technology](https://www.cet.edu.in/), Bhubaneswar, India
+  * Duration: 1.3 Years
 
-* Autumn 2013: Senior System Engineer
-  * Infosys Ltd., Bhubaneswar, India
+* Sep 2013 - Jun 2017: Senior System Engineer
+  * [Infosys](https://www.infosys.com/), Bhubaneswar, India
   * Duties: Java Developer, at AMEX Account.
-  * Duration: 3.10 Years (Sep 2013 - Jun 2017)
+  * Duration: 3.10 Years
 
 
 <!--
