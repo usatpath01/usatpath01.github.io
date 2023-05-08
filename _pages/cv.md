@@ -17,17 +17,25 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer 2023: Research Intern
+  * [IBM India Research Lab (IRL)](https://research.ibm.com/), Bangalore, India
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: [Sayandeep Sen](https://researcher.watson.ibm.com/researcher/view.php?person=in-sayandes), [Palani Kondeswaran](https://researcher.watson.ibm.com/researcher/view.php?person=in-palani.kodeswaran)
 
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
-Skills
+
+<!--
+Research Intern - Confidential Computing Group
+Microsoft Research Cambridge, UK, (advised by Alex Shamis), Sept 2021 - Dec 2021
+
+Software and Systems Engineer - Cloud RnD
+Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
+-->
+
+<!--Skills
 ======
 * Skill 1
 * Skill 2
@@ -35,6 +43,7 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+-->
 
 Publications
 ======
@@ -42,12 +51,12 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!--Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+-->  
 Teaching
 ======
   <ul>{% for post in site.teaching %}
