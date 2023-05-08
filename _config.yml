@@ -85,7 +85,7 @@ author:
   bio              : "Research Scholar, Department of CSE, IIT Kharagpur"
   location         : "India"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+#  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=bqyCK7cAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -99,10 +99,10 @@ author:
   github           : "usatpath01"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/utkalika-satapathy-01/"
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-7477-1479"
   pinterest        :
   soundcloud       :
