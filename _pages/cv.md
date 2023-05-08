@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV[Download](http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf)"
+title: "CV (<a href="http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf">Download</a>)"
 permalink: /cv/
 author_profile: true
 redirect_from:
