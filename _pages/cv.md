@@ -84,7 +84,7 @@ Publications
   {% endfor %}</ul>
 -->  
 
-Teaching
+Teaching Assistance
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
