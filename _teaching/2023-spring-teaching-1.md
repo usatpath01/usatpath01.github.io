@@ -9,8 +9,9 @@ location: "City, Country"
 ---
 Course Details
 ======
-[Course Link](https://onlinecourses.nptel.ac.in/noc23_cs47/preview) 
-Insructor: By Prof. Sandip Chakraborty, Prof. Shamik Sural
-Teaching Assistance: Utkalika Satapathy, Tirthankar Sengupta
-Duration :	12 weeks
-Level :	Undergraduate Students, Postgraduate Students
+[Course Page](https://onlinecourses.nptel.ac.in/noc23_cs47/preview) 
+
+* Insructor: By Prof. Sandip Chakraborty, Prof. Shamik Sural
+* Teaching Assistance: Utkalika Satapathy, Tirthankar Sengupta
+* Duration :	12 weeks
+* Level :	Undergraduate Students, Postgraduate Students
