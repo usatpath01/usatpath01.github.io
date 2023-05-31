@@ -1,0 +1,19 @@
+name: Latest Twitter Posts
+on:
+  schedule:
+    # Runs every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest twitter posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: usatpath01/usatpath01.github.io@master
+        with:
+          comment_tag_name: "TWITTER"
+          feed_list: "https://twitter.com/utkalika_satpat"
+          commit_message: "Update Twitter posts"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
