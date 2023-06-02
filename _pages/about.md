@@ -20,7 +20,8 @@ I have a strong passion for discovering distinctive opportunities, acquiring new
 </div>
 <div style="border-left: 1px solid lightgrey; height: 500px; position: absolute; left: 65%;"></div>
 <div style="width: 40%; height: 800px; position: absolute; left: 66%;">
-<a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/ubinetiitkgp?ref_src=twsrc%5Etfw">Tweets by ubinetiitkgp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-width="400" data-height="500" data-theme="light"><p lang="en" dir="ltr">Here is a video teaser of DisProTrack, our INFOCOM 2023 paper on Distributed Provenance Tracking for Serverless Applications. <a href="https://t.co/UvI6EIjK0P">https://t.co/UvI6EIjK0P</a><a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> <a href="https://twitter.com/subhrendu_subho?ref_src=twsrc%5Etfw">@subhrendu_subho</a></p>&mdash; UbiNet: Ubiquitous Networked Systems Lab (@ubinetiitkgp) <a href="https://twitter.com/ubinetiitkgp/status/1663772443180437505?ref_src=twsrc%5Etfw">May 31, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--<a class="twitter-timeline" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/ubinetiitkgp?ref_src=twsrc%5Etfw">Tweets by ubinetiitkgp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 </div>
 
 <!--
