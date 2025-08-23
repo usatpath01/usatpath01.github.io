@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Utkalika Satapathy"
   avatar           : "Utkalika.JPG"
-  bio              : "Research Scholar, Department of CSE, IIT Kharagpur"
+  # bio              : "Research Scholar, Department of CSE, IIT Kharagpur"
+  bio              : "Assistant Professor, Department of Computer Science, IIIT Bhubaneswar"
   location         : "India"
   employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

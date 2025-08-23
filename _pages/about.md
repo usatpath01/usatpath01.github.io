@@ -9,7 +9,7 @@ redirect_from:
 ---
 <div style="width: 70%; height: 600px; float:left;">
 <p style="text-align: justify">
-This is Utkalika Satapathy's home on the web!
+<!-- This is Utkalika Satapathy's home on the web! -->
 <br><br>
 I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target=_blank>Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target=_blank>Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target=_blank>Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target=_blank>Ubiquitous Networked Systems Lab (UbiNet)</a>.
 <br><br>
