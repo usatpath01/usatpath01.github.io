@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <div style="width: 70%; height: 900px; float:left;">
-<p style="text-align: justify; font-size: 14px; line-height: 1.4;">
+<p style="text-align: justify; font-size: 16px; line-height: 1.4;">
 <!-- This is Utkalika Satapathy's home on the web! -->
 <br><br>
 I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target=_blank>Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target=_blank>Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target=_blank>Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target=_blank>Ubiquitous Networked Systems Lab (UbiNet)</a>.
@@ -19,7 +19,7 @@ I have a strong passion for discovering distinctive opportunities, acquiring new
 </p>
 
 <h2 style="font-size: 18px; margin-top: 20px; margin-bottom: 10px;">News and Updates</h2>
-<ul style="font-size: 13px; line-height: 1.3;">
+<ul style="font-size: 16px; line-height: 1.3;">
   <li><strong>February 2025:</strong> Our paper "MuProv: Multi-level Provenance Tracking for Microservices" has been accepted at COMSNETS 2025!</li>
   <li><strong>August 2024:</strong> Presented our work on "URCD: Unified Resource Control and Discovery" at ICDCS 2024.</li>
   <li><strong>May 2023:</strong> Successfully presented "DisProTrack: Distributed Provenance Tracking for Serverless Applications" at INFOCOM 2023.</li>
