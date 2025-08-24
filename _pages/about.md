@@ -17,6 +17,14 @@ My research interests include the areas of Systems, Provenance Tracking, and Dis
 <br><br>
 I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
 </p>
+
+<h2>News and Updates</h2>
+<ul>
+  <li><strong>February 2025:</strong> Our paper "MuProv: Multi-level Provenance Tracking for Microservices" has been accepted at COMSNETS 2025!</li>
+  <li><strong>August 2024:</strong> Presented our work on "URCD: Unified Resource Control and Discovery" at ICDCS 2024.</li>
+  <li><strong>May 2023:</strong> Successfully presented "DisProTrack: Distributed Provenance Tracking for Serverless Applications" at INFOCOM 2023.</li>
+  <li><strong>January 2020:</strong> Published "SilentInformer: A Novel Approach to Network Traffic Analysis" at COMSNETS 2020.</li>
+</ul>
 </div>
 <div style="border-left: 1px solid lightgrey; height: 500px; position: absolute; left: 65%;"></div>
 <div style="width: 40%; height: 800px; position: absolute; left: 66%;">
