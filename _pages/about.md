@@ -21,6 +21,10 @@ redirect_from:
       I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
     </p>
 
+    <div class="twitter-embed">
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
     <h2>News and Updates</h2>
     <ul>
       <li><strong>February 2025:</strong> Our paper "MuProv: Multi-level Provenance Tracking for Microservices" has been accepted at COMSNETS 2025!</li>
@@ -30,26 +34,15 @@ redirect_from:
     </ul>
   </div>
 
-  <div class="about-sidebar">
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+
 </div>
 
 <style>
 .about-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
   margin: 2rem 0;
 }
 
 .about-content {
-  flex: 1;
-  min-width: 300px;
-}
-
-.about-sidebar {
-  flex: 0 0 400px;
   max-width: 100%;
 }
 
@@ -77,18 +70,18 @@ redirect_from:
   margin-bottom: 0.8rem;
 }
 
+.twitter-embed {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.twitter-embed blockquote {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .about-sidebar {
-    flex: none;
-    order: -1;
-  }
-  
   .about-content {
     min-width: auto;
   }
