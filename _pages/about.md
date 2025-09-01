@@ -11,23 +11,23 @@ redirect_from:
 <p style="text-align: justify; font-size: 16px; line-height: 1.4;">
 <!-- This is Utkalika Satapathy's home on the web! -->
 <br><br>
-<!-- I have joined at International Institute of Information Technology (IIIT) Bhubaneswar as an Assistant Professor in the Department of Computer Science. I earned my B.Tech. in Information Technology from the Silicon Institute of Technology (SIT), Odisha, in 2013, followed by my M.Tech. in Computer Science from IIIT Bhubaneswar in 2019. 
-From 2013 to 2017, I worked at Infosys Ltd. as a Senior Systems Engineer, and from 2019 to 2021, I served as contractual faculty at College of Engineering and Technology, Bhubaneswar (CETB) now Odisha University of Technology and Research (OUTR).  -->
 I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target=_blank>Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target=_blank>Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target=_blank>Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target=_blank>Ubiquitous Networked Systems Lab (UbiNet)</a>.
-<br><br>
-
-My research focuses on computer systems, distributed systems, and observability, with a particular interest in provenance tracking, causality analysis, containerized microservices, and graph-based anomaly detection in large-scale distributed environments.
-
-I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
-
-<!-- I have published and presented my work at leading venues including IEEE INFOCOM, and COMSNETS, and my research has received support from the Indira Gandhi Centre for Atomic Research (IGCAR), Government of India, IEEE, and ACM. -->
-
-<!-- I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target=_blank>Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target=_blank>Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target=_blank>Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target=_blank>Ubiquitous Networked Systems Lab (UbiNet)</a>.
 <br><br>
 My research interests include the areas of Systems, Provenance Tracking, and Distributed systems. Currently exploring Loadable Kernel Module (LKM), Extended Berkeley Packet Filter <a href="https://ebpf.io/" target=_blank>(eBPF)</a>, Linux Security Modules (LSMs).
 <br><br>
 I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
-</p> -->
+</p>
+
+<!-- I have joined at International Institute of Information Technology (IIIT) Bhubaneswar as an Assistant Professor in the Department of Computer Science. I earned my B.Tech. in Information Technology from the Silicon Institute of Technology (SIT), Odisha, in 2013, followed by my M.Tech. in Computer Science from IIIT Bhubaneswar in 2019. 
+From 2013 to 2017, I worked at Infosys Ltd. as a Senior Systems Engineer, and from 2019 to 2021, I served as contractual faculty at College of Engineering and Technology, Bhubaneswar (CETB) now Odisha University of Technology and Research (OUTR).  -->
+<!-- I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target=_blank>Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target=_blank>Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target=_blank>Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target=_blank>Ubiquitous Networked Systems Lab (UbiNet)</a>.
+<br><br> -->
+
+<!-- My research focuses on computer systems, distributed systems, and observability, with a particular interest in provenance tracking, causality analysis, containerized microservices, and graph-based anomaly detection in large-scale distributed environments.
+
+I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly. -->
+
+<!-- I have published and presented my work at leading venues including IEEE INFOCOM, and COMSNETS, and my research has received support from the Indira Gandhi Centre for Atomic Research (IGCAR), Government of India, IEEE, and ACM. -->
 
 <h2 style="font-size: 18px; margin-top: 20px; margin-bottom: 10px;">News and Updates</h2>
 <ul style="font-size: 16px; line-height: 1.3;">
