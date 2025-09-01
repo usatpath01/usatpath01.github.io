@@ -78,7 +78,7 @@ redirect_from:
 
 .twitter-embed blockquote {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   transform: scale(0.8);
   transform-origin: center;
 }
@@ -86,7 +86,7 @@ redirect_from:
 /* Desktop: Make Twitter embed smaller */
 @media (min-width: 769px) {
   .twitter-embed blockquote {
-    max-width: 400px;
+    max-width: 550px;
     transform: scale(0.7);
   }
 }
