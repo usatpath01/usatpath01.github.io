@@ -39,7 +39,8 @@ This course provides a comprehensive introduction to understanding the principle
 ### Additional Resources
 * [Course Syllabus](files/courses/data-structures/syllabus.pdf)
 * [Textbook: Introduction to Algorithms (CLRS)](files/courses/data-structures/textbook.pdf)
-<!-- * [Programming Guidelines](files/courses/data-structures/programming-guidelines.pdf)
+<!-- 
+* [Programming Guidelines](files/courses/data-structures/programming-guidelines.pdf)
 * [Sample Code Repository](https://github.com/usatpath01/data-structures-course) -->
 
 <!-- ## Course Objectives
