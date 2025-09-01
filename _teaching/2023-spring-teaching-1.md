@@ -1,8 +1,8 @@
 ---
 title: "Blockchain and its Applications"
-collection: teaching
+collection: teachingassistance
 type: "NPTEL Online Certification Course"
-permalink: /teaching/2023-spring-teaching-1
+permalink: /teachingassistance/2023-spring-teaching-1
 venue: "Department of Computer Science & Engineering, IIT Kharagpur"
 date: 2023-01-23
 location: "India"

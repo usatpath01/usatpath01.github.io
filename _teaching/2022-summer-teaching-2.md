@@ -1,8 +1,8 @@
 ---
 title: "Programming and Data Structure Theory"
-collection: teaching
+collection: teachingassistance
 type: "Classroom Course"
-permalink: /teaching/2022-summer-teaching-2
+permalink: /teachingassistance/2022-summer-teaching-2
 venue: "Department of Computer Science & Engineering, IIT Kharagpur"
 date: 2022-04-01
 location: "India"

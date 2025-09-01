@@ -1,8 +1,8 @@
 ---
 title: "Theory of Blockchain & Application"
-collection: teaching
+collection: teachingassistance
 type: "NPTEL Online Certification Course"
-permalink: /teaching/2022-spring-teaching-3
+permalink: /teachingassistance/2022-spring-teaching-3
 venue: "Department of Computer Science & Engineering, IIT Kharagpur"
 date: 2022-01-24
 location: "India"

@@ -1,8 +1,8 @@
 ---
 title: "CS60002: Distributed Systems"
-collection: teaching
+collection: teachingassistance
 type: "Classroom Course"
-permalink: /teaching/2023-spring-teaching-2
+permalink: /teachingassistance/2023-spring-teaching-2
 venue: "Department of Computer Science & Engineering, IIT Kharagpur"
 date: 2023-01-01
 location: "India"
