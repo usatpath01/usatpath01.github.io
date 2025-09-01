@@ -24,10 +24,10 @@ This course provides a comprehensive introduction to understanding the principle
 ## Course Materials
 
 ### Lecture Slides
-* [Week 1: Introduction Part 1](https://drive.google.com/file/d/1yF6p1FKQ10MOmBvcyjW5Br4e5tPp5jw9/view?usp=drive_link)
-* [Week 1: Introduction Part 2](https://drive.google.com/file/d/1auH8GPpJRD5Wq2LulnlC1MpndAlcYpnV/view?usp=drive_link)
-* [Week 2: Introduction Part 3](https://drive.google.com/file/d/1oxvtvdRqnb4yMD_FgmWd8CGK9NymCC7d/view?usp=drive_link)
-* [Week 2: Introduction Part 4](https://drive.google.com/file/d/15uWk4c1xmRoFsptXI4tZ8ybu3uh3ZrKD/view?usp=drive_link)
+* [Week 1: Introduction Part 1](https://drive.google.com/file/d/1yF6p1FKQ10MOmBvcyjW5Br4e5tPp5jw9/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 1: Introduction Part 2](https://drive.google.com/file/d/1auH8GPpJRD5Wq2LulnlC1MpndAlcYpnV/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 2: Introduction Part 3](https://drive.google.com/file/d/1oxvtvdRqnb4yMD_FgmWd8CGK9NymCC7d/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 2: Introduction Part 4](https://drive.google.com/file/d/15uWk4c1xmRoFsptXI4tZ8ybu3uh3ZrKD/view?usp=drive_link){:target="_blank" rel="noopener"}
 
 
 <!-- ### Programming Assignments

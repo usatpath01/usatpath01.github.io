@@ -24,10 +24,10 @@ Brief description of the course content and objectives.
 ## Course Materials
 
 ### Lecture Slides
-* [Week X: Topic](https://drive.google.com/file/d/DRIVE_FILE_ID_WEEK_X/view?usp=sharing)
+* [Week X: Topic](https://drive.google.com/file/d/DRIVE_FILE_ID_WEEK_X/view?usp=sharing){:target="_blank" rel="noopener"}
 
 ### Assignments
-* [Assignment X: Title](https://drive.google.com/file/d/DRIVE_FILE_ID_ASSIGNMENT_X/view?usp=sharing)
+* [Assignment X: Title](https://drive.google.com/file/d/DRIVE_FILE_ID_ASSIGNMENT_X/view?usp=sharing){:target="_blank" rel="noopener"}
 
 > Replace DRIVE_FILE_ID_* with the ID from your Google Drive share link. Ensure link sharing is set to "Anyone with the link can view" for public access.
 
