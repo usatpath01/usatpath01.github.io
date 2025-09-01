@@ -21,11 +21,12 @@ redirect_from:
       I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
     </p>
 
+    <h2>News and Updates</h2>
+
     <div class="twitter-embed">
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 
-    <h2>News and Updates</h2>
     <ul>
       <li><strong>February 2025:</strong> Our paper "MuProv: Multi-level Provenance Tracking for Microservices" has been accepted at COMSNETS 2025!</li>
       <li><strong>August 2024:</strong> Presented our work on "URCD: Unified Resource Control and Discovery" at ICDCS 2024.</li>
