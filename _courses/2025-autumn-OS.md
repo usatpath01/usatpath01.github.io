@@ -37,10 +37,12 @@ This course provides a comprehensive introduction to understanding the principle
 * [Assignment 4: Graph Algorithms](files/courses/data-structures/assignment4.pdf) -->
 
 ### Additional Resources
-* [Course Syllabus](files/courses/data-structures/syllabus.pdf)
-* [Textbook: Introduction to Algorithms (CLRS)](files/courses/data-structures/textbook.pdf)
+* [Course Syllabus](https://drive.google.com/file/d/1vH8b2uMTJEBqTQGGszlqgWpFYR0bZSb_/view){:target="_blank" rel="noopener"}
+
+
 
 <!-- To Add
+* [Textbook: Introduction to Algorithms (CLRS)](files/courses/data-structures/textbook.pdf)
 * [Programming Guidelines](files/courses/data-structures/programming-guidelines.pdf)
 * [Sample Code Repository](https://github.com/usatpath01/data-structures-course) -->
 
