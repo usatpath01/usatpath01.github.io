@@ -12,6 +12,9 @@ main:
   - title: "Teaching"
     url: /teachingassistance/    
 
+  - title: "Courses"
+    url: /courses/    
+
   - title: "Grants & Service"
     url: /grants/ 
 
