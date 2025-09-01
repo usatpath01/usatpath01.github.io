@@ -37,6 +37,7 @@ author_profile: true
       {% endif %}
       
       <div class="publication-item" data-type="{{ pub_type }}">
+        <div class="pub-number">{{ forloop.index }}</div>
         <div class="pub-content">
           <div class="pub-authors">{{ post.authors }}</div>
           <div class="pub-title">"{{ post.title }}"</div>
@@ -51,9 +52,14 @@ author_profile: true
                   <i class="fab fa-github"></i> Code
                 </a>
               {% endif %}
+              {% if post.slides %}
+                <a href="{{ post.slides }}" target="_blank" class="pub-link">
+                  <i class="fas fa-file-powerpoint"></i> Slides
+                </a>
+              {% endif %}
               {% if post.video %}
                 <a href="{{ post.video }}" target="_blank" class="pub-link">
-                  <i class="fas fa-video"></i> Video
+                  <i class="fab fa-youtube"></i> Video
                 </a>
               {% endif %}
             </div>
@@ -156,6 +162,21 @@ author_profile: true
 
 
 
+.pub-number {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  font-size: 0.9rem;
+}
+
 .pub-content {
   flex: 1;
 }
@@ -236,7 +257,11 @@ author_profile: true
     padding: 1rem;
   }
   
-
+  .pub-number {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
   
   .pub-links {
     justify-content: flex-start;
