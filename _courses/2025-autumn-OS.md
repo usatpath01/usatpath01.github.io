@@ -24,10 +24,10 @@ This course provides a comprehensive introduction to understanding the principle
 ## Course Materials
 
 ### Lecture Slides
-* [Week 1: Introduction Part 1](files/courses/os/Introduction_Part1.pdf)
-* [Week 1: Introduction Part 2](files/courses/os/Introduction_Part2.pdf)
-* [Week 2: Introduction Part 3](files/courses/os/Introduction_Part3.pdf)
-* [Week 2: Introduction Part 4](files/courses/os/Introduction_Part4.pdf)
+* [Week 1: Introduction Part 1](https://drive.google.com/drive/u/1/folders/1l6vTFympKz1Z0w0l1J1T0Eo47cDXqPkI)
+* [Week 1: Introduction Part 2](https://drive.google.com/drive/u/1/folders/1l6vTFympKz1Z0w0l1J1T0Eo47cDXqPkI)
+* [Week 2: Introduction Part 3](https://drive.google.com/drive/u/1/folders/1l6vTFympKz1Z0w0l1J1T0Eo47cDXqPkI)
+* [Week 2: Introduction Part 4](https://drive.google.com/drive/u/1/folders/1l6vTFympKz1Z0w0l1J1T0Eo47cDXqPkI)
 
 
 <!-- ### Programming Assignments

@@ -24,13 +24,12 @@ Brief description of the course content and objectives.
 ## Course Materials
 
 ### Lecture Slides
-* [Week 1: Topic](files/courses/course-name/week1-topic.pdf)
-* [Week 2: Topic](files/courses/course-name/week2-topic.pdf)
-* [Week 3: Topic](files/courses/course-name/week3-topic.pdf)
+* [Week X: Topic](https://drive.google.com/file/d/DRIVE_FILE_ID_WEEK_X/view?usp=sharing)
 
 ### Assignments
-* [Assignment 1: Description](files/courses/course-name/assignment1.pdf)
-* [Assignment 2: Description](files/courses/course-name/assignment2.pdf)
+* [Assignment X: Title](https://drive.google.com/file/d/DRIVE_FILE_ID_ASSIGNMENT_X/view?usp=sharing)
+
+> Replace DRIVE_FILE_ID_* with the ID from your Google Drive share link. Ensure link sharing is set to "Anyone with the link can view" for public access.
 
 ### Additional Resources
 * [Course Syllabus](files/courses/course-name/syllabus.pdf)

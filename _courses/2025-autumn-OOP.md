@@ -1,12 +1,12 @@
 ---
-title: "Computer Networks"
+title: "Object Orieneted Programming"
 collection: courses
 type: "Undergraduate Course"
-permalink: /courses/2024-spring-computer-networks
+permalink: /courses/2025-autumn-OOP
 venue: "Department of Computer Science, IIIT Bhubaneswar"
-date: 2024-01-15
+date: 2025-09-01
 location: "India"
-semester: "Spring 2024"
+semester: "Autumn 2024"
 credits: 3
 level: "Undergraduate"
 ---
@@ -18,12 +18,12 @@ This course provides a comprehensive introduction to computer networks, covering
 * **Instructor**: Dr. Utkalika Satapathy
 * **Duration**: 16 weeks
 * **Credits**: 3
-* **Prerequisites**: Data Structures and Algorithms
+* **Prerequisites**: Object Oriented Programming
 * **Office Hours**: Tuesday & Thursday, 2:00-3:00 PM
 
 ## Course Materials
 
-### Lecture Slides
+<!-- ### Lecture Slides
 * [Week 1: Introduction to Computer Networks](files/courses/computer-networks/week1-intro.pdf)
 * [Week 2: Network Architecture and OSI Model](files/courses/computer-networks/week2-osi-model.pdf)
 * [Week 3: Physical Layer and Transmission Media](files/courses/computer-networks/week3-physical-layer.pdf)
@@ -37,7 +37,7 @@ This course provides a comprehensive introduction to computer networks, covering
 ### Additional Resources
 * [Course Syllabus](files/courses/computer-networks/syllabus.pdf)
 * [Textbook: Computer Networks by Tanenbaum](files/courses/computer-networks/textbook.pdf)
-* [Lab Manual](files/courses/computer-networks/lab-manual.pdf)
+* [Lab Manual](files/courses/computer-networks/lab-manual.pdf) -->
 
 ## Course Objectives
 By the end of this course, students will be able to:
@@ -47,7 +47,7 @@ By the end of this course, students will be able to:
 - Apply networking principles to real-world scenarios
 
 ## Grading Policy
-- Assignments: 30%
-- Midterm Exam: 25%
-- Final Exam: 35%
-- Class Participation: 10%
+- Quizess: 15%
+- Midterm Exam: 30%
+- Final Exam: 50%
+- Teacher's Assesment: 5%
