@@ -10,31 +10,26 @@ redirect_from:
 <div class="about-container">
   <div class="about-content">
     <p>
-      I am Ph.D. Research Student in the <a href="https://cse.iitkgp.ac.in" target="_blank">Department of Computer Science and Engineering</a> at <a href="http://www.iitkgp.ac.in" target="_blank">Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am pursuing my Ph.D. under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target="_blank">Prof. Sandip Chakraborty</a>. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target="_blank">Ubiquitous Networked Systems Lab (UbiNet)</a>.
+      I am currently an Assistance Professor in the <a href="https://www.iiit-bh.ac.in/department/department-of-computer-science/" target="_blank">Department of Computer Science</a> at <a href="https://www.iiit-bh.ac.in/" target="_blank">International Institute of Information Technology(IIIT), Bhubaneswar</a>. I have submitted my Ph.D. Thesis titled <b>Provenance and Observability Frameworks for Secure Distributed Microservices </b> in the <a href="https://cse.iitkgp.ac.in" target="_blank">Department of Computer Science and Engineering</a> under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target="_blank">Prof. Sandip Chakraborty</a> at <a href="http://www.iitkgp.ac.in" target="_blank">Indian Institute of Information Technology (IIT) Kharagpur</a>, West Bengal, India. I am also a member of the research group <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target="_blank">Ubiquitous Networked Systems Lab (UbiNet)</a>.
     </p>
-
     <p>
       My research interests include the areas of Systems, Provenance Tracking, and Distributed systems. Currently exploring Loadable Kernel Module (LKM), Extended Berkeley Packet Filter <a href="https://ebpf.io/" target="_blank">(eBPF)</a>, Linux Security Modules (LSMs).
     </p>
-
     <p>
       I have a strong passion for discovering distinctive opportunities, acquiring new skills and knowledge in various technologies, and connecting with diverse individuals. I firmly hold these values and apply them to every facet of my life, both personally and professionally. If you're interested in learning more about me, feel free to continue exploring my website or reach out to me directly.
     </p>
-
     <h2>News and Updates</h2>
-
     <div class="twitter-embed">
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-
     <ul>
-      <li><strong>February 2025:</strong> Our paper "MuProv: Multi-level Provenance Tracking for Microservices" has been accepted at COMSNETS 2025!</li>
-      <li><strong>August 2024:</strong> Presented our work on "URCD: Unified Resource Control and Discovery" at ICDCS 2024.</li>
-      <li><strong>May 2023:</strong> Successfully presented "DisProTrack: Distributed Provenance Tracking for Serverless Applications" at INFOCOM 2023.</li>
-      <li><strong>January 2020:</strong> Published "SilentInformer: A Novel Approach to Network Traffic Analysis" at COMSNETS 2020.</li>
-    </ul>
+      <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
+      <li><strong>July 2025:</strong> Successfully Submitted my Ph.d. Thesis titled <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>.</li>
+      <li><strong>July 2024:</strong> Successfully completed my Ph.D Synopsis Seminar.</li>
+      <li><strong>January 2023:</strong> Won the Best Paper Runner Up Award for the paper <b>"Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture"</b> at 17th COMSNETS 2025.</li>
+      <li><strong>February 2024:</strong> Participated in the ACM India 18th Academic Research And Careers for Students Symposium (ARCS 2024) and ACM India-W Annual Summit at NISER Bhubaneswar and presented my work, <b>"DisProTrack: Distributed Provenance Tracking over Serverless Applications"</b> published in INFOCOM 2023</li>
+      </ul>
   </div>
-
 
 </div>
 
