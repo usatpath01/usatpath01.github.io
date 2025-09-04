@@ -25,8 +25,8 @@ redirect_from:
     <ul>
       <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
       <li><strong>July 2025:</strong> Successfully Submitted my Ph.d. Thesis titled <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>.</li>
-      <li><strong>July 2024:</strong> Successfully completed my Ph.D Synopsis Seminar.</li>
-      <li><strong>January 2023:</strong> Won the Best Paper Runner Up Award for the paper <b>"Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture"</b> at 17th COMSNETS 2025.</li>
+      <li><strong>July 2025:</strong> Successfully completed my Ph.D Synopsis Seminar.</li>
+      <li><strong>January 2025:</strong> Won the Best Paper Runner Up Award for the paper <b>"Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture"</b> at 17th COMSNETS 2025.</li>
       <li><strong>February 2024:</strong> Participated in the ACM India 18th Academic Research And Careers for Students Symposium (ARCS 2024) and ACM India-W Annual Summit at NISER Bhubaneswar and presented my work, <b>"DisProTrack: Distributed Provenance Tracking over Serverless Applications"</b> published in INFOCOM 2023</li>
       </ul>
   </div>
