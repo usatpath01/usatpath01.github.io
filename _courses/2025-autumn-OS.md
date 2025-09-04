@@ -36,9 +36,16 @@ This course provides a comprehensive introduction to understanding the principle
 * [Assignment 3: Tree Traversal and BST Operations](files/courses/data-structures/assignment3.pdf)
 * [Assignment 4: Graph Algorithms](files/courses/data-structures/assignment4.pdf) -->
 
-### Additional Resources
+## Course Syllabus
 * [Course Syllabus](https://drive.google.com/file/d/1vH8b2uMTJEBqTQGGszlqgWpFYR0bZSb_/view){:target="_blank" rel="noopener"}
 
+
+## Textbooks
+* [Abraham Silberschatz, Peter B. Galvin, Greg Gagne, Operating System Concepts, 8th Ed., John Wiley, 2008](https://drive.google.com/file/d/1HRYnFn6tAHe_8R-M9fKo8-jQ6Ospikvc/view?usp=sharing){:target="_blank" rel="noopener"}
+* [William Stallings, Operating Systems: Internals and Design Principles. Prentice-Hall, 6th Ed., 2008](https://drive.google.com/file/d/1m48K3Uwg574pLnxlbwNRmeDK7JmWYScT/view?usp=sharing){:target="_blank" rel="noopener"}
+* [A. S. Tanenbaum, Modern Operating Systems, 3rd Ed., Pearson, 2009](https://drive.google.com/file/d/1-UXPh-kRdgWBqrz7jo1n7zrhVUjvTkJA/view?usp=sharing){:target="_blank" rel="noopener"}
+* [A. S. Tanenbaum, AS Woodhull, Operating Systems Design and Implementation, 3rd Ed., Prentice Hall, 2006.](https://drive.google.com/file/d/1oQnpW3a_l8eZjF4424avraqaq9PnfGWv/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, Operating Systems: Three Easy Pieces, ARPACI-DUSSEAU, 2014](https://drive.google.com/file/d/1Tja2wdKt8Uz1hGRpCbpzIYyYS_DYv01n/view?usp=sharing){:target="_blank" rel="noopener"}
 
 
 <!-- To Add
