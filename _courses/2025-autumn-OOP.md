@@ -26,8 +26,8 @@ This course provides  the basic programming concepts. Introduce different techni
 * [Week 1: Recap of C](https://drive.google.com/file/d/1_BwOvp1M-ocHUZEjWJVh88n7aLmLOTIG/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 1: Introduction](https://drive.google.com/file/d/1cMr2CSLYnDb9tm775jnesArp2QPDa9u-/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 1: Introduction to OOP](https://drive.google.com/file/d/1CeeaXTdQihbe4CApEk0rZ_-ugjA5ze17/view?usp=drive_link){:target="_blank" rel="noopener"}
-* [Week 2: C++ Syntax - Part 1](https://drive.google.com/file/d/1paoy9ce6QinhdTPobzi40zW3mPTVpmzV/view?usp=drive_link){:target="_blank" rel="noopener"}
-* [Week 2: C++ Syntax - Part 2](https://drive.google.com/file/d/1Dn2sWYSPw1rtGZXleF_Ge99cChK0zHYK/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 2: Introduction to C++ Syntax](https://drive.google.com/file/d/1paoy9ce6QinhdTPobzi40zW3mPTVpmzV/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 2: Operators](hhttps://drive.google.com/file/d/1hv4Rkiyu_W3iMKVHENQamYLZ79EaOtSd/view?usp=sharing){:target="_blank" rel="noopener"}
 
 <!-- ### Assignments
 * [Assignment 1: Network Simulation](files/courses/computer-networks/assignment1.pdf)
