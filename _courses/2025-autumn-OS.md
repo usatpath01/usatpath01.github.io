@@ -28,6 +28,11 @@ This course provides a comprehensive introduction to understanding the principle
 * [Week 1: Introduction Part 2](https://drive.google.com/file/d/1auH8GPpJRD5Wq2LulnlC1MpndAlcYpnV/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 2: Introduction Part 3](https://drive.google.com/file/d/1oxvtvdRqnb4yMD_FgmWd8CGK9NymCC7d/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 2: Introduction Part 4](https://drive.google.com/file/d/15uWk4c1xmRoFsptXI4tZ8ybu3uh3ZrKD/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 3: Basics of Process](https://drive.google.com/file/d/1Q9CK5rDuRcGsnq9EGV1pY7-Td8e2cEQx/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 4: Process States](https://drive.google.com/file/d/1aY5jbumhgicYJQ4qtL0st50buZhx760f/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 4: Process Scheduling Part 1](https://drive.google.com/file/d/1_LvzCvCgLnQN5-oI_zd-z_5gje59SLfO/view?usp=drive_link){:target="_blank" rel="noopener"}
+
+
 
 
 <!-- ### Programming Assignments
