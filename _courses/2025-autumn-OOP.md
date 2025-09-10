@@ -18,7 +18,7 @@ This course provides  the basic programming concepts. Introduce different techni
 * **Duration**: 30 Hours
 * **Credits**: 3
 * **Prerequisites**: Basic knowledge of any programming language. Preferably C
-* **Office Hours**: Wed(11:00-12:00); Thu(11:00-12:00), Fri(11:00-12:00)
+* **Class Time**: Wed(11:00-12:00); Thu(11:00-12:00), Fri(11:00-12:00)
 
 ## Course Materials
 
@@ -27,7 +27,10 @@ This course provides  the basic programming concepts. Introduce different techni
 * [Week 1: Introduction](https://drive.google.com/file/d/1cMr2CSLYnDb9tm775jnesArp2QPDa9u-/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 1: Introduction to OOP](https://drive.google.com/file/d/1CeeaXTdQihbe4CApEk0rZ_-ugjA5ze17/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 2: Introduction to C++ Syntax](https://drive.google.com/file/d/1paoy9ce6QinhdTPobzi40zW3mPTVpmzV/view?usp=drive_link){:target="_blank" rel="noopener"}
-* [Week 2: Operators](hhttps://drive.google.com/file/d/1hv4Rkiyu_W3iMKVHENQamYLZ79EaOtSd/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Week 2: Operators](https://drive.google.com/file/d/1hv4Rkiyu_W3iMKVHENQamYLZ79EaOtSd/view?usp=drive_link){:target="_blank" rel="noopener"}
+* [Week 4: Classes & Object](https://drive.google.com/file/d/1YnK8rn0uo1ldZQt7faknawKK6z8rODYM/view?usp=drive_link){:target="_blank" rel="noopener"}
+
+
 
 <!-- ### Assignments
 * [Assignment 1: Network Simulation](files/courses/computer-networks/assignment1.pdf)

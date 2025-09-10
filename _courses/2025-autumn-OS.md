@@ -13,13 +13,13 @@ level: "Undergraduate"
 
 ## Course Overview
 This course provides a comprehensive introduction to understanding the principles, techniques and approaches that constitute the structure of operating systems. To understand how the various elements of operating system interact and provide services for execution of application software. It focuses on OS support for concurrency (threads) and synchronization, resource management (e.g. CPU, memory, I/O), and distributed services etc.
-
 ## Course Details
 * **Instructor**: Utkalika Satapathy
 * **Duration**: 40 Hours
 * **Credits**: 4
 * **Prerequisites**: Basic understanding of programming concepts, Basic knowledge of computer hardware and system software
-* **Class Time**: Mon(03:00-05:00); Wed(10:00-11:00), Fri(10:00-11:00)
+* **Class Time**: CSE-B: Mon(3.00 - 4.00); Wed(10.00-11.00); Thu(2.00-3.00); Fri(10.00-11.00) || CE: Mon(11.00-12.00); Tue(12.00-1.00); Wed(3.00-4.00); Thu (10.00-11.00)
+
 
 ## Course Materials
 
