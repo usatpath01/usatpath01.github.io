@@ -25,7 +25,7 @@ redirect_from:
     </div>
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
     <ul>
-      <li><strong>October 2025:</strong> Paper Titled "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" accpeted in IEEE Transactions on Services Computing
+      <li><strong>October 2025:</strong> Paper Titled "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" accpeted in IEEE Transactions on Services Computing</li>
       <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
       <li><strong>July 2025:</strong> Successfully Submitted my Ph.d. Thesis titled <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>.</li>
       <li><strong>July 2025:</strong> Successfully completed my Ph.D Synopsis Seminar.</li>
@@ -33,7 +33,6 @@ redirect_from:
       <li><strong>February 2024:</strong> Participated in the ACM India 18th Academic Research And Careers for Students Symposium (ARCS 2024) and ACM India-W Annual Summit at NISER Bhubaneswar and presented my work, <b>"DisProTrack: Distributed Provenance Tracking over Serverless Applications"</b> published in INFOCOM 2023</li>
       </ul>
   </div>
-
 </div>
 
 <style>
