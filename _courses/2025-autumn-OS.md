@@ -35,6 +35,7 @@ This course provides a comprehensive introduction to understanding the principle
 * [Week 5: Process Scheduling Part 3](https://drive.google.com/file/d/1wRPaNFsfbCbsZA2dOaiJw5JgwtVxv_Sh/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Week 6: Threads](https://drive.google.com/file/d/1_xzFoG0OjubzkgwFoKYB2eBzmaDJrxWI/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 6: Inter Process Communication](https://drive.google.com/file/d/1HhTZbIMLYi-UjiqyPMT8di-O7u0Vah_Q/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Week 7: Process Synchronization](https://drive.google.com/file/d/1h3P9z5DKBPezavIWhJoYo-fCgn_ni_CD/view?usp=sharing){:target="_blank" rel="noopener"}
 
 
 
