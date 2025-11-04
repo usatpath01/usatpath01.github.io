@@ -14,6 +14,6 @@ paperurl: 'http://usatpath01.github.io/files/silentinformer_comsnets2020.pdf'
 <br>
 <br>
 <!--<a href="Your facebook link"><i class="fab fa-facebook"></i></a>-->
-<a href="http://usatpath01.github.io/files/silentinformer_comsnets2020.pdf" target=_blank><i class="fas fa-file-download"> Download Paper</i></a>
+<!-- <a href="http://usatpath01.github.io/files/silentinformer_comsnets2020.pdf" target=_blank><i class="fas fa-file-download"> Download Paper</i></a> -->
 
 <!--#Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).-->
