@@ -23,9 +23,7 @@ redirect_from:
       <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚀 Our paper “XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices” is accepted in IEEE Transactions on Services Computing! 🎉<br>🎥 Teaser: <a href="https://t.co/aBD7piH57Z">https://t.co/aBD7piH57Z</a><br>📄 Paper: <a href="https://t.co/eFcT4Lzovz">https://t.co/eFcT4Lzovz</a> <a href="https://twitter.com/sandip2201?ref_src=twsrc%5Etfw">@sandip2201</a> <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a></p>&mdash; UbiNet: Ubiquitous Networked Systems Lab (@ubinetiitkgp) <a href="https://twitter.com/ubinetiitkgp/status/1983221640994451799?ref_src=twsrc%5Etfw">October 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-    <div>
-   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-    </div>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
     <ul>
       <li><strong>October 2025:</strong> Paper Titled "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" accpeted in IEEE Transactions on Services Computing
       <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
