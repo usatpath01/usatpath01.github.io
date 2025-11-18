@@ -36,7 +36,7 @@ This course provides a comprehensive introduction to understanding the principle
 * [Week 6: Threads](https://drive.google.com/file/d/1_xzFoG0OjubzkgwFoKYB2eBzmaDJrxWI/view?usp=drive_link){:target="_blank" rel="noopener"}
 * [Week 6: Inter Process Communication](https://drive.google.com/file/d/1HhTZbIMLYi-UjiqyPMT8di-O7u0Vah_Q/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Week 7: Process Synchronization](https://drive.google.com/file/d/1h3P9z5DKBPezavIWhJoYo-fCgn_ni_CD/view?usp=sharing){:target="_blank" rel="noopener"}
-* [Week 7: Memory Management](https://drive.google.com/file/d/14uOgvLiND8jfetePLf-lPXYqypraIDvn/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Week 8: Memory Management](https://drive.google.com/file/d/14uOgvLiND8jfetePLf-lPXYqypraIDvn/view?usp=sharing){:target="_blank" rel="noopener"}
 
 
 

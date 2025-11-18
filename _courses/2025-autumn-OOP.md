@@ -32,6 +32,8 @@ This course provides  the basic programming concepts. Introduce different techni
 * [Week 5: Classes Part 2](https://drive.google.com/file/d/1BIUApD280BHkzbglO33VVdXate0RGGTs/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Week 6: Inheritance](https://drive.google.com/file/d/1Z5C8s40KBuDZANMlE4OrG8w0bzeoHqj1/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Week 7: Polymorphism](https://drive.google.com/file/d/1qOUkQWbCFn2RSFLqtq_v2Jn7Sp-g7Vcv/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Week 8: Exception Handling](https://drive.google.com/file/d/1ReV18dlE0ACF5ydwIfv_blv1kzZ-wTl-/view?usp=sharing){:target="_blank" rel="noopener"}
+* [Week 8: Templates](https://drive.google.com/file/d/1UCzmCkvbWpTEhTi990J5atwWhFJIu1sL/view?usp=sharing){:target="_blank" rel="noopener"}
 
 
 
