@@ -24,7 +24,7 @@ This course provides a comprehensive introduction to understanding the principle
 ## Course Materials
 
 ### Lecture Slides
-* [Week 1: Introduction Part 1](https://docs.google.com/presentation/d/1WON5qX_dTQePVTFlMZS0lKgfG3_WinGN/edit?usp=sharing&ouid=106301523648693335151&rtpof=true&sd=true){:target="_blank" rel="noopener"}
+* [Slides](https://drive.google.com/drive/folders/1jP3rJx7VnM8992RE98q6c7iYyf3rRBMh?usp=sharing){:target="_blank" rel="noopener"}
 
 <!-- ### Programming Assignments
 * [Assignment 1: Array and List Operations](files/courses/data-structures/assignment1.pdf)
