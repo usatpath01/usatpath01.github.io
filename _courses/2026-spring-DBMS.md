@@ -26,17 +26,12 @@ This course provides a comprehensive introduction to understanding the principle
 ### Lecture Slides
 * [Slides](https://drive.google.com/drive/folders/1jP3rJx7VnM8992RE98q6c7iYyf3rRBMh?usp=sharing){:target="_blank" rel="noopener"}
 
-<!-- ### Programming Assignments
-* [Assignment 1: Array and List Operations](files/courses/data-structures/assignment1.pdf)
-* [Assignment 2: Stack and Queue Implementation](files/courses/data-structures/assignment2.pdf)
-* [Assignment 3: Tree Traversal and BST Operations](files/courses/data-structures/assignment3.pdf)
-* [Assignment 4: Graph Algorithms](files/courses/data-structures/assignment4.pdf) -->
 
-## Course Syllabus
+### Course Syllabus
 * [Course Syllabus](https://drive.google.com/file/d/11hcqAMIz3x56uyABihOZz8CMuwPb1zan/view?usp=sharing){:target="_blank" rel="noopener"}
 
 
-## Textbooks
+### Textbooks
 * [Elmasri Navate, Fundamentals of Database Systems, Pearson Education, India.](https://drive.google.com/file/d/163lEtyDeKfKSllWPMvgYyVMtTjVuh_xG/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Abraham Silberschatz, Henry F. Korth, S. Sudarshan (2005), Database System Concepts, 5th edition, McGraw-Hill, New Delhi, India.](https://drive.google.com/file/d/12rfIclniX29DLQ46QpwQyeAnPyLmfMOC/view?usp=sharing){:target="_blank" rel="noopener"}
 * [Raghurama Krishnan, Johannes Gehrke, Database Management Systems, 3rd edition, Tata McGraw Hill, New Delhi, India.](https://drive.google.com/file/d/1oL_7rLj47dMu9RSPcol7ACctrzpIRsn3/view?usp=sharing){:target="_blank" rel="noopener"}
@@ -56,8 +51,38 @@ By the end of this course, students will be able to:
 - Analyze time and space complexity of algorithms
 - Apply data structures and algorithms to solve real-world problems -->
 
-## Grading Policy
+### Theory Grading Policy
 - Quizess: 15%
 - Midterm Exam: 30%
 - Final Exam: 50%
 - Teacher's Assesment: 5%
+
+## DBMS Lab
+
+### Lab Materials
+* [Lab Manual](https://docs.google.com/presentation/d/13It6lYLMniIlhZUjvnreTfDtUTRt9V_mwl1eFBIsXcs/edit?usp=sharing){:target="_blank" rel="noopener"}
+* [Introduction to SQL](https://docs.google.com/presentation/d/1M3Js-MJ5gFewd7PAjVYf_VF7eQY0OmbQ4CMd8QnPkso/edit?usp=sharing){:target="_blank" rel="noopener"}
+
+### Reference Books
+<!-- * [Google Drive Folder](https://drive.google.com/drive/folders/1PEqWfQwBqP99h2krQX2mP8tNP0xWCGSs?usp=sharing){:target="_blank" rel="noopener"}  -->
+1. [SQL Cookbook by Anthony Molinaro](https://drive.google.com/file/d/1rLnoAlSDZz4THBNHc7pkqF8PN09hwRvx/view?usp=sharing){:target="_blank" rel="noopener"}
+2. [Learning SQL By Alan Beaulieu](https://drive.google.com/file/d/18O6kK2fEmRmAk6DecX2lyiwyv-yqXPrg/view?usp=sharing){:target="_blank" rel="noopener"}
+3. [SQL The Ultimate Beginner's Guide To Learn SQL Programming Step By Step By Mark Reed](https://drive.google.com/file/d/1EwE717JusbKAujNP0J5im8Oo6LIP0xhh/view?usp=sharing){:target="_blank" rel="noopener"}
+4. [SQL in 10 minutes, Sam’s Teach Yourself by Ben Forta](https://drive.google.com/file/d/1MQYhBWJrEp2WzFdVO0aXyHQWPB96AeEf/view?usp=sharing){:target="_blank" rel="noopener"}
+4. [Head First SQL by Lynn Beighley](https://drive.google.com/file/d/1FRzmI_bM7Bwxj9e6LWTeygxoPI-HJJtK/view?usp=sharing){:target="_blank" rel="noopener"}
+
+
+### Lab Grading Policy
+- Lab Assessment: 50%
+- Viva: 20%
+- Lab Sessions: 20%
+- Attendance: 5%
+- Lab Record: 5%
+
+
+
+
+
+
+
+
