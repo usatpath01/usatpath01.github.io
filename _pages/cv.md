@@ -13,13 +13,11 @@ redirect_from:
 * <a href="http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf" target=_blank><i class="fas fa-file-download"> Download CV</i></a>
 
 ## Education
-======
 * **B.Tech** in Information Technology, Silicon Institute of Technology, Bhubaneswar, India, 2013
 * **M.Tech** in Computer Science and Engineering, International Institute of Information Technology (IIIT) Bhubaneswar, India, 2019
 * **Ph.D.** in Computer Science and Engineering, Indian Institute of Technology (IIT), Kharagpur, 2026 (expected)
 
 ## Internships
-======
 * Summer 2023: **Research Intern**
   * [IBM India Research Lab (IRL)](https://research.ibm.com/), Bangalore, India
   * Project: OPENED Policy Enforcer
@@ -33,7 +31,6 @@ redirect_from:
   * Supervisor: [Dr. Sandip Chakraborty](https://cse.iitkgp.ac.in/~sandipc/)
 
 ## Work experience
-======
 * Feb 2023 - August 2024: **Senior Research Fellow (SRF)**
   * IIT Kharagpur and sponsored by [IGCAR](http://www.igcar.gov.in/), India
   * Duration: 1.5 Years
@@ -75,7 +72,6 @@ Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
 -->
 
 ## Publications
-======
   <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
@@ -90,13 +86,11 @@ Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
 -->  
 
 ## Teaching Assistance
-======
   <ul>{% for post in site.teachingassistance %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ## Mentorship
-======
 * **Clock Synchronisation in Provenance Systems for Serverless Computing Platforms**
   * Mentored Ishan Sharma, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
 * **Reverse Engineering on Docker Images**,
@@ -110,7 +104,6 @@ Computer Science and Engineering, for his Thesis work.
   * Mentored Narayan Gupta, Postgraduate student at IIT Kharagpur, Department of Computer Science and Engineering, for his Thesis work.
 
 ## Grants & Service
-======
 * **Organizing Committee** ([Indocrypt 2025](https://www.indocrypt2025.in))
 * **Organizing Committee** ([InGARSS 2025](https://www.ingarss-2025.in))
 * **Organizing Committee** ([National Workshop on CipherStorm 2025](https://isea.gov.in/event.php/IVP20251031JASE))
