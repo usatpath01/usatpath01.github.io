@@ -72,12 +72,12 @@ Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
 -->
 
 ## Publications
-  <!-- <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-
-* Utkalika Satapathy, Harsh Borse, Rajat Bachhawat, Neha Dalmia, Subhrendu Chattopadhyay and Sandip Chakraborty, "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices," in IEEE Transactions on Services Computing (Accepted: 13 October 2025), ([Teaser Video](https://youtu.be/eKvZP8qIEDo?si=WeQabZP55G_10G9f)), ([Source Code](https://github.com/usatpath01/XPLOG_Pluggable_Logging))
-  
+* **Utkalika Satapathy**, Harsh Borse, Rajat Bachhawat, Neha Dalmia, Subhrendu Chattopadhyay and Sandip Chakraborty, "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices," in IEEE Transactions on Services Computing (Accepted: 13 October 2025), ([Teaser Video](https://youtu.be/eKvZP8qIEDo?si=WeQabZP55G_10G9f)), ([Source Code](https://github.com/usatpath01/XPLOG_Pluggable_Logging))
+* **Utkalika Satpathy**, Harsh Borse, Sandip Chakraborty: "Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture", COMSNETS 2025, ([Teaser Video](https://youtu.be/ANRN3iSy3Qc?si=aQbXUf3D_VePRTNd)), ([Source Code](https://github.com/usatpath01/MuProv))
+* Neha Chowdhary, **Utkalika Satpathy**, Theophilus A. Benson, Subhrendu Chattopadhyay, Palani Kodeswaran, Sayandeep Sen, Sandip Chakraborty: "BeeGuard: Explainability-based Policy Enforcement of eBPF Codes for Cloud-native Environments", COMSNETS 2025
+* **Utkalika Satpathy**, Rishabh Thakur, Subhrendu Chattopadhyay, Sandip Chakraborty: "DisProTrack: Distributed Provenance Tracking over Serverless Applications", IEEE INFOCOM 2023, ([Teaser Video](https://youtu.be/0nJBD3hPIpA?si=ZPNyMiZ7j3Oeooe3)), ([Source Code](https://github.com/usatpath01/DisProTrack))
+* **Utkalika Satapathy**, Soumyajit Chatterjee, Sandip Chakraborty, "SilentInformer: A Framework for Information Dispersion Using Inaudible Acoustic Signals.", COMSNETS 2020: 543-546
+* BK Mohanta, D Jena, U Satapathy, S Patnaik, "Survey on IoT security: Challenges and solution using machine learning, artificial intelligence and blockchain technology", in Elsevier IoT Journal (Published: Septmember 2020)
 <!--Talks
 ======
   <ul>{% for post in site.talks %}
