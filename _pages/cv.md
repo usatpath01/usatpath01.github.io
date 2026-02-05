@@ -76,9 +76,11 @@ Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
 
 ## Publications
 ======
-  <ul>{% for post in site.publications %}
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
+
+* Utkalika Satapathy, Harsh Borse, Rajat Bachhawat, Neha Dalmia, Subhrendu Chattopadhyay and Sandip Chakraborty, "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices," in IEEE Transactions on Services Computing (Accepted: 13 October 2025), ([Teaser Video](https://youtu.be/eKvZP8qIEDo?si=WeQabZP55G_10G9f)), ([Source Code](https://github.com/usatpath01/XPLOG_Pluggable_Logging))
   
 <!--Talks
 ======
