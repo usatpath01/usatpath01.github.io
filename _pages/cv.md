@@ -8,7 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-Download [CV](http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf)
+<!--Download [CV](http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf)-->
+
+* <a href="http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf" target=_blank><i class="fas fa-file-download"> Download CV</i></a>
 
 Education
 ======
