@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-<!--Download [CV](http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf)-->
+Download [CV](http://usatpath01.github.io/files/Utkalika_Satapathy_CV.pdf)
 
 Education
 ======
