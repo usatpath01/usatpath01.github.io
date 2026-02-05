@@ -25,6 +25,7 @@ redirect_from:
     </div>
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
     <ul>
+      <li><strong>January 2026:</strong> Awarded the Excellence in Review Award at the COMSNETS 2026 Graduate Forum</li>
       <li><strong>October 2025:</strong> Paper Titled "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" accpeted in IEEE Transactions on Services Computing</li>
       <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
       <li><strong>July 2025:</strong> Successfully Submitted my Ph.d. Thesis titled <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>.</li>
