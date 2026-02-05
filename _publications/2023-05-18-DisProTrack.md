@@ -35,6 +35,9 @@ How to detect if a microservice is compromised in a serverless application - Dis
 
 ## Contributors
 
+![Author's Name](images/author-image.png)
+
+
 * **Utkalika Satapathy** - IIT Kharagpur, India
 * **Rishabh Thakur** - IIT Kharagpur, India  
 * **Subhrendu Chattopadhyay** - IDRBT Hyderabad, India
@@ -48,7 +51,7 @@ How to detect if a microservice is compromised in a serverless application - Dis
 
 * <a href="https://github.com/usatpath01/DisProTrack" target=_blank><i class="fab fa-github-square" style="font-size:18px"> <b>Source Code</b></i></a>
 
-* <a href="https://youtu.be/0nJBD3hPIpA?si=vGp73rQk_TtyCmgT" target=_blank><i class="fab fa-youtube-square" style="font-size:18px"> <b>Teaser</b></i></a>
+* <a href="https://ubinet-iitkgp.github.io/ubinet/pages/disprotrack.html" target=_blank><i class="fab fa-youtube-square" style="font-size:18px"> <b>Lab Page</b></i></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0nJBD3hPIpA?si=sGTBiRg07EfpmDn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
