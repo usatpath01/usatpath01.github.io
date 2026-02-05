@@ -24,8 +24,10 @@ redirect_from:
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚀 Our paper “XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices” is accepted in IEEE Transactions on Services Computing! 🎉<br>🎥 Teaser: <a href="https://t.co/aBD7piH57Z">https://t.co/aBD7piH57Z</a><br>📄 Paper: <a href="https://t.co/eFcT4Lzovz">https://t.co/eFcT4Lzovz</a> <a href="https://twitter.com/sandip2201?ref_src=twsrc%5Etfw">@sandip2201</a> <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a></p>&mdash; UbiNet: Ubiquitous Networked Systems Lab (@ubinetiitkgp) <a href="https://twitter.com/ubinetiitkgp/status/1983221640994451799?ref_src=twsrc%5Etfw">October 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sq70n6ZQa5A?si=JQd687gsnagKoRCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <ul>
       <li><strong>January 2026:</strong> Awarded the Excellence in Review Award at the COMSNETS 2026 Graduate Forum</li>
+      <li><strong>January 2026:</strong> Part of the Organising Committee of Indocrypt 2025 and InGARSS 2025 organized at IIIT Bhubaneswar</li>
       <li><strong>October 2025:</strong> Paper Titled "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" accpeted in IEEE Transactions on Services Computing</li>
       <li><strong>August 2025:</strong> Joined IIIT Bhubaneswar as Assistant Professor</li>
       <li><strong>July 2025:</strong> Successfully Submitted my Ph.d. Thesis titled <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>.</li>
