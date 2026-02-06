@@ -78,12 +78,6 @@ Intracom Telecom, Athens, Greece, Jun 2017 - Jul 2018
 * **Utkalika Satpathy**, Rishabh Thakur, Subhrendu Chattopadhyay, Sandip Chakraborty: "DisProTrack: Distributed Provenance Tracking over Serverless Applications", IEEE INFOCOM 2023, ([Teaser Video](https://youtu.be/0nJBD3hPIpA?si=ZPNyMiZ7j3Oeooe3)), ([Source Code](https://github.com/usatpath01/DisProTrack))
 * **Utkalika Satapathy**, Soumyajit Chatterjee, Sandip Chakraborty, "SilentInformer: A Framework for Information Dispersion Using Inaudible Acoustic Signals.", COMSNETS 2020: 543-546
 * BK Mohanta, D Jena, U Satapathy, S Patnaik, "Survey on IoT security: Challenges and solution using machine learning, artificial intelligence and blockchain technology", in Elsevier IoT Journal (Published: Septmember 2020)
-<!--Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
--->  
 
 ## Teaching Assistance
   <ul>{% for post in site.teachingassistance %}
