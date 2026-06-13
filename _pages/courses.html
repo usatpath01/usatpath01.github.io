@@ -1,12 +1,113 @@
----
+<!-- ---
 layout: archive
 title: "Courses"
 permalink: /courses/
+author_profile: true
+--- -->
+<!-- 
+{% include base_path %}
+
+{% for post in site.courses reversed %}
+  {% include archive-single.html %}
+{% endfor %} -->
+
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.courses reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teach-section">
+  <h2 class="teach-title"><i class="fa fa-chalkboard-teacher"></i> Courses Taught</h2>
+  <p class="teach-sub">Courses I teach as faculty at IIIT Bhubaneswar.</p>
+
+  {% assign courses = site.courses | sort: "date" | reverse %}
+  {% if courses.size > 0 %}
+    <div class="course-grid">
+    {% for course in courses %}
+      <a class="course-card" href="{{ course.url | prepend: base_path }}">
+        <div class="course-card-head">
+          {% if course.code %}<span class="course-code">{{ course.code }}</span>{% endif %}
+          {% if course.term %}<span class="course-term">{{ course.term }}</span>{% endif %}
+        </div>
+        <h3 class="course-name">{{ course.title }}</h3>
+        {% if course.level %}<span class="course-level">{{ course.level }}</span>{% endif %}
+        {% if course.institution %}<p class="course-inst">{{ course.institution }}</p>{% endif %}
+      </a>
+    {% endfor %}
+    </div>
+  {% else %}
+    <p><em>Course listings coming soon.</em></p>
+  {% endif %}
+</div>
+
+<div class="teach-section">
+  <h2 class="teach-title"><i class="fa fa-user-graduate"></i> Teaching Assistantships</h2>
+  <p class="teach-sub">Courses I assisted with during my Ph.D. at IIT Kharagpur.</p>
+
+  {% assign tas = site.teachingassistance | sort: "date" | reverse %}
+  {% if tas.size > 0 %}
+    <ul class="ta-list">
+    {% for ta in tas %}
+      <li class="ta-item">
+        <div class="ta-main">
+          <span class="ta-name">{{ ta.title }}</span>
+          {% if ta.term %}<span class="ta-term">{{ ta.term }}</span>{% endif %}
+        </div>
+        {% if ta.institution %}<span class="ta-inst">{{ ta.institution }}</span>{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <ul>{% for post in site.teachingassistance %}{% include archive-single-cv.html %}{% endfor %}</ul>
+  {% endif %}
+</div>
+
+<style>
+.teach-section { margin-bottom: 2.75rem; }
+.teach-title {
+  font-size: 1.4rem; margin-bottom: 0.3rem;
+  padding-bottom: 0.4rem; border-bottom: 3px solid var(--accent, #2a7ae2);
+}
+.teach-title i { color: var(--accent, #2a7ae2); margin-right: 0.4rem; }
+.teach-sub { color: #666; font-size: 0.92rem; margin: 0.5rem 0 1.25rem; }
+
+.course-grid {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.course-card {
+  display: block; padding: 1.1rem 1.25rem; text-decoration: none; color: inherit;
+  background: var(--card-bg, #fafbfc); border: 1px solid #e6e9ee;
+  border-radius: 12px; transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.course-card:hover {
+  transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,0.09);
+  border-color: var(--accent, #2a7ae2);
+}
+.course-card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.course-code {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+  color: #fff; background: var(--accent, #2a7ae2); padding: 0.18rem 0.55rem; border-radius: 6px;
+}
+.course-term { font-size: 0.78rem; color: #888; }
+.course-name { font-size: 1.05rem; margin: 0.25rem 0; line-height: 1.35; }
+.course-level {
+  display: inline-block; font-size: 0.72rem; font-weight: 600;
+  color: #2e8b57; background: #e8f5ee; padding: 0.15rem 0.5rem; border-radius: 6px;
+}
+.course-inst { font-size: 0.82rem; color: #777; margin: 0.5rem 0 0; }
+
+.ta-list { list-style: none; padding: 0; margin: 0; }
+.ta-item {
+  padding: 0.85rem 1rem; border-left: 3px solid var(--accent, #2a7ae2);
+  background: #fafbfc; border-radius: 0 8px 8px 0; margin-bottom: 0.6rem;
+}
+.ta-main { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; }
+.ta-name { font-weight: 600; }
+.ta-term { font-size: 0.8rem; color: #888; }
+.ta-inst { font-size: 0.82rem; color: #777; }
+</style>
