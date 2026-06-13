@@ -84,15 +84,21 @@ redirect_from:
         <div class="news-emoji">🗣️</div>
         <div class="news-body">
           <span class="news-date">February 2024</span>
-          <p class="news-text">Participated in the ACM India 18th ARCS Symposium (ARCS 2024) and ACM India-W Annual Summit at NISER Bhubaneswar and presented my work <b>"DisProTrack: Distributed Provenance Tracking over Serverless Applications"</b> (INFOCOM 2023).</p>
+          <p class="news-text">Participated in the ACM India 18th Academic Research And Careers for Students Symposium (ARCS 2024) and ACM India-W Annual Summit at NISER Bhubaneswar and presented my work, <b>"DisProTrack: Distributed Provenance Tracking over Serverless Applications"</b> published in INFOCOM 2023.</p>
         </div>
       </div>
 
     </div>
 
-    <div class="social-embeds">
+    <div class="twitter-embed">
+      <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Huge congratulations to <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a> for the award. Proud of you! <a href="https://t.co/iHl4almUPe">https://t.co/iHl4almUPe</a></p>&mdash; Sandip Chakraborty (@sandip2201) <a href="https://twitter.com/sandip2201/status/1877416246200652223?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
       <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚀 Our paper "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" is accepted in IEEE Transactions on Services Computing! 🎉<br>🎥 Teaser: <a href="https://t.co/aBD7piH57Z">https://t.co/aBD7piH57Z</a><br>📄 Paper: <a href="https://t.co/eFcT4Lzovz">https://t.co/eFcT4Lzovz</a> <a href="https://twitter.com/sandip2201?ref_src=twsrc%5Etfw">@sandip2201</a> <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a></p>&mdash; UbiNet: Ubiquitous Networked Systems Lab (@ubinetiitkgp) <a href="https://twitter.com/ubinetiitkgp/status/1983221640994451799?ref_src=twsrc%5Etfw">October 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sq70n6ZQa5A?si=JQd687gsnagKoRCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
   </div>
 </div>
 
@@ -165,14 +171,36 @@ redirect_from:
   line-height: 1.5 !important;
 }
 
-.social-embeds { text-align: center; margin: 2rem 0; }
-.social-embeds blockquote { margin: 0 auto; max-width: 550px; }
+.twitter-embed {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.twitter-embed blockquote {
+  margin: 0 auto;
+  max-width: 600px;
+  transform: scale(0.8);
+  transform-origin: center;
+}
+
+/* Desktop: make Twitter embed smaller */
+@media (min-width: 769px) {
+  .twitter-embed blockquote {
+    max-width: 550px;
+    transform: scale(0.7);
+  }
+}
 
 @media (max-width: 768px) {
-  .about-content p { font-size: 15px; }
+  .about-content { min-width: auto; }
+  .about-content p { font-size: 15px; line-height: 1.5; }
   .news-card { padding: 0.85rem 1rem; gap: 0.75rem; }
   .news-emoji { font-size: 1.4rem; }
+  .news-heading { font-size: 1.3rem; }
+}
+
+@media (max-width: 480px) {
+  .about-content p { font-size: 14px; }
+  .news-heading { font-size: 1.2rem; }
 }
 </style>
-
-
