@@ -8,15 +8,53 @@ author_profile: true
 
 {% include base_path %}
 
-You can also find my articles on my <a href="https://scholar.google.com/citations?user=bqyCK7cAAAAJ&hl=en" target=_blank><i class="ai ai-google-scholar-square ai-3x" style="font-size: 0.95em;"> <b>Google Scholar</b></i></a>
+<p>You can also find my articles on
+<a href="https://scholar.google.com/citations?user=bqyCK7cAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square"></i> <b>Google Scholar</b></a>.</p>
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% comment %} Split publications by the `category` front-matter field. {% endcomment %}
+
+<div class="pub-section">
+  <h2 class="pub-section-title"><i class="fa fa-book"></i> Journal Articles</h2>
+  {% assign journals = site.publications | where: "category", "journal" | sort: "date" | reverse %}
+  {% if journals.size > 0 %}
+    {% for post in journals %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% else %}
+    <p><em>No journal articles listed yet.</em></p>
+  {% endif %}
+</div>
+
+<div class="pub-section">
+  <h2 class="pub-section-title"><i class="fa fa-users"></i> Conference Papers</h2>
+  {% assign confs = site.publications | where: "category", "conference" | sort: "date" | reverse %}
+  {% if confs.size > 0 %}
+    {% for post in confs %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% else %}
+    <p><em>No conference papers listed yet.</em></p>
+  {% endif %}
+</div>
+
+{% comment %} Catch any publication that has no category set, so nothing disappears. {% endcomment %}
+{% assign uncategorized = site.publications | where_exp: "p", "p.category != 'journal' and p.category != 'conference'" %}
+{% if uncategorized.size > 0 %}
+<div class="pub-section">
+  <h2 class="pub-section-title"><i class="fa fa-file-text"></i> Other Publications</h2>
+  {% for post in uncategorized reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 {% endif %}
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-  
+<style>
+.pub-section { margin-bottom: 2.5rem; }
+.pub-section-title {
+  font-size: 1.35rem;
+  margin: 1.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--accent, #2a7ae2);
+}
+.pub-section-title i { color: var(--accent, #2a7ae2); margin-right: 0.4rem; }
+</style>
