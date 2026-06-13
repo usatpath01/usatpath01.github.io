@@ -111,21 +111,21 @@ author_profile: true
         </div>
       </div>
       <div class="grant-item static">
-        <span class="grant-badge role-rev">Rev.</span>
+        <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
           <span class="grant-title">Reviewer — IEEE Transactions on Dependable and Secure Computing (TDSC)</span>
           <span class="grant-sub">2025</span>
         </div>
       </div>
       <div class="grant-item static">
-        <span class="grant-badge role-rev">Rev.</span>
+        <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
           <span class="grant-title">Reviewer — IEEE Transactions on Services Computing (TSC)</span>
           <span class="grant-sub">2024 &amp; 2025</span>
         </div>
       </div>
       <div class="grant-item static">
-        <span class="grant-badge role-rev">Rev.</span>
+        <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
           <span class="grant-title">Reviewer — IEEE Internet of Things Journal</span>
           <span class="grant-sub">2020</span>
@@ -136,24 +136,17 @@ author_profile: true
     <h3 class="gs-subhead">Conferences &amp; Workshops Organized</h3>
     <div class="grant-list">
       <a class="grant-item" href="https://www.indocrypt2025.in" target="_blank">
-        <span class="grant-badge role">Org.</span>
+        <span class="grant-badge role">OC Member</span>
         <div class="grant-body">
           <span class="grant-title">Indocrypt 2025 — 26th Int'l Conference on Cryptology in India</span>
           <span class="grant-sub">IIIT Bhubaneswar · 14–17 Dec 2025</span>
         </div>
       </a>
       <a class="grant-item" href="https://www.ingarss-2025.in" target="_blank">
-        <span class="grant-badge role">Org.</span>
+        <span class="grant-badge role">OC Member</span>
         <div class="grant-body">
           <span class="grant-title">InGARSS 2025 — India Geoscience &amp; Remote Sensing Symposium</span>
           <span class="grant-sub">IIIT Bhubaneswar · 10–13 Dec 2025</span>
-        </div>
-      </a>
-      <a class="grant-item" href="https://isea.gov.in/event.php/IVP20251031JASE" target="_blank">
-        <span class="grant-badge role">Org.</span>
-        <div class="grant-body">
-          <span class="grant-title">National Workshop on CipherStorm: Unlocking Digital Security</span>
-          <span class="grant-sub">IIIT Bhubaneswar with ISI Kolkata, ISEA Phase-III · 14–17 Dec 2025</span>
         </div>
       </a>
     </div>
@@ -161,23 +154,23 @@ author_profile: true
     <h3 class="gs-subhead">Volunteering &amp; Chairing</h3>
     <div class="grant-list">
       <a class="grant-item" href="https://cse.iitkgp.ac.in/conf/ICDCN23/" target="_blank">
-        <span class="grant-badge role-alt">Vol.</span>
+        <span class="grant-badge role-alt">Volunteer</span>
         <div class="grant-body">
-          <span class="grant-title">Volunteer — ICDCN 2023 (24th Int'l Conf. on Distributed Computing &amp; Networking)</span>
+          <span class="grant-title">ICDCN 2023 (24th Int'l Conf. on Distributed Computing &amp; Networking)</span>
           <span class="grant-sub">IIT Kharagpur · 4–7 Jan 2023</span>
         </div>
       </a>
       <a class="grant-item" href="https://www.aimlsystems.org/2022/" target="_blank">
-        <span class="grant-badge role-alt">Chair</span>
+        <span class="grant-badge role-alt">Web Chair</span>
         <div class="grant-body">
-          <span class="grant-title">Web Chair — AI-ML Systems 2022</span>
+          <span class="grant-title">AI-ML Systems 2022</span>
           <span class="grant-sub">Chancery Pavilion, Bengaluru · 12–15 Oct 2022</span>
         </div>
       </a>
       <a class="grant-item" href="https://www.aimlsystems.org/2021/" target="_blank">
-        <span class="grant-badge role-alt">Vol.</span>
+        <span class="grant-badge role-alt">Volunteer</span>
         <div class="grant-body">
-          <span class="grant-title">Volunteer — AI-ML Systems 2021</span>
+          <span class="grant-title">AI-ML Systems 2021</span>
           <span class="grant-sub">Online · 21–24 Oct 2021</span>
         </div>
       </a>
@@ -185,8 +178,8 @@ author_profile: true
 
     <h3 class="gs-subhead">Short-Term Courses Organized</h3>
     <div class="grant-list">
-      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
-        <span class="grant-badge role-stc">STC</span>
+      <a class="grant-item" href="https://isea.gov.in/event.php/IVP20260226YRGI" target="_blank">
+        <span class="grant-badge role-stc">Program Co-ordinatorr</span>
         <div class="grant-body">
           <span class="grant-title">2-Day Short Term Program on Recent Trends in AI and Cyber Security</span>
           <span class="grant-sub">IIIT Bhubaneswar, under ISEA Phase-III Project · 26–27 Mar 2026</span>
@@ -196,32 +189,39 @@ author_profile: true
 
     <h3 class="gs-subhead">Seminars &amp; Workshops Organized</h3>
     <div class="grant-list">
-      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
-        <span class="grant-badge role-wsp">WS</span>
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/wp-content/uploads/2026/Workshop/SCIoT_2026_v5.pdf" target="_blank">
+        <span class="grant-badge role-wsp">OC Member</span>
         <div class="grant-body">
           <span class="grant-title">1st National Workshop on Sensor to Cloud: IoT Applications and Future Trends (SCIoT-2026)</span>
           <span class="grant-sub">Dept. of Computer Science, IIIT Bhubaneswar · 17–21 Mar 2026</span>
         </div>
       </a>
-      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
-        <span class="grant-badge role-wsp">WS</span>
+      <a class="grant-item" href="https://isea.gov.in/event.php/IVP20260113YQDC" target="_blank">
+        <span class="grant-badge role-wsp">Program Co-ordinator</span>
         <div class="grant-body">
           <span class="grant-title">One-Week Faculty Updation Program — Evolution of Cybersecurity: From Traditional Models to Quantum-Ready</span>
           <span class="grant-sub">Cryptography, IIIT Bhubaneswar, under ISEA Phase-III Project · 10–14 Feb 2026</span>
         </div>
       </a>
-      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
-        <span class="grant-badge role-wsp">WS</span>
+      <a class="grant-item" href="https://isea.gov.in/event.php/IVP20260122DRYW" target="_blank">
+        <span class="grant-badge role-wsp">Program Co-ordinator</span>
         <div class="grant-body">
           <span class="grant-title">One-Week Bootcamp on Cybersecurity and Information Security in Industry 4.0 with Cryptology, Machine Learning and Federated Learning</span>
           <span class="grant-sub">IIIT Bhubaneswar, under ISEA Phase-III Project · 2026</span>
         </div>
       </a>
-      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
-        <span class="grant-badge role-wsp">WS</span>
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/wp-content/uploads/2025/worshops/RTST2025/RTST_2025_Brochure_Final.pdf" target="_blank">
+        <span class="grant-badge role-wsp">OC Member</span>
         <div class="grant-body">
           <span class="grant-title">18th National Workshop on Recent Trends in Software Testing (RTST-2025)</span>
           <span class="grant-sub">Dept. of Computer Science, IIIT Bhubaneswar · 19–23 Dec 2025</span>
+        </div>
+      </a>
+      <a class="grant-item" href="https://isea.gov.in/event.php/IVP20251031JASE" target="_blank">
+        <span class="grant-badge role">OC Member</span>
+        <div class="grant-body">
+          <span class="grant-title">National Workshop on CipherStorm: Unlocking Digital Security</span>
+          <span class="grant-sub">IIIT Bhubaneswar with ISI Kolkata, ISEA Phase-III · 14–17 Dec 2025</span>
         </div>
       </a>
     </div>
