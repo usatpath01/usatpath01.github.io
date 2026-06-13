@@ -11,8 +11,6 @@ author_profile: true
 <p>You can also find my articles on
 <a href="https://scholar.google.com/citations?user=bqyCK7cAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square"></i> <b>Google Scholar</b></a>.</p>
 
-{% comment %} Split publications by the `category` front-matter field. {% endcomment %}
-
 <div class="pub-section">
   <h2 class="pub-section-title"><i class="fa fa-book"></i> Journal Articles</h2>
   {% assign journals = site.publications | where: "category", "journal" | sort: "date" | reverse %}
@@ -36,17 +34,6 @@ author_profile: true
     <p><em>No conference papers listed yet.</em></p>
   {% endif %}
 </div>
-
-{% comment %} Catch any publication that has no category set, so nothing disappears. {% endcomment %}
-{% assign uncategorized = site.publications | where_exp: "p", "p.category != 'journal' and p.category != 'conference'" %}
-{% if uncategorized.size > 0 %}
-<div class="pub-section">
-  <h2 class="pub-section-title"><i class="fa fa-file-text"></i> Other Publications</h2>
-  {% for post in uncategorized reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-</div>
-{% endif %}
 
 <style>
 .pub-section { margin-bottom: 2.5rem; }
