@@ -104,7 +104,7 @@ author_profile: true
     <h3 class="gs-subhead">Peer Review</h3>
     <div class="grant-list">
       <div class="grant-item static">
-        <span class="grant-badge role-rev">Rev.</span>
+        <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
           <span class="grant-title">Reviewer — COMSNETS 2026 Graduate Forum</span>
           <span class="grant-sub">18th Int'l Conf. on Communication Systems &amp; Networks · 2026</span>
