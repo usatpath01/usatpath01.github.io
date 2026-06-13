@@ -36,7 +36,7 @@ author_profile: true
             <span class="tl-role">M.Tech in Computer Science &amp; Engineering</span>
             <span class="tl-date">2017 &ndash; 2019</span>
           </div>
-          <span class="tl-org">International Institute of Information Technology (IIIT), Bhubaneswar</span>
+          <span class="tl-org"><a href="https://www.iiit-bh.ac.in/" target="_blank">International Institute of Information Technology (IIIT), Bhubaneswar</a></span>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ author_profile: true
             <span class="tl-role">B.Tech in Information Technology</span>
             <span class="tl-date">2009 &ndash; 2013</span>
           </div>
-          <span class="tl-org">Silicon Institute of Technology, Bhubaneswar</span>
+          <span class="tl-org"><a href="https://silicon.ac.in/bbsr-home/" target="_blank">Silicon Institute of Technology, Bhubaneswar</a></span>
         </div>
       </div>
     </div>
