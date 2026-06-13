@@ -9,6 +9,7 @@ location: "India"
 semester: "Spring 2026"
 credits: 4
 level: "Undergraduate"
+layout: single
 ---
 
 ## Course Overview

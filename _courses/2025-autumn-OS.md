@@ -9,6 +9,7 @@ location: "India"
 semester: "Autumn 2025"
 credits: 4
 level: "Undergraduate"
+layout: single
 ---
 
 ## Course Overview
