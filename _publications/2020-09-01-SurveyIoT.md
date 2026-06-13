@@ -5,7 +5,7 @@ category: journal
 permalink: /publications/surveyiot
 excerpt: " Challenges and solution using machine learning, artificial intelligence and blockchain technology"
 date: 2020-09-01
-venue: '<a href="https://www.computer.org/csdl/journal/sc/5555/01/11202650/2aMEBRM1Nf2">IEEE Transactions on Services Computing 2025</a>'
+venue: '<a href="https://www.sciencedirect.com/journal/internet-of-things">Elsevier Internet of Things; Engineering Cyber Physical Human Systems 2020</a>'
 layout: single-publication
 author_profile: true
 authors: "Bhabendu Kumar Mohanta a, Debasish Jena, <b> Utkalika Satapathy </b>, Srikanta Patnaik"
@@ -17,7 +17,7 @@ authors: "Bhabendu Kumar Mohanta a, Debasish Jena, <b> Utkalika Satapathy </b>, 
 paperurl: 'http://usatpath01.github.io/files/survey_on_iot_journal.pdf'
 doi: "10.1016/j.iot.2020.100227
 venue_short: "Elsevier IoT Journal 2020"
-detail: ""
+# detail: ""
 # status: "Best Paper Runner-Up"   # only when relevant
 
 abstract: "Internet of Things (IoT) is one of the most rapidly used technologies in the last decadein various applications. The smart things are connected in wireless or wired for commu-nication, processing, computing, and monitoring different real-time scenarios. The thingsare heterogeneous and have low memory, less processing power. The implementation ofthe IoT system comes with security and privacy challenges because traditional based ex-isting security protocols do not suitable for IoT devices. In this survey, the authors initiallydescribed an overview of the IoT technology and the area of its application. The primarysecurity issue CIA (confidentially, Integrity, Availability) and layer-wise issues are identi-fied. Then the authors systematically study the three primary technology Machine learn-ing(ML), Artificial intelligence (AI), and Blockchain for addressing the security issue in IoT.In the end, an analysis of this survey, security issues solved by the ML, AI, and Blockchainwith research challenges are mention."
