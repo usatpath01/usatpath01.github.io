@@ -9,24 +9,7 @@ location: "India"
 semester: "Spring 2026"
 credits: 4
 level: "Undergraduate"
-schedule:
-  - date: "Wk 1"
-    topic: "Introduction to DBMS, Data Models, Schemas & Instances"
-  - date: "Wk 2"
-    topic: "Entity–Relationship (ER) Model"
-  - date: "Wk 3"
-    topic: "Relational Model & Constraints"
-  - date: "Wk 4"
-    topic: "Relational Algebra"
-  - date: "Wk 5"
-    topic: "SQL: Basics & Query Construction"
-  - date: "Wk 6"
-    topic: "Advanced SQL"
-  - date: "Wk 7"
-    topic: "Normalization"
-  - date: "Wk 8"
-    topic: "Transaction Processing & Concurrency Control"
-layout: single-course
+layout: single
 ---
 
 ## Course Overview

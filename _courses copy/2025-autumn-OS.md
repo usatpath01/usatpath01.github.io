@@ -9,29 +9,7 @@ location: "India"
 semester: "Autumn 2025"
 credits: 4
 level: "Undergraduate"
-schedule:
-  - date: "Wk 1"
-    topic: "Introduction to Operating Systems"
-    slides: "https://drive.google.com/file/d/1yF6p1FKQ10MOmBvcyjW5Br4e5tPp5jw9/view"
-  - date: "Wk 2"
-    topic: "OS Structures & System Calls"
-    slides: "https://drive.google.com/file/d/1oxvtvdRqnb4yMD_FgmWd8CGK9NymCC7d/view"
-  - date: "Wk 3"
-    topic: "Basics of Process"
-    slides: "https://drive.google.com/file/d/1EsFJZHHsmCvAzNb9vHDQ7zNVfS8_XZBR/view"
-  - date: "Wk 4"
-    topic: "Process States & Scheduling"
-    slides: "https://drive.google.com/file/d/1CZUxZNJJ8RuNJ-Lpd5SwKY4ij7sIkKFG/view"
-  - date: "Wk 6"
-    topic: "Threads & Inter-Process Communication"
-    slides: "https://drive.google.com/file/d/1_xzFoG0OjubzkgwFoKYB2eBzmaDJrxWI/view"
-  - date: "Wk 7"
-    topic: "Process Synchronization & Deadlock"
-    slides: "https://drive.google.com/file/d/1h3P9z5DKBPezavIWhJoYo-fCgn_ni_CD/view"
-  - date: "Wk 8"
-    topic: "Memory Management"
-    slides: "https://drive.google.com/file/d/14uOgvLiND8jfetePLf-lPXYqypraIDvn/view"
-layout: single-course
+layout: single
 ---
 
 ## Course Overview
