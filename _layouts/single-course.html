@@ -1,0 +1,171 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page course-page" itemscope itemtype="https://schema.org/Course">
+    <div class="page__inner-wrap">
+
+      <header class="course-hero">
+        <h1 class="course-hero-title" itemprop="name">{{ page.title }}</h1>
+        <div class="course-hero-meta">
+          {% if page.level %}<span class="ch-badge">{{ page.level }}</span>{% endif %}
+          {% if page.semester %}<span class="ch-pill">{{ page.semester }}</span>{% endif %}
+          {% if page.credits %}<span class="ch-pill"><i class="fas fa-star"></i> {{ page.credits }} Credits</span>{% endif %}
+          {% if page.type %}<span class="ch-pill"><i class="fas fa-graduation-cap"></i> {{ page.type }}</span>{% endif %}
+        </div>
+        {% if page.venue %}<p class="course-hero-venue"><i class="fas fa-university"></i> {{ page.venue }}</p>{% endif %}
+      </header>
+
+      <section class="page__content course-body" itemprop="text">
+        {% if page.schedule %}
+        <h2 class="sched-heading">Class Schedule</h2>
+        <div class="sched-wrap">
+          <table class="sched-table">
+            <thead>
+              <tr>
+                <th class="sched-num">#</th>
+                <th>Date</th>
+                <th>Topic</th>
+                <th>Resources</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in page.schedule %}
+              <tr>
+                <td class="sched-num">{{ forloop.index }}</td>
+                <td class="sched-date">{{ row.date }}</td>
+                <td class="sched-topic">{{ row.topic }}</td>
+                <td class="sched-res">
+                  {% if row.slides %}<a href="{{ row.slides }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+                  {% if row.notes %}<a href="{{ row.notes }}" target="_blank"><i class="fas fa-file-alt"></i> Notes</a>{% endif %}
+                  {% if row.link %}<a href="{{ row.link }}" target="_blank"><i class="fas fa-link"></i> Link</a>{% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
+
+        {{ content }}
+      </section>
+
+    </div>
+  </article>
+</div>
+
+<style>
+.course-page .page__inner-wrap { max-width: 860px; }
+
+/* Hero header */
+.course-hero {
+  background: linear-gradient(135deg, #2a7ae2 0%, #1a4d8f 100%);
+  color: #fff; border-radius: 16px; padding: 1.75rem 1.9rem; margin-bottom: 2rem;
+}
+.course-hero-title { color: #fff !important; margin: 0 0 0.9rem; font-size: 1.7rem; line-height: 1.25; }
+.course-hero-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 0.6rem; }
+.ch-badge {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  color: #1a4d8f; background: #fff; padding: 0.25rem 0.7rem; border-radius: 999px;
+}
+.ch-pill {
+  font-size: 0.78rem; font-weight: 600; color: #fff;
+  background: rgba(255,255,255,0.18); padding: 0.25rem 0.7rem; border-radius: 999px;
+}
+.ch-pill i { margin-right: 0.25rem; opacity: 0.9; }
+.course-hero-venue { margin: 0.4rem 0 0; font-size: 0.9rem; color: rgba(255,255,255,0.92); }
+.course-hero-venue i { margin-right: 0.35rem; }
+
+/* Body section headings (H2 from markdown) */
+.course-body h2 {
+  font-size: 1.25rem; font-weight: 800; color: #1a2b4a;
+  margin: 2rem 0 0.9rem; padding-bottom: 0.45rem;
+  border-bottom: 3px solid var(--accent, #2a7ae2);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+/* Auto-icons for common section names via :before is not reliable; keep clean underline */
+.course-body h3 {
+  font-size: 1.02rem; font-weight: 700; color: var(--accent, #2a7ae2);
+  margin: 1.4rem 0 0.6rem;
+}
+
+/* Course Details list -> styled key cards */
+.course-body ul { list-style: none; padding-left: 0; margin: 0.6rem 0; }
+.course-body ul li {
+  position: relative; padding: 0.3rem 0 0.3rem 1.3rem; line-height: 1.6;
+}
+.course-body ul li::before {
+  content: "▸"; position: absolute; left: 0; top: 0.3rem;
+  color: var(--accent, #2a7ae2); font-weight: 700;
+}
+.course-body ul li strong { color: #1a2b4a; }
+
+/* Links (slides, textbooks) */
+.course-body a {
+  color: var(--accent, #2a7ae2); text-decoration: none; font-weight: 500;
+  border-bottom: 1px solid transparent; transition: border-color 0.15s ease;
+}
+.course-body a:hover { border-bottom-color: var(--accent, #2a7ae2); }
+
+/* Material/slide links: render the list as compact chips-ish rows */
+.course-body p { line-height: 1.7; }
+
+/* Ordered lists (reference books) */
+.course-body ol { padding-left: 1.4rem; margin: 0.6rem 0; }
+.course-body ol li { padding: 0.25rem 0; line-height: 1.6; }
+
+/* Grading policy emphasis */
+.course-body h2 + ul li,
+.course-body h3 + ul li { font-size: 0.95rem; }
+
+@media (max-width: 600px) {
+  .course-hero { padding: 1.3rem 1.3rem; }
+  .course-hero-title { font-size: 1.35rem; }
+  .course-body h2 { font-size: 1.1rem; }
+}
+
+/* Class schedule table */
+.sched-heading {
+  font-size: 1.25rem; font-weight: 800; color: #1a2b4a;
+  margin: 0 0 0.9rem; padding-bottom: 0.45rem;
+  border-bottom: 3px solid var(--accent, #2a7ae2);
+}
+.sched-wrap { overflow-x: auto; margin-bottom: 2rem; }
+.sched-table {
+  width: 100%; border-collapse: collapse; font-size: 0.88rem;
+  background: #fff; border: 1px solid #e6e9ee; border-radius: 12px; overflow: hidden;
+}
+.sched-table thead th {
+  background: #f2f6fc; color: #1a2b4a; font-weight: 700; text-align: left;
+  padding: 0.7rem 0.9rem; border-bottom: 2px solid #d8e3f3;
+  font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em;
+}
+.sched-table tbody td {
+  padding: 0.7rem 0.9rem; border-bottom: 1px solid #eef1f5; vertical-align: top;
+}
+.sched-table tbody tr:last-child td { border-bottom: none; }
+.sched-table tbody tr:nth-child(even) { background: #fafbfc; }
+.sched-table tbody tr:hover { background: #f2f7ff; }
+
+.sched-num { width: 2.5rem; text-align: center; color: #8893a4; font-weight: 600; }
+.sched-date { white-space: nowrap; color: #44546a; font-weight: 600; width: 6.5rem; }
+.sched-topic { color: #2a3a4a; line-height: 1.5; }
+.sched-res { white-space: nowrap; }
+.sched-res a {
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  font-size: 0.78rem; font-weight: 600; color: var(--accent, #2a7ae2);
+  text-decoration: none; margin-right: 0.6rem; border-bottom: none !important;
+}
+.sched-res a:hover { text-decoration: underline; }
+.sched-res a i { font-size: 0.72rem; }
+
+@media (max-width: 600px) {
+  .sched-table { font-size: 0.82rem; }
+  .sched-date { width: auto; }
+}
+</style>
