@@ -4,7 +4,8 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Utkalika Satapathy"
@@ -275,6 +276,8 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -286,6 +289,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 
 # Archives
