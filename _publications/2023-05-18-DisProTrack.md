@@ -16,6 +16,10 @@ slides: "http://usatpath01.github.io/files/disprotrack-infocom2023-slides.pdf"
 labpage: "https://ubinet-iitkgp.github.io/ubinet/pages/disprotrack.html"
 paperurl: 'http://usatpath01.github.io/files/disprotrack-infocom2023.pdf'
 doi: "10.1109/INFOCOM53939.2023.10228884"
+venue_short: "IEEE INFOCOM 2023"
+detail: "pp. 1-10"
+status: "Best Paper Runner-Up"   # only when relevant
+
 abstract: "Provenance tracking has been widely used in the recent literature to debug system vulnerabilities and find the root causes behind faults, errors, or crashes over a running system. However, the existing approaches primarily developed graph-based models for provenance tracking over monolithic applications running directly over the operating system kernel. In contrast, the modern DevOps-based service-oriented architecture relies on distributed platforms, like serverless computing that uses container-based sandboxing over the kernel. Provenance tracking over such a distributed micro-service architecture is challenging, as the application and system logs are generated asynchronously and follow heterogeneous nomenclature and logging formats. This paper develops a novel approach to combining system and micro-services logs together to generate a Universal Provenance Graph (UPG) that can be used for provenance tracking over serverless architecture. We develop a Loadable Kernel Module (LKM) for runtime unit identification over the logs by intercepting the system calls with the help from the control flow graphs over the static application binaries. Finally, we design a regular expression-based log optimization method for reverse query parsing over the generated UPG. A thorough evaluation of the proposed UPG model with different benchmarked serverless applications shows the system's effectiveness."
 citation: "Satapathy, U., Thakur, R., Chattopadhyay, S., & Chakraborty, S. (2023, May). Disprotrack: Distributed provenance tracking over serverless applications. In IEEE INFOCOM 2023-IEEE Conference on Computer Communications (pp. 1-10). IEEE."
 contributors:
