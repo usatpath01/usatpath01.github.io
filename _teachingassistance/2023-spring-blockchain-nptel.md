@@ -5,6 +5,7 @@ type: "NPTEL Online Certification Course"
 permalink: /teachingassistance/2023-spring-blockchain-nptel
 venue: "Department of CSE, IIT Kharagpur"
 date: 2023-01-15
+semester: \"Jan–Apr 2023\"
 location: "India"
 ---
 
