@@ -15,7 +15,7 @@ authors: "Bhabendu Kumar Mohanta a, Debasish Jena, <b> Utkalika Satapathy </b>, 
 # slides: "https://docs.google.com/presentation/d/1j-olLbob2Ew2UyPXTmGpkJ4KQmYDt7sCga8vyAr7leA/edit?usp=sharing"
 # labpage: "https://ubinet-iitkgp.github.io/ubinet/pages/disprotrack.html"
 paperurl: 'http://usatpath01.github.io/files/survey_on_iot_journal.pdf'
-doi: "10.1016/j.iot.2020.100227
+doi: "10.1016/j.iot.2020.100227"
 venue_short: "Elsevier IoT Journal 2020"
 # detail: ""
 # status: "Best Paper Runner-Up"   # only when relevant
