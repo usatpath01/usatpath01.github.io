@@ -24,7 +24,7 @@ author_profile: true
           </div>
           <span class="tl-org">Indian Institute of Technology (IIT), Kharagpur</span>
           <span class="tl-org">Lab: <a href="https://ubinet-iitkgp.github.io/ubinet/index.html" target="_blank">Ubiquitous Networked Systems Lab (UbiNet)</a></span>
-          <p class="tl-desc">Thesis: Provenance and Observability Frameworks for Secure Distributed Microservices.</p>
+          <p class="tl-desc">Thesis: Provenance and Observability Frameworks for Secure Distributed Microservices.</p> <span class="tl-date"><a href="http://usatpath01.github.io/files/Thesis_Utkalika_Satapathy.pdf" target="_blank">Thesis</a></span>
           <p class="tl-sup">Supervisor: <a href="https://cse.iitkgp.ac.in/~sandipc/" target="_blank">Prof. Sandip Chakraborty</a></p>
         </div>
       </div>
