@@ -5,7 +5,7 @@ category: conference
 permalink: /publications/silentinformer
 excerpt: "A Framework for Information Dispersion using Inaudible Acoustic Signals"
 date:  2020-01-07
-venue: '<a href = "https://www.comsnets.org/archive/2020/">COMSNETS (Poster Track) 2020</a>'
+venue: '<a href = "https://www.comsnets.org/archive/2020/">COMSNETS (Poster Track)</a>, Chancery PavilionHotel, ResidencyRoad, Bengaluru,India'
 layout: single-publication
 author_profile: true
 authors: "<b>Utkalika Satapathy</b>, Soumyajit Chatterjee, Sandip Chakraborty"
