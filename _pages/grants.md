@@ -101,6 +101,38 @@ author_profile: true
   <section class="gs-section">
     <h2 class="gs-head"><i class="fas fa-users-cog"></i> Organization &amp; Service</h2>
 
+    <h3 class="gs-subhead">Peer Review</h3>
+    <div class="grant-list">
+      <div class="grant-item static">
+        <span class="grant-badge role-rev">Rev.</span>
+        <div class="grant-body">
+          <span class="grant-title">Reviewer — COMSNETS 2026 Graduate Forum</span>
+          <span class="grant-sub">18th Int'l Conf. on Communication Systems &amp; Networks · 2026</span>
+        </div>
+      </div>
+      <div class="grant-item static">
+        <span class="grant-badge role-rev">Rev.</span>
+        <div class="grant-body">
+          <span class="grant-title">Reviewer — IEEE Transactions on Dependable and Secure Computing (TDSC)</span>
+          <span class="grant-sub">2025</span>
+        </div>
+      </div>
+      <div class="grant-item static">
+        <span class="grant-badge role-rev">Rev.</span>
+        <div class="grant-body">
+          <span class="grant-title">Reviewer — IEEE Transactions on Services Computing (TSC)</span>
+          <span class="grant-sub">2024 &amp; 2025</span>
+        </div>
+      </div>
+      <div class="grant-item static">
+        <span class="grant-badge role-rev">Rev.</span>
+        <div class="grant-body">
+          <span class="grant-title">Reviewer — IEEE Internet of Things Journal</span>
+          <span class="grant-sub">2020</span>
+        </div>
+      </div>
+    </div>
+
     <h3 class="gs-subhead">Conferences &amp; Workshops Organized</h3>
     <div class="grant-list">
       <a class="grant-item" href="https://www.indocrypt2025.in" target="_blank">
@@ -147,6 +179,49 @@ author_profile: true
         <div class="grant-body">
           <span class="grant-title">Volunteer — AI-ML Systems 2021</span>
           <span class="grant-sub">Online · 21–24 Oct 2021</span>
+        </div>
+      </a>
+    </div>
+
+    <h3 class="gs-subhead">Short-Term Courses Organized</h3>
+    <div class="grant-list">
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
+        <span class="grant-badge role-stc">STC</span>
+        <div class="grant-body">
+          <span class="grant-title">2-Day Short Term Program on Recent Trends in AI and Cyber Security</span>
+          <span class="grant-sub">IIIT Bhubaneswar, under ISEA Phase-III Project · 26–27 Mar 2026</span>
+        </div>
+      </a>
+    </div>
+
+    <h3 class="gs-subhead">Seminars &amp; Workshops Organized</h3>
+    <div class="grant-list">
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
+        <span class="grant-badge role-wsp">WS</span>
+        <div class="grant-body">
+          <span class="grant-title">1st National Workshop on Sensor to Cloud: IoT Applications and Future Trends (SCIoT-2026)</span>
+          <span class="grant-sub">Dept. of Computer Science, IIIT Bhubaneswar · 17–21 Mar 2026</span>
+        </div>
+      </a>
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
+        <span class="grant-badge role-wsp">WS</span>
+        <div class="grant-body">
+          <span class="grant-title">One-Week Faculty Updation Program — Evolution of Cybersecurity: From Traditional Models to Quantum-Ready</span>
+          <span class="grant-sub">Cryptography, IIIT Bhubaneswar, under ISEA Phase-III Project · 10–14 Feb 2026</span>
+        </div>
+      </a>
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
+        <span class="grant-badge role-wsp">WS</span>
+        <div class="grant-body">
+          <span class="grant-title">One-Week Bootcamp on Cybersecurity and Information Security in Industry 4.0 with Cryptology, Machine Learning and Federated Learning</span>
+          <span class="grant-sub">IIIT Bhubaneswar, under ISEA Phase-III Project · 2026</span>
+        </div>
+      </a>
+      <a class="grant-item" href="https://www.iiit-bh.ac.in/workshop/" target="_blank">
+        <span class="grant-badge role-wsp">WS</span>
+        <div class="grant-body">
+          <span class="grant-title">18th National Workshop on Recent Trends in Software Testing (RTST-2025)</span>
+          <span class="grant-sub">Dept. of Computer Science, IIIT Bhubaneswar · 19–23 Dec 2025</span>
         </div>
       </a>
     </div>
@@ -226,6 +301,11 @@ author_profile: true
 }
 .grant-badge.role { background: #1a4d8f; }
 .grant-badge.role-alt { background: #5a6b8c; font-size: 0.72rem; }
+.grant-badge.role-stc { background: #1f7a54; }
+.grant-badge.role-wsp { background: #7a5bb0; }
+.grant-badge.role-rev { background: #c0563b; }
+.grant-item.static { cursor: default; }
+.grant-item.static:hover { border-color: #e6e9ee; box-shadow: none; transform: none; }
 .grant-body { display: flex; flex-direction: column; }
 .grant-title { font-size: 0.88rem; font-weight: 600; color: #1a2b4a; line-height: 1.35; }
 .grant-sub { font-size: 0.78rem; color: #6b7785; margin-top: 0.1rem; }
