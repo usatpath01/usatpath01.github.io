@@ -37,6 +37,7 @@ author_profile: true
             <span class="tl-date">2017 &ndash; 2019</span>
           </div>
           <span class="tl-org"><a href="https://www.iiit-bh.ac.in/" target="_blank">International Institute of Information Technology (IIIT), Bhubaneswar</a></span>
+          <p class="tl-sup">Supervisor: <a href="https://www.iiit-bh.ac.in/faculty/dr-debasish-jena/" target="_blank">Prof. Debashish Jena</a></p>
         </div>
       </div>
 
@@ -68,7 +69,7 @@ author_profile: true
           <span class="tl-org">IIT Kharagpur &middot; sponsored by <a href="http://www.igcar.gov.in/" target="_blank">IGCAR</a></span>
           <p class="tl-desc">Project: Development of Algorithms and Tools for Log Analytics.</p>
           <p class="tl-sup">Supervisor: <a href="https://cse.iitkgp.ac.in/~sandipc/" target="_blank">Prof. Sandip Chakraborty</a></p>
-          <p class="tl-sup">Collaborator: <a href="https://www.idrbt.ac.in/dr-subhrendu-chattopadhyay/" target="_blank">Dr. Subhrendu Chattopadhyay</a></p>
+          <p class="tl-sup">Collaborator: <a href="https://subhrendu1987.github.io/" target="_blank">Dr. Subhrendu Chattopadhyay</a></p>
         </div>
       </div>
 
@@ -125,7 +126,7 @@ author_profile: true
           </div>
           <span class="tl-org"><a href="https://research.ibm.com/" target="_blank">IBM India Research Lab (IRL)</a>, Bangalore</span>
           <p class="tl-desc">Project: OPENED Policy Enforcer.</p>
-          <p class="tl-sup">Supervisors: <a href="https://researcher.watson.ibm.com/researcher/view.php?person=in-sayandes" target="_blank">Sayandeep Sen</a>, <a href="https://researcher.watson.ibm.com/researcher/view.php?person=in-palani.kodeswaran" target="_blank">Palani Kodeswaran</a></p>
+          <p class="tl-sup">Supervisors: <a href="https://scholar.google.com/citations?user=EIY91KQAAAAJ&hl=en" target="_blank">Sayandeep Sen</a>, <a href="https://scholar.google.com/citations?user=S5bmVSkAAAAJ&hl=en" target="_blank">Palani Kodeswaran</a></p>
         </div>
       </div>
 
