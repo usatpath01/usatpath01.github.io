@@ -19,10 +19,9 @@ author_profile: true
         <div class="tl-dot"></div>
         <div class="tl-card">
           <div class="tl-top">
-            <span class="tl-role">Ph.D.</span>
-            <span class="tl-date">2021 &ndash; 2026 <span class="tl-exp">(expected)</span></span>
+            <span class="tl-role">Ph.D. in Computer Science &amp; Engineering</span>
+            <span class="tl-date">2021 &ndash; 2026</span>
           </div>
-          <span class="tl-org">Computer Science &amp; Engineering</span>
           <span class="tl-org">Indian Institute of Technology (IIT), Kharagpur</span>
           <p class="tl-desc">Thesis: Provenance and Observability Frameworks for Secure Distributed Microservices.</p>
           <p class="tl-sup">Supervisor: <a href="https://cse.iitkgp.ac.in/~sandipc/" target="_blank">Prof. Sandip Chakraborty</a></p>
@@ -33,10 +32,9 @@ author_profile: true
         <div class="tl-dot"></div>
         <div class="tl-card">
           <div class="tl-top">
-            <span class="tl-role">M.Tech</span>
+            <span class="tl-role">M.Tech in Computer Science &amp; Engineering</span>
             <span class="tl-date">2017 &ndash; 2019</span>
           </div>
-           <span class="tl-org">Computer Science &amp; Engineering</span>
           <span class="tl-org">International Institute of Information Technology (IIIT), Bhubaneswar</span>
         </div>
       </div>
@@ -45,10 +43,9 @@ author_profile: true
         <div class="tl-dot"></div>
         <div class="tl-card">
           <div class="tl-top">
-            <span class="tl-role">B.Tech</span>
+            <span class="tl-role">B.Tech in Information Technology</span>
             <span class="tl-date">2009 &ndash; 2013</span>
           </div>
-          <span class="tl-org">Information Technology</span>
           <span class="tl-org">Silicon Institute of Technology, Bhubaneswar</span>
         </div>
       </div>
