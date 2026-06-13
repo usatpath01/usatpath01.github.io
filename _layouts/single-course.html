@@ -8,164 +8,273 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page course-page" itemscope itemtype="https://schema.org/Course">
-    <div class="page__inner-wrap">
+    <div class="page__inner-wrap course-wrap">
 
-      <header class="course-hero">
-        <h1 class="course-hero-title" itemprop="name">{{ page.title }}</h1>
-        <div class="course-hero-meta">
-          {% if page.level %}<span class="ch-badge">{{ page.level }}</span>{% endif %}
-          {% if page.semester %}<span class="ch-pill">{{ page.semester }}</span>{% endif %}
-          {% if page.credits %}<span class="ch-pill"><i class="fas fa-star"></i> {{ page.credits }} Credits</span>{% endif %}
-          {% if page.type %}<span class="ch-pill"><i class="fas fa-graduation-cap"></i> {{ page.type }}</span>{% endif %}
+      <!-- ===== HERO ===== -->
+      <header class="hero">
+        {% if page.semester or page.level %}
+        <div class="hero-eyebrow">
+          {% if page.semester %}{{ page.semester }}{% endif %}
+          {% if page.semester and page.level %} · {% endif %}
+          {% if page.level %}{{ page.level }}{% endif %}
         </div>
-        {% if page.venue %}<p class="course-hero-venue"><i class="fas fa-university"></i> {{ page.venue }}</p>{% endif %}
+        {% endif %}
+        <h1 class="hero-title" itemprop="name">{{ page.title }}</h1>
+        <div class="hero-chips">
+          {% if page.credits %}<span class="chip solid">{{ page.credits }} Credits</span>{% endif %}
+          {% if page.duration %}<span class="chip"><i class="fas fa-clock"></i> {{ page.duration }}</span>{% endif %}
+          {% if page.type %}<span class="chip"><i class="fas fa-graduation-cap"></i> {{ page.type }}</span>{% endif %}
+        </div>
+        {% if page.venue %}<p class="hero-venue"><i class="fas fa-university"></i> {{ page.venue }}</p>{% endif %}
       </header>
 
-      <section class="page__content course-body" itemprop="text">
+      <!-- ===== TAB BAR (only Theory / Lab; lab tab shown if page.lab) ===== -->
+      {% if page.lab %}
+      <div class="ctabs">
+        <button class="ctab active" data-t="theory"><i class="fas fa-book-open"></i> Theory</button>
+        <button class="ctab" data-t="lab"><i class="fas fa-flask"></i> Lab</button>
+      </div>
+      {% endif %}
+
+      <!-- ===== THEORY PANEL ===== -->
+      <div class="cpanel active" id="theory">
+
+        {% if page.overview %}
+        <p class="ov-text">{{ page.overview }}</p>
+        {% endif %}
+
+        {% if page.facts %}
+        <div class="ov-facts">
+          {% for f in page.facts %}
+          <div class="fact"><div class="fk">{{ f.label }}</div><div class="fv">{{ f.value }}</div></div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if page.schedule %}
-        <h2 class="sched-heading">Class Schedule</h2>
-        <div class="sched-wrap">
-          <table class="sched-table">
-            <thead>
-              <tr>
-                <th class="sched-num">#</th>
-                <th>Date</th>
-                <th>Topic</th>
-                <th>Resources</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for row in page.schedule %}
-              <tr>
-                <td class="sched-num">{{ forloop.index }}</td>
-                <td class="sched-date">{{ row.date }}</td>
-                <td class="sched-topic">{{ row.topic }}</td>
-                <td class="sched-res">
-                  {% if row.slides %}<a href="{{ row.slides }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
-                  {% if row.notes %}<a href="{{ row.notes }}" target="_blank"><i class="fas fa-file-alt"></i> Notes</a>{% endif %}
-                  {% if row.link %}<a href="{{ row.link }}" target="_blank"><i class="fas fa-link"></i> Link</a>{% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+        <div class="sec-label"><h2>Class Schedule</h2><span class="sec-count">{{ page.schedule | size }} sessions</span><span class="sec-rule"></span></div>
+        <div class="timeline">
+          {% for row in page.schedule %}
+          <div class="tl">
+            <div class="tl-head"><span class="tl-wk">{{ row.date }}</span><span class="tl-topic">{{ row.topic }}</span></div>
+            <span class="tl-act">
+              {% if row.slides %}<a href="{{ row.slides }}" target="_blank"><i class="fas fa-file-powerpoint"></i> Slides</a>{% endif %}
+              {% if row.notes %}<a href="{{ row.notes }}" target="_blank"><i class="fas fa-file-lines"></i> Notes</a>{% endif %}
+              {% if row.link %}<a href="{{ row.link }}" target="_blank"><i class="fas fa-link"></i> Link</a>{% endif %}
+            </span>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if page.materials %}
+        <div class="sec-label"><h2>Materials</h2><span class="sec-rule"></span></div>
+        {% for group in page.materials %}
+        {% if group.heading %}<div class="subhead">{{ group.heading }}</div>{% endif %}
+        <div class="cards">
+          {% for item in group.items %}
+          <a class="card" href="{{ item.url }}" target="_blank">
+            <span class="ci"><i class="fas {% if item.icon %}{{ item.icon }}{% else %}fa-file-lines{% endif %}"></i></span>
+            <span class="ct">{{ item.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if page.textbooks %}
+        <div class="sec-label"><h2>Textbooks</h2><span class="sec-count">{{ page.textbooks | size }} references</span><span class="sec-rule"></span></div>
+        <div class="cards">
+          {% for b in page.textbooks %}
+          <a class="card" href="{{ b.url }}" target="_blank"><span class="ci"><i class="fas fa-book"></i></span><span class="ct">{{ b.title }}</span></a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if page.grading %}
+        <div class="sec-label"><h2>Grading</h2><span class="sec-rule"></span></div>
+        <div class="grade-block">
+          <div class="pie" id="pie-theory"></div>
+          <ul class="legend" id="legend-theory">
+            {% for g in page.grading %}
+            <li><span class="lg-dot" data-pct="{{ g.weight }}"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
+            {% endfor %}
+          </ul>
         </div>
         {% endif %}
 
         {{ content }}
-      </section>
+      </div>
+
+      <!-- ===== LAB PANEL ===== -->
+      {% if page.lab %}
+      <div class="cpanel" id="lab">
+
+        {% if page.lab.overview %}<p class="ov-text">{{ page.lab.overview }}</p>{% endif %}
+
+        {% if page.lab.materials %}
+        <div class="sec-label"><h2>Lab Materials</h2><span class="sec-rule"></span></div>
+        {% for group in page.lab.materials %}
+        {% if group.heading %}<div class="subhead">{{ group.heading }}</div>{% endif %}
+        <div class="cards">
+          {% for item in group.items %}
+          <a class="card" href="{{ item.url }}" target="_blank">
+            <span class="ci"><i class="fas {% if item.icon %}{{ item.icon }}{% else %}fa-file-lines{% endif %}"></i></span>
+            <span class="ct">{{ item.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if page.lab.references %}
+        <div class="sec-label"><h2>Reference Books</h2><span class="sec-count">{{ page.lab.references | size }} books</span><span class="sec-rule"></span></div>
+        <div class="cards">
+          {% for b in page.lab.references %}
+          <a class="card" href="{{ b.url }}" target="_blank"><span class="ci"><i class="fas fa-book"></i></span><span class="ct">{{ b.title }}</span></a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if page.lab.grading %}
+        <div class="sec-label"><h2>Lab Grading</h2><span class="sec-rule"></span></div>
+        <div class="grade-block">
+          <div class="pie" id="pie-lab"></div>
+          <ul class="legend" id="legend-lab">
+            {% for g in page.lab.grading %}
+            <li><span class="lg-dot" data-pct="{{ g.weight }}"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+      </div>
+      {% endif %}
 
     </div>
   </article>
 </div>
 
 <style>
-.course-page .page__inner-wrap { max-width: 860px; }
+:root {
+  --ink:#13203b; --slate:#5a6680; --line:#e6eaf2; --accent:#2a7ae2; --accent2:#1a4d8f; --soft:#eef4fd;
+}
+.course-wrap { max-width: 880px; }
 
-/* Hero header */
-.course-hero {
-  background: linear-gradient(135deg, #2a7ae2 0%, #1a4d8f 100%);
-  color: #fff; border-radius: 16px; padding: 1.75rem 1.9rem; margin-bottom: 2rem;
-}
-.course-hero-title { color: #fff !important; margin: 0 0 0.9rem; font-size: 1.7rem; line-height: 1.25; }
-.course-hero-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 0.6rem; }
-.ch-badge {
-  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
-  color: #1a4d8f; background: #fff; padding: 0.25rem 0.7rem; border-radius: 999px;
-}
-.ch-pill {
-  font-size: 0.78rem; font-weight: 600; color: #fff;
-  background: rgba(255,255,255,0.18); padding: 0.25rem 0.7rem; border-radius: 999px;
-}
-.ch-pill i { margin-right: 0.25rem; opacity: 0.9; }
-.course-hero-venue { margin: 0.4rem 0 0; font-size: 0.9rem; color: rgba(255,255,255,0.92); }
-.course-hero-venue i { margin-right: 0.35rem; }
+/* HERO */
+.hero { position:relative; overflow:hidden; border-radius:20px; padding:2rem 2.1rem; margin-bottom:1.25rem;
+        background:linear-gradient(135deg,#2f86ef 0%,#1a4d8f 100%); color:#fff;
+        box-shadow:0 14px 34px rgba(26,77,143,.28); }
+.hero::after { content:""; position:absolute; top:-40%; right:-10%; width:50%; height:180%;
+               background:radial-gradient(circle, rgba(255,255,255,.16), transparent 70%); pointer-events:none; }
+.hero-eyebrow { font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.82); margin-bottom:.5rem; }
+.hero-title { color:#fff !important; margin:0 0 1rem; font-size:2rem; font-weight:800; letter-spacing:-.02em; line-height:1.08; }
+.hero-chips { display:flex; flex-wrap:wrap; gap:.5rem; }
+.chip { display:inline-flex; align-items:center; gap:.35rem; font-size:.78rem; font-weight:600; padding:.32rem .8rem; border-radius:10px; background:rgba(255,255,255,.16); color:#fff; }
+.chip.solid { background:#fff; color:var(--accent2); }
+.chip i { opacity:.9; }
+.hero-venue { margin:.9rem 0 0; font-size:.88rem; color:rgba(255,255,255,.9); display:flex; align-items:center; gap:.4rem; }
 
-/* Body section headings (H2 from markdown) */
-.course-body h2 {
-  font-size: 1.25rem; font-weight: 800; color: #1a2b4a;
-  margin: 2rem 0 0.9rem; padding-bottom: 0.45rem;
-  border-bottom: 3px solid var(--accent, #2a7ae2);
-  display: flex; align-items: center; gap: 0.5rem;
-}
-/* Auto-icons for common section names via :before is not reliable; keep clean underline */
-.course-body h3 {
-  font-size: 1.02rem; font-weight: 700; color: var(--accent, #2a7ae2);
-  margin: 1.4rem 0 0.6rem;
-}
+/* TABS (Theory / Lab) */
+.ctabs { display:flex; gap:.25rem; border-bottom:2px solid var(--line); margin-bottom:1.5rem; }
+.ctab { display:inline-flex; align-items:center; gap:.45rem; padding:.7rem 1.1rem; cursor:pointer; font-size:.92rem; font-weight:600; color:var(--slate); border:none; background:none; border-bottom:3px solid transparent; margin-bottom:-2px; transition:color .15s; }
+.ctab:hover { color:var(--ink); }
+.ctab.active { color:var(--accent); border-bottom-color:var(--accent); }
 
-/* Course Details list -> styled key cards */
-.course-body ul { list-style: none; padding-left: 0; margin: 0.6rem 0; }
-.course-body ul li {
-  position: relative; padding: 0.3rem 0 0.3rem 1.3rem; line-height: 1.6;
-}
-.course-body ul li::before {
-  content: "▸"; position: absolute; left: 0; top: 0.3rem;
-  color: var(--accent, #2a7ae2); font-weight: 700;
-}
-.course-body ul li strong { color: #1a2b4a; }
+.cpanel { display:none; animation:cfade .25s ease; }
+.cpanel.active { display:block; }
+@keyframes cfade { from{opacity:0;transform:translateY(4px);} to{opacity:1;transform:none;} }
 
-/* Links (slides, textbooks) */
-.course-body a {
-  color: var(--accent, #2a7ae2); text-decoration: none; font-weight: 500;
-  border-bottom: 1px solid transparent; transition: border-color 0.15s ease;
-}
-.course-body a:hover { border-bottom-color: var(--accent, #2a7ae2); }
+/* OVERVIEW */
+.ov-text { font-size:1rem; color:var(--slate); line-height:1.75; margin:0 0 1.5rem; }
+.ov-facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.7rem; margin-bottom:1.6rem; }
+.fact { background:#fafbfd; border:1px solid var(--line); border-radius:12px; padding:.85rem 1rem; }
+.fact .fk { font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--slate); margin-bottom:.25rem; }
+.fact .fv { font-size:.95rem; font-weight:700; color:var(--ink); }
 
-/* Material/slide links: render the list as compact chips-ish rows */
-.course-body p { line-height: 1.7; }
+/* SECTION LABEL */
+.sec-label { display:flex; align-items:baseline; gap:.65rem; margin:2rem 0 1rem; }
+.sec-label h2 { font-size:1.2rem; font-weight:800; color:#14213d; margin:0; border:none; padding:0; }
+.sec-count { font-size:.8rem; color:var(--slate); font-weight:600; white-space:nowrap; }
+.sec-rule { flex:1; height:1px; background:var(--line); }
 
-/* Ordered lists (reference books) */
-.course-body ol { padding-left: 1.4rem; margin: 0.6rem 0; }
-.course-body ol li { padding: 0.25rem 0; line-height: 1.6; }
+/* SCHEDULE timeline */
+.timeline { position:relative; padding-left:1.4rem; margin-bottom:2rem; }
+.timeline::before { content:""; position:absolute; left:5px; top:.6rem; bottom:.6rem; width:2px; background:linear-gradient(var(--accent),#cdddf5); }
+.tl { position:relative; display:grid; grid-template-columns:1fr auto; gap:.6rem 1rem; align-items:center; padding:.7rem 0; border-bottom:1px solid #f0f3f8; }
+.tl:last-child { border-bottom:none; }
+.tl::before { content:""; position:absolute; left:-1.4rem; top:1.05rem; width:11px; height:11px; border-radius:50%; background:#fff; border:3px solid var(--accent); }
+.tl-head { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+.tl-wk { font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); background:var(--soft); border-radius:6px; padding:.25rem .5rem; }
+.tl-topic { font-size:.93rem; font-weight:600; color:var(--ink); }
+.tl-act { white-space:nowrap; }
+.tl-act a { font-size:.78rem; font-weight:600; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:.3rem; margin-left:.6rem; border-bottom:none; }
+.tl-act a:first-child { margin-left:0; }
+.tl-act a:hover { text-decoration:underline; }
 
-/* Grading policy emphasis */
-.course-body h2 + ul li,
-.course-body h3 + ul li { font-size: 0.95rem; }
+/* CARDS (materials, textbooks) */
+.subhead { font-size:.95rem; font-weight:700; color:var(--accent); margin:1.3rem 0 .6rem; }
+.cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:.7rem; margin-bottom:1.6rem; }
+.card { display:flex; align-items:flex-start; gap:.65rem; padding:.85rem 1rem; background:#fff; border:1px solid var(--line); border-radius:11px; text-decoration:none !important; color:var(--ink); transition:border-color .15s,box-shadow .15s,transform .15s; }
+.card:hover { border-color:var(--accent); box-shadow:0 6px 18px rgba(42,122,226,.1); transform:translateY(-2px); }
+.card .ci { font-size:1.05rem; color:var(--accent); margin-top:.1rem; }
+.card .ct { font-size:.85rem; font-weight:500; line-height:1.4; }
 
-@media (max-width: 600px) {
-  .course-hero { padding: 1.3rem 1.3rem; }
-  .course-hero-title { font-size: 1.35rem; }
-  .course-body h2 { font-size: 1.1rem; }
-}
+/* GRADING — pie + legend */
+.grade-block { display:flex; align-items:center; gap:2rem; flex-wrap:wrap; margin-bottom:1.6rem; }
+.pie { width:170px; height:170px; border-radius:50%; flex-shrink:0;
+       box-shadow:0 6px 20px rgba(20,33,59,.12); position:relative; }
+.pie::after { content:""; position:absolute; inset:28%; background:#fff; border-radius:50%; box-shadow:inset 0 1px 3px rgba(0,0,0,.06); }
+.legend { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.5rem; }
+.legend li { display:flex; align-items:center; gap:.6rem; font-size:.88rem; }
+.lg-dot { width:12px; height:12px; border-radius:3px; flex-shrink:0; }
+.lg-k { color:var(--slate); font-weight:600; }
+.lg-v { margin-left:auto; font-weight:800; color:var(--ink); padding-left:1rem; }
 
-/* Class schedule table */
-.sched-heading {
-  font-size: 1.25rem; font-weight: 800; color: #1a2b4a;
-  margin: 0 0 0.9rem; padding-bottom: 0.45rem;
-  border-bottom: 3px solid var(--accent, #2a7ae2);
-}
-.sched-wrap { overflow-x: auto; margin-bottom: 2rem; }
-.sched-table {
-  width: 100%; border-collapse: collapse; font-size: 0.88rem;
-  background: #fff; border: 1px solid #e6e9ee; border-radius: 12px; overflow: hidden;
-}
-.sched-table thead th {
-  background: #f2f6fc; color: #1a2b4a; font-weight: 700; text-align: left;
-  padding: 0.7rem 0.9rem; border-bottom: 2px solid #d8e3f3;
-  font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em;
-}
-.sched-table tbody td {
-  padding: 0.7rem 0.9rem; border-bottom: 1px solid #eef1f5; vertical-align: top;
-}
-.sched-table tbody tr:last-child td { border-bottom: none; }
-.sched-table tbody tr:nth-child(even) { background: #fafbfc; }
-.sched-table tbody tr:hover { background: #f2f7ff; }
-
-.sched-num { width: 2.5rem; text-align: center; color: #8893a4; font-weight: 600; }
-.sched-date { white-space: nowrap; color: #44546a; font-weight: 600; width: 6.5rem; }
-.sched-topic { color: #2a3a4a; line-height: 1.5; }
-.sched-res { white-space: nowrap; }
-.sched-res a {
-  display: inline-flex; align-items: center; gap: 0.25rem;
-  font-size: 0.78rem; font-weight: 600; color: var(--accent, #2a7ae2);
-  text-decoration: none; margin-right: 0.6rem; border-bottom: none !important;
-}
-.sched-res a:hover { text-decoration: underline; }
-.sched-res a i { font-size: 0.72rem; }
-
-@media (max-width: 600px) {
-  .sched-table { font-size: 0.82rem; }
-  .sched-date { width: auto; }
+@media (max-width:600px){
+  .hero-title { font-size:1.55rem; }
+  .hero { padding:1.5rem 1.4rem; }
+  .tl { grid-template-columns:1fr; }
+  .tl-act { grid-column:1; }
+  .grade-block { gap:1.2rem; }
 }
 </style>
+
+<script>
+(function () {
+  // ----- Tab switching (Theory / Lab) -----
+  document.querySelectorAll('.ctab').forEach(function (t) {
+    t.addEventListener('click', function () {
+      document.querySelectorAll('.ctab').forEach(function (x) { x.classList.remove('active'); });
+      document.querySelectorAll('.cpanel').forEach(function (x) { x.classList.remove('active'); });
+      t.classList.add('active');
+      var p = document.getElementById(t.dataset.t);
+      if (p) p.classList.add('active');
+    });
+  });
+
+  // ----- Pie charts from legend data -----
+  var palette = ['#2a7ae2', '#5aa0f0', '#1a4d8f', '#7bb3f5', '#3f8ce8', '#9cc6f8', '#143d72'];
+  function buildPie(pieId, legendId) {
+    var pie = document.getElementById(pieId);
+    var legend = document.getElementById(legendId);
+    if (!pie || !legend) return;
+    var dots = legend.querySelectorAll('.lg-dot');
+    var total = 0, vals = [];
+    dots.forEach(function (d) { var v = parseFloat(d.getAttribute('data-pct')) || 0; vals.push(v); total += v; });
+    if (total <= 0) return;
+    var stops = [], acc = 0;
+    vals.forEach(function (v, i) {
+      var col = palette[i % palette.length];
+      var start = (acc / total) * 360;
+      acc += v;
+      var end = (acc / total) * 360;
+      stops.push(col + ' ' + start.toFixed(2) + 'deg ' + end.toFixed(2) + 'deg');
+      if (dots[i]) dots[i].style.background = col;
+    });
+    pie.style.background = 'conic-gradient(' + stops.join(', ') + ')';
+  }
+  buildPie('pie-theory', 'legend-theory');
+  buildPie('pie-lab', 'legend-lab');
+})();
+</script>
