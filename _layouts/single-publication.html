@@ -29,7 +29,7 @@ layout: default
           {% if page.youtube_id %}
           <div class="pub-video">
             <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}"
-                    title="Teaser Video" frameborder="0"
+                    title="Teaser" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
           </div>
@@ -37,9 +37,9 @@ layout: default
 
           <div class="pub-links">
             {% if page.paperurl %}<a class="pub-btn" href="{{ page.paperurl }}" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>{% endif %}
-            {% if page.teaser_video %}<a class="pub-btn" href="{{ page.teaser_video }}" target="_blank"><i class="fab fa-youtube"></i> Teaser Video</a>{% endif %}
+            {% if page.teaser_video %}<a class="pub-btn" href="{{ page.teaser_video }}" target="_blank"><i class="fab fa-youtube"></i> Teaser</a>{% endif %}
             {% if page.slides %}<a class="pub-btn" href="{{ page.slides }}" target="_blank"><i class="fas fa-desktop"></i> Slides</a>{% endif %}
-            {% if page.code %}<a class="pub-btn" href="{{ page.code }}" target="_blank"><i class="fab fa-github"></i> Source Code</a>{% endif %}
+            {% if page.code %}<a class="pub-btn" href="{{ page.code }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>{% endif %}
             {% if page.labpage %}<a class="pub-btn" href="{{ page.labpage }}" target="_blank"><i class="fas fa-flask"></i> Lab Page</a>{% endif %}
             {% if page.doi %}<a class="pub-btn" href="https://doi.org/{{ page.doi }}" target="_blank"><i class="fas fa-link"></i> DOI</a>{% endif %}
           </div>
