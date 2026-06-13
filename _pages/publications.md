@@ -74,27 +74,27 @@ author_profile: true
 </div>
 
 <style>
-.pub-intro { font-size: 1rem; margin-bottom: 2rem; }
+.pub-intro { font-size: 0.9rem; margin-bottom: 1.5rem; }
 
-.pub-group { margin-bottom: 2.75rem; }
-.pub-group-head { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+.pub-group { margin-bottom: 2rem; }
+.pub-group-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.9rem; }
 .pub-group-title {
-  font-size: 1.7rem; font-weight: 800; margin: 0;
+  font-size: 1.3rem; font-weight: 800; margin: 0;
   color: #1a2b4a; letter-spacing: -0.01em;
 }
 .pub-group-pill {
-  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-  padding: 0.28rem 0.7rem; border-radius: 999px;
+  font-size: 0.6rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 0.22rem 0.55rem; border-radius: 999px;
 }
 .pill-blue  { color: #2a5db0; background: #e8f0fc; }
 .pill-green { color: #2a5db0; background: #e8f0fc; border: 1px solid #c5dbf7; }
 
 .pub-card {
-  display: flex; align-items: flex-start; gap: 1.1rem;
-  padding: 1.15rem 1.35rem; margin-bottom: 1rem;
+  display: flex; align-items: flex-start; gap: 0.85rem;
+  padding: 0.85rem 1rem; margin-bottom: 0.65rem;
   background: #fafbfc;
   border: 1px solid #e6e9ee;
-  border-radius: 14px;
+  border-radius: 11px;
   text-decoration: none !important; color: inherit;
   transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 }
@@ -107,30 +107,30 @@ author_profile: true
 .pub-badge {
   flex-shrink: 0;
   font-family: Georgia, 'Times New Roman', serif;
-  font-weight: 700; font-size: 1.05rem;
-  padding: 0.5rem 0.65rem; border-radius: 10px;
-  min-width: 3rem; text-align: center; line-height: 1.1;
+  font-weight: 700; font-size: 0.85rem;
+  padding: 0.35rem 0.5rem; border-radius: 8px;
+  min-width: 2.4rem; text-align: center; line-height: 1.1;
 }
 .badge-journal { color: #fff; background: var(--accent, #2a7ae2); }
 .badge-conf    { color: #fff; background: #1a4d8f; }
 
 .pub-card-body { flex: 1; }
 .pub-card-cite {
-  margin: 0 0 0.6rem; font-size: 1.02rem; line-height: 1.5; color: #2a3a4a;
+  margin: 0 0 0.4rem; font-size: 0.85rem; line-height: 1.45; color: #2a3a4a;
   text-align: left !important;
 }
 .pub-card-cite { font-weight: 400; }
 /* Bold only the lead author(s): wrap handled via <b> in `authors` front matter */
 
-.pub-card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.pub-card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
 .venue-chip {
-  font-size: 0.85rem; font-weight: 700; color: #2a5db0;
-  background: #e8f0fc; padding: 0.3rem 0.7rem; border-radius: 7px;
+  font-size: 0.72rem; font-weight: 700; color: #2a5db0;
+  background: #e8f0fc; padding: 0.2rem 0.5rem; border-radius: 5px;
 }
-.meta-detail { font-size: 0.9rem; color: #6b7785; }
+.meta-detail { font-size: 0.75rem; color: #6b7785; }
 .status-chip {
-  font-size: 0.82rem; font-weight: 700; color: #9a6a00;
-  background: #fdeecb; padding: 0.3rem 0.7rem; border-radius: 7px;
+  font-size: 0.7rem; font-weight: 700; color: #9a6a00;
+  background: #fdeecb; padding: 0.2rem 0.5rem; border-radius: 5px;
 }
 
 .pub-empty { color: #888; }
