@@ -5,7 +5,7 @@ type: "NPTEL Online Certification Course"
 permalink: /teachingassistance/2024-autumn-blockchain-nptel
 venue: "Department of CSE, IIT Kharagpur"
 date: 2024-08-01
-semester: \"Autumn 2024–2025\"
+semester: "Autumn 2024–2025"
 location: "India"
 ---
 

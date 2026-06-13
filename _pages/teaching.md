@@ -58,8 +58,12 @@ redirect_from:
       {% for ta in tas %}
       <div class="ta-card">
         <div class="ta-card-head">
-          {% if ta.type %}<span class="ta-type">{{ ta.type }}</span>{% endif %}
-          {% if ta.date %}<span class="ta-year">{{ ta.date | date: "%Y" }}</span>{% endif %}
+          {% if ta.type %}
+            {% assign ta_class = "ta-type-classroom" %}
+            {% if ta.type contains "NPTEL" %}{% assign ta_class = "ta-type-nptel" %}{% endif %}
+            <span class="ta-type {{ ta_class }}">{{ ta.type }}</span>
+          {% endif %}
+          {% if ta.semester %}<span class="ta-year">{{ ta.semester }}</span>{% elsif ta.date %}<span class="ta-year">{{ ta.date | date: "%Y" }}</span>{% endif %}
         </div>
         <h3 class="ta-name">{{ ta.title }}</h3>
         {% if ta.venue %}<p class="ta-venue"><i class="fa fa-university"></i> {{ ta.venue }}</p>{% endif %}
@@ -129,8 +133,9 @@ redirect_from:
   color: #fff; padding: 0.2rem 0.55rem; border-radius: 999px;
 }
 .course-level { background: var(--accent, #2a7ae2); }
-.ta-type { background: #6b5bd2; }
-.course-term, .ta-year { font-size: 0.78rem; color: #888; font-weight: 600; }
+.ta-type-classroom { background: #6b5bd2; }
+.ta-type-nptel { background: #d2762b; }
+.course-term, .ta-year { font-size: 0.75rem; color: #888; font-weight: 600; white-space: nowrap; }
 
 .course-name, .ta-name {
   font-size: 1.05rem; margin: 0.1rem 0 0.5rem; line-height: 1.35; color: #1a2b4a;

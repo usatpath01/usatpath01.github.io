@@ -5,7 +5,7 @@ type: "Classroom Course"
 permalink: /teachingassistance/2023-autumn-blockchain
 venue: "Department of CSE, IIT Kharagpur"
 date: 2023-08-01
-semester: \"Autumn 2023–2024\"
+semester: "Autumn 2023–2024"
 location: "India"
 ---
 

@@ -5,7 +5,7 @@ type: "Classroom Course"
 permalink: /teachingassistance/2023-spring-distributed
 venue: "Department of CSE, IIT Kharagpur"
 date: 2023-01-01
-semester: \"Spring 2022–2023\"
+semester: "Spring 2022–2023"
 location: "India"
 ---
 
