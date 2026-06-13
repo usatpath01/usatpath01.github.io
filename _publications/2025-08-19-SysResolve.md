@@ -2,10 +2,10 @@
 title: "SysResolve: Study on In-Context LLM Generation of Resolution Scripts"
 collection: publications
 category: conference
-permalink: /publications/fnode
+permalink: /publications/sysresolve
 excerpt: "Study on In-Context LLM Generation of Resolution Scripts"
 date: 2025-08-19
-venue: '<a href="https://www.dexa.org/2025/dexa2025.html" target="_blank">International Conference on Database and Expert Systems Applications</a>Bangkok, Thailand'
+venue: '<a href="https://www.dexa.org/2025/dexa2025.html" target="_blank">International Conference on Database and Expert Systems Applications</a>, Bangkok, Thailand'
 layout: single-publication
 author_profile: true
 authors: "Harsh Borse, <b>Utkalika Satapathy</b>, Mainack Mandal, Bivas Mitra"

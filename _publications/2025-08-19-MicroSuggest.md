@@ -2,7 +2,7 @@
 title: "MicroSuggest: Kernel-Aware Microservice Decomposition"
 collection: publications
 category: conference
-permalink: /publications/fnode
+permalink: /publications/microsuggest
 excerpt: "Kernel-Aware Microservice Decomposition"
 date: 2025-08-19
 venue: '<a href="https://www.dexa.org/2025/dawak2025.html" target="_blank">27th International Conference on Big Data Analytics and Knowledge Discovery (DaWak)</a>, Bangkok, Thailand'
