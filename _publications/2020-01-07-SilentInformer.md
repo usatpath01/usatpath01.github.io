@@ -30,13 +30,13 @@ contributors:
     affiliation: "IIIT Bhubaneswar"
     url: "http://usatpath01.github.io"
   - name: "Soumyajit Chatterjee"
-    photo: "http://usatpath01.github.io/images/contributors/sandip.jpg"
-    affiliation: "IIT Kharagpur"
-    url: ""
+    photo: "http://usatpath01.github.io/images/contributors/sjit.jpg"
+    affiliation: "Systems and Performance Researcher, Brave"
+    url: "https://sites.google.com/view/sjitiit/home"
   - name: "Sandip Chakraborty"
-    photo: "http://usatpath01.github.io/images/contributors/sandip.jpg"
+    photo: "http://usatpath01.github.io/images/contributors/sandip.jpeg"
     affiliation: "IIT Kharagpur"
-    url: "https://cse.iitkgp.ac.in/~sandipc/"
+    url: "https://sandipc-iitkgp.github.io/sandip-web/index.html"
 ---
 
 <!-- ## Overview
