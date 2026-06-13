@@ -236,7 +236,8 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      # layout: single
+      layout: single-publication
       author_profile: true
       share: true
       comments: true
