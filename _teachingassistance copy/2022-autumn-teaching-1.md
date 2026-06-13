@@ -8,8 +8,8 @@ date: 2023-01-23
 location: "India"
 ---
 
-[Course Page](https://cse.iitkgp.ac.in/~sandipc/courses/cs61065/cs61065.html) 
+[Course Page](https://sandipc-iitkgp.github.io/sandip-web/courses/cs61065/cs61065.html) 
 * **Instructor**: Prof. Sandip Chakraborty, Prof. Shamik Sural
-* **Teaching Assistance**: Utkalika Satpathy, Tirthankar Sengupta, Gaurav Kumar Meena
+* **Teaching Assistance**: Utkalika Satpathy, Tirthankar Sengupta, (B Shashank Goud, Sarthak Nikumbh), (Gaurav Kumar Meena)
 * **Duration** :	16 weeks
 * **Level** :	Postgraduate Students
