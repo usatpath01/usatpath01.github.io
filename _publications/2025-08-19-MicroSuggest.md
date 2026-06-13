@@ -1,9 +1,9 @@
 ---
-title: "FNoDe: Faulty Node Detection in Microservices Architecture"
+title: "MicroSuggest: Kernel-Aware Microservice Decomposition"
 collection: publications
 category: conference
 permalink: /publications/fnode
-excerpt: "Faulty Node Detection in Microservices Architecture"
+excerpt: "Kernel-Aware Microservice Decomposition"
 date: 2025-08-19
 venue: '<a href="https://www.dexa.org/2025/dawak2025.html">Springer DAWAK 2025</a>'
 layout: single-publication
@@ -15,14 +15,14 @@ authors: "Harsh Borse, <b>Utkalika Satapathy</b>, Mainack Mandal, Bivas Mitra"
 # slides: "https://drive.google.com/file/d/example-slides-muprov/view"
 # labpage: "https://ubinet-iitkgp.github.io/ubinet/pages/muprov.html"
 # paperurl: 'http://usatpath01.github.io/files/urcd-icdcs2024.pdf'
-doi: "10.1007/978-3-032-02215-8_6"
+doi: "10.1007/978-3-032-02215-8_24"
 venue_short: "DaWaK 2025"
-detail: "pp. 86--101"
+detail: "pp. 302--308"
 # status: "Best Paper 1st Runner Up Award"   # only when relevant
 
-abstract: "As cloud services shift from monolithic architectures to microservices, post-failure fault and anomaly detection becomes increasingly challenging due to cascading effects across interdependent services and the overwhelming volume of heterogeneous logs and metrics. We propose FNoDe (Faulty Node Detection), a framework that integrates application logs, performance metrics, and distributed traces into a unified graph structure to detect both the root cause and type of anomaly. By leveraging a graph convolutional network (GCN), FNoDe learns system representations under normal and anomalous states from historical microservice data and uses these embeddings to classify new system states. Evaluated on five public benchmarks and two in-house microservice systems, FNoDe outperforms traditional methods by 20–30% in accuracy and maintains competitive performance with state-of-the-art frameworks, while also offering interpretability through XAI techniques."
+abstract: "Microservice decomposition typically emphasizes logical or domain-driven boundaries, often overlooking performance bottlenecks from low-level system interactions. We present a system call-aware decomposition method that identifies and separates functions likely to interfere at the kernel level. By defining a collision score based on system call frequency and type, and using a fine-tuned Large Language Model to statically predict syscall behavior, we construct a function interaction graph for clustering. Evaluation on Python-based monoliths shows up to 30% latency reduction and improved scalability compared to traditional approaches, demonstrating the value of kernel-informed microservice design."
 
-citation: "Borse, H., Satpathy, U., Mondal, M., & Mitra, B. (2025, August). FNoDe: Faulty Node Detection in Microservices Architecture. In International Conference on Big Data Analytics and Knowledge Discovery (pp. 86-101). Cham: Springer Nature Switzerland."
+citation: "Borse, H., Satpathy, U., Mondal, M., & Mitra, B. (2025, August). MicroSuggest: Kernel-Aware Microservice Decomposition. In International Conference on Big Data Analytics and Knowledge Discovery (pp. 302-308). Cham: Springer Nature Switzerland."
 
 contributors:
   - name: "Harsh Borse"
@@ -54,11 +54,11 @@ contributors:
 
 ## Bibtex
 ```
-@inproceedings{borse2025fnode,
-  title={FNoDe: Faulty Node Detection in Microservices Architecture},
+@inproceedings{borse2025microsuggest,
+  title={MicroSuggest: Kernel-Aware Microservice Decomposition},
   author={Borse, Harsh and Satpathy, Utkalika and Mondal, Mainack and Mitra, Bivas},
   booktitle={International Conference on Big Data Analytics and Knowledge Discovery},
-  pages={86--101},
+  pages={302--308},
   year={2025},
   organization={Springer}
 }
