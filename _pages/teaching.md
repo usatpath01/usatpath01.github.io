@@ -56,15 +56,15 @@ redirect_from:
     {% if tas.size > 0 %}
     <div class="ta-grid">
       {% for ta in tas %}
-      <a class="ta-card" href="{{ ta.url | prepend: base_path }}">
+      <div class="ta-card">
         <div class="ta-card-head">
           {% if ta.type %}<span class="ta-type">{{ ta.type }}</span>{% endif %}
           {% if ta.date %}<span class="ta-year">{{ ta.date | date: "%Y" }}</span>{% endif %}
         </div>
         <h3 class="ta-name">{{ ta.title }}</h3>
         {% if ta.venue %}<p class="ta-venue"><i class="fa fa-university"></i> {{ ta.venue }}</p>{% endif %}
-        <span class="ta-cta">View details &rarr;</span>
-      </a>
+        <div class="ta-detail">{{ ta.content }}</div>
+      </div>
       {% endfor %}
     </div>
     {% else %}
@@ -94,20 +94,30 @@ redirect_from:
 .teach-empty { color: #888; }
 
 /* Course cards */
-.course-grid, .ta-grid {
+.course-grid {
   display: grid; gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+}
+/* TA cards: wider, single/two column since they hold full detail */
+.ta-grid {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 }
 
 .course-card, .ta-card {
   display: flex; flex-direction: column;
-  padding: 1.1rem 1.25rem; text-decoration: none !important; color: inherit;
+  padding: 1.1rem 1.25rem; color: inherit;
   background: #fafbfc; border: 1px solid #e6e9ee; border-radius: 13px;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
-.course-card:hover, .ta-card:hover {
+.course-card { text-decoration: none !important; }
+.course-card:hover {
   transform: translateY(-3px); box-shadow: 0 9px 24px rgba(42,122,226,0.10);
   border-color: var(--accent, #2a7ae2);
+}
+.ta-card:hover {
+  border-color: var(--accent, #2a7ae2);
+  box-shadow: 0 6px 18px rgba(42,122,226,0.08);
 }
 
 .course-card-head, .ta-card-head {
@@ -138,9 +148,21 @@ redirect_from:
 }
 .course-chip i { margin-right: 0.25rem; }
 
-.course-cta, .ta-cta {
+.course-cta {
   margin-top: auto; font-size: 0.82rem; font-weight: 700; color: var(--accent, #2a7ae2);
 }
+
+/* Inline TA detail content (rendered from the TA file body) */
+.ta-detail { font-size: 0.82rem; color: #44546a; line-height: 1.55; }
+.ta-detail p { margin: 0 0 0.5rem; }
+.ta-detail ul { margin: 0.3rem 0 0; padding-left: 1.1rem; }
+.ta-detail li { margin-bottom: 0.25rem; }
+.ta-detail a {
+  display: inline-block; font-weight: 600; color: var(--accent, #2a7ae2);
+  text-decoration: none;
+}
+.ta-detail a:hover { text-decoration: underline; }
+.ta-detail strong, .ta-detail b { color: #1a2b4a; }
 
 @media (max-width: 600px) {
   .course-grid, .ta-grid { grid-template-columns: 1fr; }
