@@ -35,9 +35,6 @@ How to detect if a microservice is compromised in a serverless application - Dis
 
 ## Contributors
 
-![Author's Name](images/author-image.png)
-
-
 * **Utkalika Satapathy** - IIT Kharagpur, India
 * **Rishabh Thakur** - IIT Kharagpur, India  
 * **Subhrendu Chattopadhyay** - IDRBT Hyderabad, India
