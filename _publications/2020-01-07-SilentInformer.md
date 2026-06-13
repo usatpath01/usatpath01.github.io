@@ -5,7 +5,7 @@ category: conference
 permalink: /publications/silentinformer
 excerpt: "A Framework for Information Dispersion using Inaudible Acoustic Signals"
 date:  2020-01-07
-venue: '<a href = "https://www.comsnets.org/archive/2020/">COMSNETS (Poster Track)</a>, Chancery PavilionHotel, ResidencyRoad, Bengaluru,India'
+venue: '<a href = "https://www.comsnets.org/archive/2020/ target="_blank">IEEE 12th International Conference on COMmunication Systems and NETworks (Poster Track)</a>, Chancery Pavilion Hotel, Residency Road, Bengaluru, India'
 layout: single-publication
 author_profile: true
 authors: "<b>Utkalika Satapathy</b>, Soumyajit Chatterjee, Sandip Chakraborty"
@@ -16,7 +16,7 @@ authors: "<b>Utkalika Satapathy</b>, Soumyajit Chatterjee, Sandip Chakraborty"
 # labpage: "https://ubinet-iitkgp.github.io/ubinet/pages/muprov.html"
 paperurl: 'http://usatpath01.github.io/files/silentinformer_comsnets2020.pdf'
 doi: "10.1109/COMSNETS48256.2020.9027493"
-venue_short: "COMSNETS 2022"
+venue_short: "COMSNETS (Poster) 2022"
 detail: "pp. 543-546"
 # status: "Best Paper 1st Runner Up Award"   # only when relevant
 

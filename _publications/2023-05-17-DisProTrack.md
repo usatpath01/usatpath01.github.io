@@ -5,7 +5,7 @@ category: conference
 permalink: /publications/disprotrack
 excerpt: "Distributed provenance tracking over serverless applications."
 date: 2023-05-17
-venue: '<a href="https://infocom2023.ieee-infocom.org/">IEEE INFOCOM 2023</a>'
+venue: '<a href="https://infocom2023.ieee-infocom.org/" target="_blank">IEEE Conference on Computer Communications (INFOCOM)</a>, New York City, NY, USA'
 layout: single-publication
 author_profile: true
 authors: "<b>Utkalika Satpathy</b>, Rishabh Thakur, Subhrendu Chattopadhyay, Sandip Chakraborty"
@@ -16,7 +16,7 @@ slides: "http://usatpath01.github.io/files/disprotrack-infocom2023-slides.pdf"
 labpage: "https://ubinet-iitkgp.github.io/ubinet/pages/disprotrack.html"
 paperurl: 'http://usatpath01.github.io/files/disprotrack-infocom2023.pdf'
 doi: "10.1109/INFOCOM53939.2023.10228884"
-venue_short: "IEEE INFOCOM 2023"
+venue_short: "IEEE INFOCOM 2023 (Ranked: A*)"
 detail: "pp. 1-10"
 # status: "Best Paper Runner-Up"   # only when relevant
 
