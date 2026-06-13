@@ -106,28 +106,28 @@ author_profile: true
       <div class="grant-item static">
         <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
-          <span class="grant-title">Reviewer — COMSNETS 2026 Graduate Forum</span>
+          <span class="grant-title">COMSNETS 2026 Graduate Forum</span>
           <span class="grant-sub">18th Int'l Conf. on Communication Systems &amp; Networks · 2026</span>
         </div>
       </div>
       <div class="grant-item static">
         <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
-          <span class="grant-title">Reviewer — IEEE Transactions on Dependable and Secure Computing (TDSC)</span>
+          <span class="grant-title">IEEE Transactions on Dependable and Secure Computing (TDSC)</span>
           <span class="grant-sub">2025</span>
         </div>
       </div>
       <div class="grant-item static">
         <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
-          <span class="grant-title">Reviewer — IEEE Transactions on Services Computing (TSC)</span>
+          <span class="grant-title">IEEE Transactions on Services Computing (TSC)</span>
           <span class="grant-sub">2024 &amp; 2025</span>
         </div>
       </div>
       <div class="grant-item static">
         <span class="grant-badge role-rev">Reviewer</span>
         <div class="grant-body">
-          <span class="grant-title">Reviewer — IEEE Internet of Things Journal</span>
+          <span class="grant-title">IEEE Internet of Things Journal</span>
           <span class="grant-sub">2020</span>
         </div>
       </div>
@@ -218,7 +218,7 @@ author_profile: true
         </div>
       </a>
       <a class="grant-item" href="https://isea.gov.in/event.php/IVP20251031JASE" target="_blank">
-        <span class="grant-badge role">OC Member</span>
+        <span class="grant-badge role-wsp">OC Member</span>
         <div class="grant-body">
           <span class="grant-title">National Workshop on CipherStorm: Unlocking Digital Security</span>
           <span class="grant-sub">IIIT Bhubaneswar with ISI Kolkata, ISEA Phase-III · 14–17 Dec 2025</span>

@@ -1,5 +1,11 @@
 # main links links
 main:
+  # - title: "Teaching Assistance"
+  #   url: /teachingassistance/ 
+
+  - title: "Teaching"
+    url: /teaching/    
+
   - title: "Publications"
     url: /publications/
   
@@ -10,13 +16,7 @@ main:
 #    url: /talks/    
 
   - title: "Projects"
-    url: /projects/
-
-  - title: "Teaching Assistance"
-    url: /teachingassistance/    
-
-  - title: "Teaching"
-    url: /courses/    
+    url: /projects/   
 
   - title: "Grants & Service"
     url: /grants/ 
