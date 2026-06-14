@@ -28,16 +28,18 @@ layout: default
         {% if page.venue %}<p class="hero-venue"><i class="fas fa-university"></i> {{ page.venue }}</p>{% endif %}
       </header>
 
-      <!-- ===== TAB BAR (only Theory / Lab; lab tab shown if page.lab) ===== -->
+      {% comment %} ===== CSS-only tabs via hidden radio inputs ===== {% endcomment %}
       {% if page.lab %}
+      <input type="radio" name="ctab" id="tab-theory" class="ctab-input" checked>
+      <input type="radio" name="ctab" id="tab-lab" class="ctab-input">
       <div class="ctabs">
-        <button class="ctab active" data-t="theory"><i class="fas fa-book-open"></i> Theory</button>
-        <button class="ctab" data-t="lab"><i class="fas fa-flask"></i> Lab</button>
+        <label class="ctab" for="tab-theory"><i class="fas fa-book-open"></i> Theory</label>
+        <label class="ctab" for="tab-lab"><i class="fas fa-flask"></i> Lab</label>
       </div>
       {% endif %}
 
       <!-- ===== THEORY PANEL ===== -->
-      <div class="cpanel active" id="theory">
+      <div class="cpanel cpanel-theory">
 
         {% if page.overview %}
         <p class="ov-text">{{ page.overview }}</p>
@@ -92,12 +94,29 @@ layout: default
         {% endif %}
 
         {% if page.grading %}
+        {% comment %} Pre-compute conic-gradient at build time, no JS, no capture block {% endcomment %}
+        {% assign palette = "#2a7ae2,#5aa0f0,#1a4d8f,#7bb3f5,#3f8ce8,#9cc6f8,#143d72" | split: "," %}
+        {% assign gtotal = 0 %}
+        {% for g in page.grading %}{% assign gtotal = gtotal | plus: g.weight %}{% endfor %}
+        {% if gtotal == 0 %}{% assign gtotal = 1 %}{% endif %}
+        {% assign acc = 0 %}
+        {% assign pie_stops = "" %}
+        {% for g in page.grading %}
+          {% assign idx = forloop.index0 | modulo: 7 %}
+          {% assign col = palette[idx] %}
+          {% assign startdeg = acc | times: 360 | divided_by: gtotal %}
+          {% assign acc = acc | plus: g.weight %}
+          {% assign enddeg = acc | times: 360 | divided_by: gtotal %}
+          {% assign seg = col | append: " " | append: startdeg | append: "deg " | append: enddeg | append: "deg" %}
+          {% if forloop.first %}{% assign pie_stops = seg %}{% else %}{% assign pie_stops = pie_stops | append: ", " | append: seg %}{% endif %}
+        {% endfor %}
         <div class="sec-label"><h2>Grading</h2><span class="sec-rule"></span></div>
         <div class="grade-block">
-          <div class="pie" id="pie-theory"></div>
-          <ul class="legend" id="legend-theory">
+          <div class="pie" style="background:conic-gradient({{ pie_stops }});"></div>
+          <ul class="legend">
             {% for g in page.grading %}
-            <li><span class="lg-dot" data-pct="{{ g.weight }}"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
+            {% assign idx = forloop.index0 | modulo: 7 %}
+            <li><span class="lg-dot" style="background:{{ palette[idx] }};"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
             {% endfor %}
           </ul>
         </div>
@@ -108,7 +127,7 @@ layout: default
 
       <!-- ===== LAB PANEL ===== -->
       {% if page.lab %}
-      <div class="cpanel" id="lab">
+      <div class="cpanel cpanel-lab">
 
         {% if page.lab.overview %}<p class="ov-text">{{ page.lab.overview }}</p>{% endif %}
 
@@ -137,12 +156,28 @@ layout: default
         {% endif %}
 
         {% if page.lab.grading %}
+        {% assign lpalette = "#1a8f6b,#46c79a,#0f6b4f,#79ddbb,#2faa82,#a8ecd5,#0a4d39" | split: "," %}
+        {% assign ltotal = 0 %}
+        {% for g in page.lab.grading %}{% assign ltotal = ltotal | plus: g.weight %}{% endfor %}
+        {% if ltotal == 0 %}{% assign ltotal = 1 %}{% endif %}
+        {% assign lacc = 0 %}
+        {% assign lpie_stops = "" %}
+        {% for g in page.lab.grading %}
+          {% assign lidx = forloop.index0 | modulo: 7 %}
+          {% assign lcol = lpalette[lidx] %}
+          {% assign lstart = lacc | times: 360 | divided_by: ltotal %}
+          {% assign lacc = lacc | plus: g.weight %}
+          {% assign lend = lacc | times: 360 | divided_by: ltotal %}
+          {% assign lseg = lcol | append: " " | append: lstart | append: "deg " | append: lend | append: "deg" %}
+          {% if forloop.first %}{% assign lpie_stops = lseg %}{% else %}{% assign lpie_stops = lpie_stops | append: ", " | append: lseg %}{% endif %}
+        {% endfor %}
         <div class="sec-label"><h2>Lab Grading</h2><span class="sec-rule"></span></div>
         <div class="grade-block">
-          <div class="pie" id="pie-lab"></div>
-          <ul class="legend" id="legend-lab">
+          <div class="pie" style="background:conic-gradient({{ lpie_stops }});"></div>
+          <ul class="legend">
             {% for g in page.lab.grading %}
-            <li><span class="lg-dot" data-pct="{{ g.weight }}"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
+            {% assign lidx = forloop.index0 | modulo: 7 %}
+            <li><span class="lg-dot" style="background:{{ lpalette[lidx] }};"></span><span class="lg-k">{{ g.item }}</span><span class="lg-v">{{ g.weight }}%</span></li>
             {% endfor %}
           </ul>
         </div>
@@ -175,15 +210,24 @@ layout: default
 .chip i { opacity:.9; }
 .hero-venue { margin:.9rem 0 0; font-size:.88rem; color:rgba(255,255,255,.9); display:flex; align-items:center; gap:.4rem; }
 
-/* TABS (Theory / Lab) */
+/* ===== CSS-only TABS (radio technique) ===== */
+.ctab-input { position:absolute; opacity:0; pointer-events:none; width:0; height:0; }
 .ctabs { display:flex; gap:.25rem; border-bottom:2px solid var(--line); margin-bottom:1.5rem; }
-.ctab { display:inline-flex; align-items:center; gap:.45rem; padding:.7rem 1.1rem; cursor:pointer; font-size:.92rem; font-weight:600; color:var(--slate); border:none; background:none; border-bottom:3px solid transparent; margin-bottom:-2px; transition:color .15s; }
+.ctab { display:inline-flex; align-items:center; gap:.45rem; padding:.7rem 1.1rem; cursor:pointer; font-size:.92rem; font-weight:600; color:var(--slate); border-bottom:3px solid transparent; margin-bottom:-2px; transition:color .15s; user-select:none; }
 .ctab:hover { color:var(--ink); }
-.ctab.active { color:var(--accent); border-bottom-color:var(--accent); }
+/* highlight active tab label based on checked radio */
+#tab-theory:checked ~ .ctabs label[for="tab-theory"],
+#tab-lab:checked ~ .ctabs label[for="tab-lab"] { color:var(--accent); border-bottom-color:var(--accent); }
 
-.cpanel { display:none; animation:cfade .25s ease; }
-.cpanel.active { display:block; }
-@keyframes cfade { from{opacity:0;transform:translateY(4px);} to{opacity:1;transform:none;} }
+/* panel visibility driven by checked radio */
+.cpanel { display:none; }
+/* When a course has NO lab, there are no radios; show theory by default */
+.cpanel-theory { display:block; }
+/* When radios exist, toggle based on which is checked */
+#tab-theory:checked ~ .cpanel-theory { display:block; }
+#tab-theory:checked ~ .cpanel-lab { display:none; }
+#tab-lab:checked ~ .cpanel-theory { display:none; }
+#tab-lab:checked ~ .cpanel-lab { display:block; }
 
 /* OVERVIEW */
 .ov-text { font-size:1rem; color:var(--slate); line-height:1.75; margin:0 0 1.5rem; }
@@ -212,7 +256,7 @@ layout: default
 .tl-act a:first-child { margin-left:0; }
 .tl-act a:hover { text-decoration:underline; }
 
-/* CARDS (materials, textbooks) */
+/* CARDS */
 .subhead { font-size:.95rem; font-weight:700; color:var(--accent); margin:1.3rem 0 .6rem; }
 .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:.7rem; margin-bottom:1.6rem; }
 .card { display:flex; align-items:flex-start; gap:.65rem; padding:.85rem 1rem; background:#fff; border:1px solid var(--line); border-radius:11px; text-decoration:none !important; color:var(--ink); transition:border-color .15s,box-shadow .15s,transform .15s; }
@@ -220,16 +264,19 @@ layout: default
 .card .ci { font-size:1.05rem; color:var(--accent); margin-top:.1rem; }
 .card .ct { font-size:.85rem; font-weight:500; line-height:1.4; }
 
-/* GRADING — pie + legend */
+/* GRADING — pie + legend (pure CSS, computed in Liquid) */
 .grade-block { display:flex; align-items:center; gap:2rem; flex-wrap:wrap; margin-bottom:1.6rem; }
-.pie { width:170px; height:170px; border-radius:50%; flex-shrink:0;
+.course-page .pie { width:170px; height:170px; border-radius:50%; flex-shrink:0;
+       background:#e6eaf2; /* fallback if gradient missing */
        box-shadow:0 6px 20px rgba(20,33,59,.12); position:relative; }
-.pie::after { content:""; position:absolute; inset:28%; background:#fff; border-radius:50%; box-shadow:inset 0 1px 3px rgba(0,0,0,.06); }
-.legend { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.5rem; }
-.legend li { display:flex; align-items:center; gap:.6rem; font-size:.88rem; }
-.lg-dot { width:12px; height:12px; border-radius:3px; flex-shrink:0; }
-.lg-k { color:var(--slate); font-weight:600; }
-.lg-v { margin-left:auto; font-weight:800; color:var(--ink); padding-left:1rem; }
+.course-page .pie::after { content:""; position:absolute; top:28%; left:28%; right:28%; bottom:28%;
+       background:#fff; border-radius:50%; box-shadow:inset 0 1px 3px rgba(0,0,0,.06); }
+.course-page .legend { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.5rem; min-width:230px; }
+.course-page .legend li { display:flex; align-items:center; gap:.6rem; font-size:.88rem; padding:0; }
+.course-page .legend li::before { content:none !important; } /* override theme bullet */
+.course-page .lg-dot { display:inline-block; width:12px; height:12px; border-radius:3px; flex-shrink:0; background:#ccc; }
+.course-page .lg-k { color:var(--slate); font-weight:600; }
+.course-page .lg-v { margin-left:auto; font-weight:800; color:var(--ink); padding-left:1rem; }
 
 @media (max-width:600px){
   .hero-title { font-size:1.55rem; }
@@ -239,42 +286,3 @@ layout: default
   .grade-block { gap:1.2rem; }
 }
 </style>
-
-<script>
-(function () {
-  // ----- Tab switching (Theory / Lab) -----
-  document.querySelectorAll('.ctab').forEach(function (t) {
-    t.addEventListener('click', function () {
-      document.querySelectorAll('.ctab').forEach(function (x) { x.classList.remove('active'); });
-      document.querySelectorAll('.cpanel').forEach(function (x) { x.classList.remove('active'); });
-      t.classList.add('active');
-      var p = document.getElementById(t.dataset.t);
-      if (p) p.classList.add('active');
-    });
-  });
-
-  // ----- Pie charts from legend data -----
-  var palette = ['#2a7ae2', '#5aa0f0', '#1a4d8f', '#7bb3f5', '#3f8ce8', '#9cc6f8', '#143d72'];
-  function buildPie(pieId, legendId) {
-    var pie = document.getElementById(pieId);
-    var legend = document.getElementById(legendId);
-    if (!pie || !legend) return;
-    var dots = legend.querySelectorAll('.lg-dot');
-    var total = 0, vals = [];
-    dots.forEach(function (d) { var v = parseFloat(d.getAttribute('data-pct')) || 0; vals.push(v); total += v; });
-    if (total <= 0) return;
-    var stops = [], acc = 0;
-    vals.forEach(function (v, i) {
-      var col = palette[i % palette.length];
-      var start = (acc / total) * 360;
-      acc += v;
-      var end = (acc / total) * 360;
-      stops.push(col + ' ' + start.toFixed(2) + 'deg ' + end.toFixed(2) + 'deg');
-      if (dots[i]) dots[i].style.background = col;
-    });
-    pie.style.background = 'conic-gradient(' + stops.join(', ') + ')';
-  }
-  buildPie('pie-theory', 'legend-theory');
-  buildPie('pie-lab', 'legend-lab');
-})();
-</script>
