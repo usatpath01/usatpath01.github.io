@@ -110,12 +110,12 @@ redirect_from:
     <div class="social-col">
       <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
     </div>
-    <div class="social-col">
+    <!-- <div class="social-col">
       <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453126151927140352?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
     </div>
     <div class="social-col">
       <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453007534837104640?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
-    </div>
+    </div> -->
   </div>
 
   <div class="video-embed">
