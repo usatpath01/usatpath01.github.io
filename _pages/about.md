@@ -38,7 +38,7 @@ redirect_from:
   <div class="find-me">
     <span class="find-me-label">Find me on</span>
     <a href="https://scholar.google.com/citations?hl=en&user=bqyCK7cAAAAJ" target="_blank" class="fm-link"><i class="ai ai-google-scholar"></i> Scholar</a>
-    <a href="https://dblp.org/pid/255/1788.html" target="_blank" class="fm-link"><i class="ai ai-dblp"></i> DBLP</a>
+    <a href="https://dblp.org/pid/376/2107.html" target="_blank" class="fm-link"><i class="ai ai-dblp"></i> DBLP</a>
     <a href="https://www.researchgate.net/profile/Utkalika-Satapathy" target="_blank" class="fm-link"><i class="ai ai-researchgate"></i> ResearchGate</a>
     <a href="https://orcid.org/0000-0002-7477-1479" target="_blank" class="fm-link"><i class="ai ai-orcid"></i> ORCID</a>
     <a href="https://www.linkedin.com/in/utkalika-satapathy-01" target="_blank" class="fm-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
@@ -59,11 +59,6 @@ redirect_from:
   </div>
 
   <div class="news-timeline">
-
-    <div class="nt-row">
-      <div class="nt-date"><span class="nt-day">April</span><span class="nt-year">2026</span></div>
-      <div class="nt-body"><span class="nt-tag tag-seminar">Seminar</span><p class="nt-text">Successfully defened my Ph.D. Defence Seminar.</p></div>
-    </div>
 
     <div class="nt-row">
       <div class="nt-date"><span class="nt-day">Jan</span><span class="nt-year">2026</span></div>
@@ -108,19 +103,18 @@ redirect_from:
   </div>
 
   <div class="section-head"><h2>Featured</h2></div>
-
   <div class="social-row">
-    <div class="social-col">
-      <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453126151927140352?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
-      </div>
-      <div class="social-col">
-       <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453007534837104640?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
-      </div>
     <div class="social-col">
       <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">🚀 Our paper "XPLOG: A Dynamic Observability Framework for Distributed Sandboxed Microservices" is accepted in IEEE Transactions on Services Computing! 🎉<br>🎥 Teaser: <a href="https://t.co/aBD7piH57Z">https://t.co/aBD7piH57Z</a><br>📄 Paper: <a href="https://t.co/eFcT4Lzovz">https://t.co/eFcT4Lzovz</a> <a href="https://twitter.com/sandip2201?ref_src=twsrc%5Etfw">@sandip2201</a> <a href="https://twitter.com/utkalika_satpat?ref_src=twsrc%5Etfw">@utkalika_satpat</a></p>&mdash; UbiNet: Ubiquitous Networked Systems Lab (@ubinetiitkgp) <a href="https://twitter.com/ubinetiitkgp/status/1983221640994451799?ref_src=twsrc%5Etfw">October 28, 2025</a></blockquote>
     </div>
     <div class="social-col">
       <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389704181411889153?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
+    </div>
+    <div class="social-col">
+      <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453126151927140352?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
+    </div>
+    <div class="social-col">
+      <iframe class="li-embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7453007534837104640?collapsed=1" height="500" frameborder="0" allowfullscreen="" title="Embedded LinkedIn post"></iframe>
     </div>
   </div>
 
@@ -186,8 +180,8 @@ a.contact-item:hover { text-decoration: underline; }
 .tag-seminar { color: #c05621; background: #fdebe0; }
 .tag-service { color: #4a5568; background: #edf0f5; }
 
-/* ===== Social row ===== */
-.social-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; align-items: start; margin-bottom: 2rem; }
+/* ===== Social row (auto-fit grid) ===== */
+.social-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; align-items: start; margin-bottom: 2rem; }
 .social-col { background: #fff; border: 1px solid #e6e9ee; border-radius: 12px; padding: 0.5rem; overflow: hidden; }
 .social-col .twitter-tweet { margin: 0 auto !important; }
 .li-embed { width: 100%; border: none; border-radius: 8px; display: block; }
