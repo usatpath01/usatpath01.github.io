@@ -11,32 +11,46 @@ redirect_from:
 <div class="about-wrap">
 
   <p class="lead">
-    I am currently an Assistant Professor in the <a href="https://www.iiit-bh.ac.in/department/department-of-computer-science/" target="_blank">Department of Computer Science</a> at the <a href="https://www.iiit-bh.ac.in/" target="_blank">International Institute of Information Technology (IIIT), Bhubaneswar</a>. I completed my Ph.D. in the <a href="https://cse.iitkgp.ac.in" target="_blank">Department of Computer Science and Engineering</a> at the <a href="http://www.iitkgp.ac.in" target="_blank">Indian Institute of Technology (IIT) Kharagpur</a> under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target="_blank">Prof. Sandip Chakraborty</a>. My doctoral thesis, <b>"Provenance and Observability Frameworks for Secure Distributed Microservices"</b>, was successfully defended, with Prof. T. Venkatesh serving as the external examiner. I am also a member of the <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target="_blank">Ubiquitous Networked Systems Lab (UbiNet)</a>.
+    Dr. Utkalika Satapathy is an Assistant Professor in the <a href="https://www.iiit-bh.ac.in/department/department-of-computer-science/" target="_blank">Department of Computer Science</a> at <a href="https://www.iiit-bh.ac.in/" target="_blank">IIIT Bhubaneswar</a>. She completed her Ph.D. in Computer Science and Engineering from the <a href="http://www.iitkgp.ac.in" target="_blank">Indian Institute of Technology (IIT) Kharagpur</a> under the supervision of <a href="https://cse.iitkgp.ac.in/~sandipc/index.html" target="_blank">Prof. Sandip Chakraborty</a> and was a member of the <a href="https://cse.iitkgp.ac.in/resgrp/ubinet/index.html" target="_blank">Ubiquitous Networked Systems (UbiNet) Lab</a>. Her doctoral research focused on <b>Provenance and Observability Frameworks for Secure Distributed Microservices</b>, addressing challenges in security, attack investigation, and system observability for large-scale distributed applications.
   </p>
   <p class="lead">
-    My research interests span Systems, Distributed Systems, Security, and Provenance Tracking. I am particularly interested in designing secure, observable, and trustworthy computing infrastructures for modern distributed applications. My current research explores Loadable Kernel Modules (LKM), Extended Berkeley Packet Filter <a href="https://ebpf.io/" target="_blank">(eBPF)</a>, Linux Security Modules (LSMs), and system-level observability frameworks.
+    Her research interests span Systems, Distributed Systems, Security, Observability, and Provenance Tracking. She is particularly interested in building secure, observable, and trustworthy infrastructures for modern cloud-native and microservice-based applications. Her current work explores operating-system and kernel-level technologies, including <a href="https://ebpf.io/" target="_blank">eBPF (Extended Berkeley Packet Filter)</a>, Linux Security Modules (LSMs), Loadable Kernel Modules (LKMs), and system-level observability frameworks for security monitoring, root-cause analysis, and automated incident investigation.
   </p>
   <p class="lead">
-    I am passionate about exploring emerging technologies, developing practical systems solutions, and collaborating with researchers and practitioners across disciplines. My broader goal is to bridge the gap between systems research and real-world deployments through impactful and deployable systems research.
+    Dr. Satapathy's research has been published in leading venues, including IEEE INFOCOM, COMSNETS, and IEEE Transactions on Services Computing. Her work on provenance tracking for distributed microservices received the <b>Best Paper Honourable Mention Award at COMSNETS 2025</b>. She has also contributed to several collaborative research initiatives with industry partners, including IBM Research and Ericsson Research, helping bridge the gap between academic research and real-world systems deployment.
+  </p>
+  <p class="lead">
+    Her broader research vision is to develop scalable, practical, and deployable systems that enhance the security, reliability, and explainability of next-generation distributed computing platforms.
   </p>
 
   <h3 class="block-label">Research Interests</h3>
   <div class="ri-tags">
     <span class="ri-tag">Systems</span>
     <span class="ri-tag">Distributed Systems</span>
+    <span class="ri-tag">Cloud-Native Computing</span>
     <span class="ri-tag">Security</span>
-    <span class="ri-tag">Provenance Tracking</span>
-    <span class="ri-tag">Observability (eBPF · LKM · LSM)</span>
+    <span class="ri-tag">Observability</span>
+    <span class="ri-tag">Provenance Analytics</span>
+    <span class="ri-tag">eBPF-based Monitoring</span>
+    <span class="ri-tag">Root Cause Analysis</span>
   </div>
 
   <div class="find-me">
     <span class="find-me-label">Find me on</span>
-    <a href="https://scholar.google.com/citations?hl=en&user=bqyCK7cAAAAJ" target="_blank" class="fm-link"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    <a href="https://scholar.google.com/citations?hl=en&user=bqyCK7cAAAAJ" target="_blank" class="fm-link"><i class="ai ai-google-scholar"></i> Scholar</a>
     <a href="https://dblp.org/pid/376/2107.html" target="_blank" class="fm-link"><i class="ai ai-dblp"></i> DBLP</a>
     <a href="https://www.researchgate.net/profile/Utkalika-Satapathy" target="_blank" class="fm-link"><i class="ai ai-researchgate"></i> ResearchGate</a>
     <a href="https://orcid.org/0000-0002-7477-1479" target="_blank" class="fm-link"><i class="ai ai-orcid"></i> ORCID</a>
     <a href="https://www.linkedin.com/in/utkalika-satapathy-01" target="_blank" class="fm-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
     <a href="https://github.com/usatpath01" target="_blank" class="fm-link"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://twitter.com/utkalika_satpat" target="_blank" class="fm-link"><i class="fab fa-x-twitter"></i> Twitter</a>
+  </div>
+
+  <h3 class="block-label">Contact Details</h3>
+  <div class="contact-row">
+    <a href="mailto:utkalika@iiit-bh.ac.in" class="contact-item"><i class="fas fa-envelope"></i> utkalika@iiit-bh.ac.in</a>
+    <a href="mailto:utkalika.satapathy01@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> utkalika.satapathy01@gmail.com</a>
+    <span class="contact-item"><i class="fas fa-map-marker-alt"></i> CB-56, Dept. of CSE, IIIT Bhubaneswar, Odisha, India – 751003</span>
   </div>
 
   <div class="section-head">
@@ -78,7 +92,7 @@ redirect_from:
 
     <div class="nt-row">
       <div class="nt-date"><span class="nt-day">Jan</span><span class="nt-year">2025</span></div>
-      <div class="nt-body"><span class="nt-tag tag-award">Award</span><p class="nt-text">Won the <b>Best Paper Runner-Up Award</b> for <b>"Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture"</b> at 17th COMSNETS 2025.</p></div>
+      <div class="nt-body"><span class="nt-tag tag-award">Award</span><p class="nt-text">Won the <b>Best Paper Honourable Mention Award</b> for <b>"Towards Generating a Robust, Scalable and Dynamic Provenance Graph for Attack Investigation over Distributed Microservice Architecture"</b> at 17th COMSNETS 2025.</p></div>
     </div>
 
     <div class="nt-row">
@@ -110,7 +124,7 @@ redirect_from:
 .about-wrap { margin: 1.5rem 0; }
 .about-wrap .lead { text-align: justify; font-size: 16px; line-height: 1.7; margin-bottom: 1.3rem; color: #2a3346; }
 
-/* ===== Block label (Research Interests) ===== */
+/* ===== Block label ===== */
 .block-label { font-size: 1.05rem; font-weight: 800; color: #14213d; margin: 1.8rem 0 0.8rem; }
 .ri-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.8rem; }
 .ri-tag {
@@ -118,19 +132,26 @@ redirect_from:
   background: #eef4fd; border: 1px solid #d8e6fb; padding: 0.32rem 0.8rem; border-radius: 999px;
 }
 
-/* ===== Find me on ===== */
-.find-me { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 2.2rem; padding: 0.9rem 1rem; background: #f7f9fc; border: 1px solid #e6e9ee; border-radius: 12px; }
-.find-me-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6680; margin-right: 0.3rem; }
-.fm-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; font-weight: 600; color: var(--accent, #2a7ae2) !important; text-decoration: none !important; padding: 0.35rem 0.7rem; background: #fff; border: 1px solid #e0e6ef; border-radius: 8px; transition: border-color .15s, transform .15s, box-shadow .15s; }
+/* ===== Find me on (one line) ===== */
+.find-me { display: flex; flex-wrap: nowrap; align-items: center; gap: 0.4rem; margin: 0 0 1.8rem; padding: 0.7rem 0.85rem; background: #f7f9fc; border: 1px solid #e6e9ee; border-radius: 12px; overflow-x: auto; }
+.find-me-label { font-size: 0.64rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #5a6680; margin-right: 0.15rem; white-space: nowrap; flex-shrink: 0; }
+.fm-link { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.72rem; font-weight: 600; color: var(--accent, #2a7ae2) !important; text-decoration: none !important; padding: 0.28rem 0.5rem; background: #fff; border: 1px solid #e0e6ef; border-radius: 7px; white-space: nowrap; flex-shrink: 0; transition: border-color .15s, transform .15s, box-shadow .15s; }
 .fm-link:hover { border-color: var(--accent, #2a7ae2); transform: translateY(-2px); box-shadow: 0 5px 14px rgba(42,122,226,0.12); }
-.fm-link i { font-size: 0.95rem; }
+.fm-link i { font-size: 0.82rem; }
+
+/* ===== Contact Details ===== */
+.contact-row { display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem; margin-bottom: 1.8rem; }
+.contact-item { display: inline-flex; align-items: center; gap: 0.45rem; font-size: 0.88rem; color: #2a3346; text-decoration: none; }
+a.contact-item { color: var(--accent, #2a7ae2); }
+a.contact-item:hover { text-decoration: underline; }
+.contact-item i { color: var(--accent, #2a7ae2); font-size: 0.85rem; flex-shrink: 0; }
 
 /* ===== Section head ===== */
 .section-head { display: flex; align-items: center; gap: 0.8rem; margin: 2.5rem 0 1.4rem; }
 .section-head h2 { font-size: 1.5rem; font-weight: 800; color: #14213d; margin: 0; }
 .section-pill { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; background: var(--accent, #2a7ae2); padding: 0.25rem 0.7rem; border-radius: 999px; }
 
-/* ===== News timeline (date left, tag + text right) ===== */
+/* ===== News timeline ===== */
 .news-timeline { display: flex; flex-direction: column; margin-bottom: 2.5rem; }
 .nt-row {
   display: grid; grid-template-columns: 76px 1fr; gap: 1.2rem; align-items: start;
@@ -146,7 +167,6 @@ redirect_from:
 .nt-tag { align-self: flex-start; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 0.2rem 0.55rem; border-radius: 6px; }
 .nt-text { margin: 0 !important; text-align: left !important; font-size: 0.95rem !important; line-height: 1.55 !important; color: #2a3346; }
 
-/* tag colors */
 .tag-award   { color: #b7791f; background: #fdf3df; }
 .tag-pub     { color: #2a7ae2; background: #e8f0fc; }
 .tag-join    { color: #2f855a; background: #e3f4ea; }
@@ -173,6 +193,5 @@ redirect_from:
 }
 @media (max-width: 480px) {
   .about-wrap .lead { font-size: 14px; }
-  .fm-link { font-size: 0.78rem; padding: 0.3rem 0.6rem; }
 }
 </style>
