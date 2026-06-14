@@ -31,12 +31,7 @@ redirect_from:
 
   <div class="find-me">
     <span class="find-me-label">Find me on</span>
-    <a href="https://scholar.google.com/citations?hl=en&user=bqyCK7cAAAAJ" target="_blank" class="fm-link"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-    <a href="https://dblp.org/pid/376/2107.html" target="_blank" class="fm-link"><i class="ai ai-dblp"></i> DBLP</a>
-    <a href="https://www.researchgate.net/profile/Utkalika-Satapathy" target="_blank" class="fm-link"><i class="ai ai-researchgate"></i> ResearchGate</a>
-    <a href="https://orcid.org/0000-0002-7477-1479" target="_blank" class="fm-link"><i class="ai ai-orcid"></i> ORCID</a>
-    <a href="https://www.linkedin.com/in/utkalika-satapathy-01" target="_blank" class="fm-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="https://github.com/usatpath01" target="_blank" class="fm-link"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://twitter.com/utkalika_satpat" target="_blank" class="fm-link"><i class="fab fa-x-twitter"></i> Twitter</a>
   </div>
 
   <div class="section-head">
@@ -119,11 +114,11 @@ redirect_from:
 }
 
 /* ===== Find me on ===== */
-.find-me { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 2.2rem; padding: 0.9rem 1rem; background: #f7f9fc; border: 1px solid #e6e9ee; border-radius: 12px; }
-.find-me-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6680; margin-right: 0.3rem; }
-.fm-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; font-weight: 600; color: var(--accent, #2a7ae2) !important; text-decoration: none !important; padding: 0.35rem 0.7rem; background: #fff; border: 1px solid #e0e6ef; border-radius: 8px; transition: border-color .15s, transform .15s, box-shadow .15s; }
+.find-me { display: flex; flex-wrap: nowrap; align-items: center; gap: 0.5rem; margin: 0 0 2.2rem; padding: 0.7rem 0.9rem; background: #f7f9fc; border: 1px solid #e6e9ee; border-radius: 12px; }
+.find-me-label { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #5a6680; margin-right: 0.2rem; white-space: nowrap; }
+.fm-link { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.76rem; font-weight: 600; color: var(--accent, #2a7ae2) !important; text-decoration: none !important; padding: 0.3rem 0.6rem; background: #fff; border: 1px solid #e0e6ef; border-radius: 8px; white-space: nowrap; transition: border-color .15s, transform .15s, box-shadow .15s; }
 .fm-link:hover { border-color: var(--accent, #2a7ae2); transform: translateY(-2px); box-shadow: 0 5px 14px rgba(42,122,226,0.12); }
-.fm-link i { font-size: 0.95rem; }
+.fm-link i { font-size: 0.88rem; }
 
 /* ===== Section head ===== */
 .section-head { display: flex; align-items: center; gap: 0.8rem; margin: 2.5rem 0 1.4rem; }
