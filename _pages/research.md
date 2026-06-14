@@ -11,6 +11,42 @@ redirect_from:
 <div class="research-wrap">
 
   <div class="section-head">
+    <h2>Research Projects</h2>
+    <span class="section-pill">Funded &amp; Collaborative</span>
+  </div>
+
+  <div class="mentor-grid">
+
+    <div class="mentor-card proj-card">
+      <h3 class="mentor-title">OPENED Policy Enforcer</h3>
+      <div class="mentor-meta">
+        <span class="proj-org">IBM Research</span>
+        <span class="mentor-level collab">Industry Collaboration</span>
+      </div>
+      <p class="mentor-aff">Policy enforcement framework for cloud-native environments, developed during a research internship at IBM India Research Lab (IRL), Bangalore.</p>
+    </div>
+
+    <div class="mentor-card proj-card">
+      <h3 class="mentor-title">Development of Algorithms and Tools for Log Analytics</h3>
+      <div class="mentor-meta">
+        <span class="proj-org">IGCAR (Govt. of India)</span>
+        <span class="mentor-level funded">Sponsored Project</span>
+      </div>
+      <p class="mentor-aff">Sponsored research project at IIT Kharagpur on log analytics for distributed systems, in collaboration with the Indira Gandhi Centre for Atomic Research (IGCAR).</p>
+    </div>
+
+    <div class="mentor-card proj-card">
+      <h3 class="mentor-title">Observability for Cloud-Native Microservices</h3>
+      <div class="mentor-meta">
+        <span class="proj-org">Ericsson Research</span>
+        <span class="mentor-level collab">Industry Collaboration</span>
+      </div>
+      <p class="mentor-aff">Collaborative research initiative on observability and fault analysis for large-scale microservice deployments. <i>(Details to be updated.)</i></p>
+    </div>
+
+  </div>
+
+  <div class="section-head">
     <h2>Mentorship</h2>
     <span class="section-pill">Thesis Supervision</span>
   </div>
@@ -144,6 +180,10 @@ redirect_from:
 }
 .mentor-level.pg { background: #6b46c1; }
 .mentor-level.ug { background: #2f855a; }
+.mentor-level.collab { background: #2a7ae2; }
+.mentor-level.funded { background: #b7791f; }
+.proj-org { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.9rem; font-weight: 700; color: var(--accent, #2a7ae2); }
+.proj-org::before { content: "\f0b1"; font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 0.78rem; opacity: 0.8; }
 .mentor-aff { margin: 0 !important; font-size: 0.85rem !important; color: #5a6680 !important; line-height: 1.4 !important; }
 
 /* Intern-specific */
