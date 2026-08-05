@@ -21,7 +21,7 @@ facts:
   - { label: "Prerequisite", value: "Data structures, Basics of Computer Organization, High-level Programming Language (C or JAVA), Basic knowledge of Computer Hardware and System Software" }
 
 schedule:
-  - { date: "Wk 1", topic: "Foundations: Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1bqp2qFrqjhSMGysqn1QuxUsNE4oVSTRT/view?usp=sharing" }
+  - { date: "Wk 1", topic: "Foundations: Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1WGCIoNVGLtW7Op4kn7ht-cN4tkLUsMQK/view?usp=sharing" }
   - { date: "Wk 2", topic: "Foundations: OS Structures & System Calls", slides: "TBU" }
   - { date: "Wk 3", topic: "Basics of Process, Thread and IPC", slides: "TBU" }
   - { date: "Wk 4", topic: "Process Scheduling", slides: "TBU" }
@@ -55,8 +55,8 @@ lab:
   materials:
     - heading: "Lab Materials"
       items:
-        - { title: "Lab Manual", url: "https://drive.google.com/file/d/1S3u1M7QdskF7p_lGrqV8zcow6R8zpZKP/view?usp=sharing", icon: "fa-flask" }
-        - { title: "Introduction to Linux", url: "https://drive.google.com/file/d/1zYV_E_01CQSGChfHGa9mWtKITVG8lE7_/view?usp=sharing", icon: "fa-file-powerpoint" }
+        - { title: "Lab Manual", url: "https://docs.google.com/document/d/1JnA_OwebsK5NsExOLi2dIcm7nmBC4N-zRrE3xuFjezA/edit?usp=sharing", icon: "fa-flask" }
+        - { title: "Introduction to Linux", url: "https://drive.google.com/file/d/1YxxKINJNsfXb-AQaM70U3j8ZnTwtN0DL/view?usp=sharing", icon: "fa-file-powerpoint" }
   references:
     - { title: "UNIX: Concepts and Applications, 4th Edition — Sumitabha Das", url: "https://drive.google.com/file/d/1q3wHKFYCwhP_aKmRk0-domaYJAFKIOAR/view?usp=sharing" }
     - { title: "Linux Kernel Development, 3rd Edition — Robert Love", url: "https://drive.google.com/file/d/1U0DUIkhoAEPw712OPFmUB9_VYyCQWDs7/view?usp=sharing" }
