@@ -18,11 +18,11 @@ facts:
   - { label: "Instructor", value: "Utkalika Satapathy" }
   - { label: "Duration", value: "40 Hours" }
   - { label: "Credits", value: "4" }
-  - { label: "Prerequisite", value: "Basic data structures, Basic understanding of computer organization, Basic understanding of high-level programming language (C or JAVA), Basic knowledge of computer hardware and system software" }
+  - { label: "Prerequisite", value: "Data structures, Basics of Computer Organization, High-level Programming Language (C or JAVA), Basic knowledge of Computer Hardware and System Software" }
 
 schedule:
-  - { date: "Wk 1", topic: "Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1yF6p1FKQ10MOmBvcyjW5Br4e5tPp5jw9/view" }
-  - { date: "Wk 2", topic: "OS Structures & System Calls", slides: "TBU" }
+  - { date: "Wk 1", topic: "Foundations: Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1bqp2qFrqjhSMGysqn1QuxUsNE4oVSTRT/view?usp=sharing" }
+  - { date: "Wk 2", topic: "Foundations: OS Structures & System Calls", slides: "TBU" }
   - { date: "Wk 3", topic: "Basics of Process, Thread and IPC", slides: "TBU" }
   - { date: "Wk 4", topic: "Process Scheduling", slides: "TBU" }
   - { date: "Wk 6", topic: "Process Synchronization", slides: "TBU" }
@@ -35,38 +35,39 @@ schedule:
 materials:
   - heading: "Syllabus"
     items:
-      - { title: "Course Syllabus", url: "https://drive.google.com/file/d/1vH8b2uMTJEBqTQGGszlqgWpFYR0bZSb_/view", icon: "fa-file-lines" }
+      - { title: "Course Syllabus", url: "https://drive.google.com/file/d/1S3u1M7QdskF7p_lGrqV8zcow6R8zpZKP/view?usp=sharing", icon: "fa-file-lines" }
 
 textbooks:
-  - { title: "Silberschatz, Galvin, Gagne — Operating System Concepts, 8th Ed.", url: "https://drive.google.com/file/d/1HRYnFn6tAHe_8R-M9fKo8-jQ6Ospikvc/view" }
-  - { title: "William Stallings — Operating Systems: Internals & Design Principles, 6th Ed.", url: "https://drive.google.com/file/d/1m48K3Uwg574pLnxlbwNRmeDK7JmWYScT/view" }
-  - { title: "A. S. Tanenbaum — Modern Operating Systems, 3rd Ed.", url: "https://drive.google.com/file/d/1-UXPh-kRdgWBqrz7jo1n7zrhVUjvTkJA/view" }
-  - { title: "Tanenbaum, Woodhull — OS Design & Implementation, 3rd Ed.", url: "https://drive.google.com/file/d/1oQnpW3a_l8eZjF4424avraqaq9PnfGWv/view" }
+  - { title: "Silberschatz, Galvin, Gagne — Operating System Concepts, 10th Ed.", url: "https://drive.google.com/file/d/1AYujIINajm5RovYopxHpmOnHvCvQemVT/view?usp=sharing" }
+  - { title: "William Stallings — Operating Systems: Internals & Design Principles, 6th Ed.", url: "https://drive.google.com/file/d/1m48K3Uwg574pLnxlbwNRmeDK7JmWYScT/view?usp=sharing" }
+  - { title: "A. S. Tanenbaum — Modern Operating Systems, 3rd Ed.", url: "https://drive.google.com/file/d/1-UXPh-kRdgWBqrz7jo1n7zrhVUjvTkJA/view?usp=sharing" }
+  - { title: "Tanenbaum, Woodhull — OS Design & Implementation, 3rd Ed.", url: "https://drive.google.com/file/d/1oQnpW3a_l8eZjF4424avraqaq9PnfGWv/view?usp=sharing" }
   - { title: "Arpaci-Dusseau — Operating Systems: Three Easy Pieces", url: "https://drive.google.com/file/d/1Tja2wdKt8Uz1hGRpCbpzIYyYS_DYv01n/view" }
 
 grading:
   - { item: "Quizzes", weight: 15 }
-  - { item: "Midterm Exam", weight: 30 }
-  - { item: "Final Exam", weight: 50 }
+  - { item: "Mid-Sem Exam", weight: 30 }
+  - { item: "End-Sem Exam", weight: 50 }
   - { item: "Teacher's Assessment", weight: 5 }
 
 lab:
-  overview: "Hands-on SQL lab accompanying the DBMS theory — from SQL basics through query construction and database design."
+  overview: "This lab complements the operating system course. Students will gain practical experience with designing and implementing concepts of operating systems such as system calls, CPU scheduling, process management, memory management, and deadlock handling using C/C++ language in Linux environment."
   materials:
     - heading: "Lab Materials"
       items:
-        - { title: "Lab Manual", url: "https://docs.google.com/presentation/d/13It6lYLMniIlhZUjvnreTfDtUTRt9V_mwl1eFBIsXcs/edit", icon: "fa-flask" }
-        - { title: "Introduction to SQL", url: "https://docs.google.com/presentation/d/1M3Js-MJ5gFewd7PAjVYf_VF7eQY0OmbQ4CMd8QnPkso/edit", icon: "fa-file-powerpoint" }
+        - { title: "Lab Manual", url: "https://drive.google.com/file/d/1S3u1M7QdskF7p_lGrqV8zcow6R8zpZKP/view?usp=sharing", icon: "fa-flask" }
+        - { title: "Introduction to Linux", url: "https://drive.google.com/file/d/1zYV_E_01CQSGChfHGa9mWtKITVG8lE7_/view?usp=sharing", icon: "fa-file-powerpoint" }
   references:
-    - { title: "SQL Cookbook — Anthony Molinaro", url: "https://drive.google.com/file/d/1rLnoAlSDZz4THBNHc7pkqF8PN09hwRvx/view" }
-    - { title: "Learning SQL — Alan Beaulieu", url: "https://drive.google.com/file/d/18O6kK2fEmRmAk6DecX2lyiwyv-yqXPrg/view" }
-    - { title: "SQL: The Ultimate Beginner's Guide — Mark Reed", url: "https://drive.google.com/file/d/1EwE717JusbKAujNP0J5im8Oo6LIP0xhh/view" }
-    - { title: "SQL in 10 Minutes — Ben Forta", url: "https://drive.google.com/file/d/1MQYhBWJrEp2WzFdVO0aXyHQWPB96AeEf/view" }
-    - { title: "Head First SQL — Lynn Beighley", url: "https://drive.google.com/file/d/1FRzmI_bM7Bwxj9e6LWTeygxoPI-HJJtK/view" }
+    - { title: "UNIX: Concepts and Applications, 4th Edition — Sumitabha Das", url: "https://drive.google.com/file/d/1q3wHKFYCwhP_aKmRk0-domaYJAFKIOAR/view?usp=sharing" }
+    - { title: "Linux Kernel Development, 3rd Edition — Robert Love", url: "https://drive.google.com/file/d/1U0DUIkhoAEPw712OPFmUB9_VYyCQWDs7/view?usp=sharing" }
+    - { title: "The Design of the UNIX Operating System — Maurice J. Bach", url: "https://drive.google.com/file/d/18FZdX0yF8V4L8X01gjs8badjWxYzX7N6/view?usp=sharing" }
+    - { title: "Operating Systems: Three Easy Pieces — Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau", url: "https://drive.google.com/file/d/1Tja2wdKt8Uz1hGRpCbpzIYyYS_DYv01n/view?usp=sharing" }
+    - { title: "Linux: The Complete Reference, Sixth Edition — Richard Petersen", url: "https://drive.google.com/file/d/1FCnQputexxm6DDqszw4XTpQStLudgCoa/view?usp=sharing" }
+    - { title: "PThreads Programming — D Buttlar", url: "https://drive.google.com/file/d/1S6GGX_M6RbsTwBdDk7tYYuRIbNhYAIvl/view?usp=sharing" }
+    - { title: "Mastering C++ Multithreading — Maya Posch", url: "https://drive.google.com/file/d/1vyCi-GDrJjl-O4O67OZbmJOxD23RbtLE/view?usp=sharing" }
+
   grading:
-    - { item: "Lab Assessment", weight: 50 }
-    - { item: "Viva", weight: 20 }
-    - { item: "Lab Sessions", weight: 20 }
-    - { item: "Attendance", weight: 5 }
-    - { item: "Lab Record", weight: 5 }
+    - { item: "Lab Sessions", weight: 70 }
+    - { item: "Lab Assessment/Viva", weight: 30 }
+
 ---
