@@ -18,10 +18,10 @@ facts:
   - { label: "Instructor", value: "Utkalika Satapathy" }
   - { label: "Duration", value: "30 Hours" }
   - { label: "Credits", value: "3" }
-  - { label: "Prerequisite", value: "Data Structures and Algorithms,Networking Concepts (TCP, UDP, web(1/2/3)), Operating Systems (e.g., processes, threads, pages, synchronization, file systems, scheduling etc.), Object Oriented Programming (Java, C++, Python etc.), Database Management Systems"}
+  - { label: "Prerequisite", value: "Data Structures and Algorithms, Networking Concepts, Operating Systems, OOP (Java, C++, Python etc.), DBMS"}
 
 schedule:
-  - { date: "Week 1", topic: "Foundations" }
+  - { date: "Week 1", topic: "Foundations", slides: "TBU" }
   - { date: "Week 2", topic: "Architecture, Processes" }
   - { date: "Week 3 ", topic: "Communication, Time" }
   - { date: "Week 4", topic: "Time, Synchronization" }
@@ -51,23 +51,5 @@ grading:
   - { item: "Final Exam", weight: 50 }
   - { item: "Teacher's Assessment", weight: 5 }
 
-lab:
-  overview: "Hands-on SQL lab accompanying the DBMS theory — from SQL basics through query construction and database design."
-  materials:
-    - heading: "Lab Materials"
-      items:
-        - { title: "Lab Manual", url: "https://docs.google.com/presentation/d/13It6lYLMniIlhZUjvnreTfDtUTRt9V_mwl1eFBIsXcs/edit", icon: "fa-flask" }
-        - { title: "Introduction to SQL", url: "https://docs.google.com/presentation/d/1M3Js-MJ5gFewd7PAjVYf_VF7eQY0OmbQ4CMd8QnPkso/edit", icon: "fa-file-powerpoint" }
-  references:
-    - { title: "SQL Cookbook — Anthony Molinaro", url: "https://drive.google.com/file/d/1rLnoAlSDZz4THBNHc7pkqF8PN09hwRvx/view" }
-    - { title: "Learning SQL — Alan Beaulieu", url: "https://drive.google.com/file/d/18O6kK2fEmRmAk6DecX2lyiwyv-yqXPrg/view" }
-    - { title: "SQL: The Ultimate Beginner's Guide — Mark Reed", url: "https://drive.google.com/file/d/1EwE717JusbKAujNP0J5im8Oo6LIP0xhh/view" }
-    - { title: "SQL in 10 Minutes — Ben Forta", url: "https://drive.google.com/file/d/1MQYhBWJrEp2WzFdVO0aXyHQWPB96AeEf/view" }
-    - { title: "Head First SQL — Lynn Beighley", url: "https://drive.google.com/file/d/1FRzmI_bM7Bwxj9e6LWTeygxoPI-HJJtK/view" }
-  grading:
-    - { item: "Lab Assessment", weight: 50 }
-    - { item: "Viva", weight: 20 }
-    - { item: "Lab Sessions", weight: 20 }
-    - { item: "Attendance", weight: 5 }
-    - { item: "Lab Record", weight: 5 }
+
 ---

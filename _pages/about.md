@@ -61,6 +61,11 @@ redirect_from:
   <div class="news-timeline">
 
     <div class="nt-row">
+      <div class="nt-date"><span class="nt-day">Apr</span><span class="nt-year">2026</span></div>
+      <div class="nt-body"><span class="nt-tag tag-award">Award</span><p class="nt-text">Successfully defended my Ph.D. defence.</p></div>
+    </div>
+
+    <div class="nt-row">
       <div class="nt-date"><span class="nt-day">Jan</span><span class="nt-year">2026</span></div>
       <div class="nt-body"><span class="nt-tag tag-award">Award</span><p class="nt-text">Awarded the <b>Excellence in Review Award</b> at the COMSNETS 2026 Graduate Forum.</p></div>
     </div>
