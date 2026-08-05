@@ -18,16 +18,19 @@ facts:
   - { label: "Instructor", value: "Utkalika Satapathy" }
   - { label: "Duration", value: "40 Hours" }
   - { label: "Credits", value: "4" }
-  - { label: "Prerequisite", value: "Programming basics, system software" }
+  - { label: "Prerequisite", value: "Basic data structures, Basic understanding of computer organization, Basic understanding of high-level programming language (C or JAVA), Basic knowledge of computer hardware and system software" }
 
 schedule:
   - { date: "Wk 1", topic: "Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1yF6p1FKQ10MOmBvcyjW5Br4e5tPp5jw9/view" }
-  - { date: "Wk 2", topic: "OS Structures & System Calls", slides: "https://drive.google.com/file/d/1oxvtvdRqnb4yMD_FgmWd8CGK9NymCC7d/view" }
-  - { date: "Wk 3", topic: "Basics of Process", slides: "https://drive.google.com/file/d/1EsFJZHHsmCvAzNb9vHDQ7zNVfS8_XZBR/view" }
-  - { date: "Wk 4", topic: "Process States & Scheduling", slides: "https://drive.google.com/file/d/1CZUxZNJJ8RuNJ-Lpd5SwKY4ij7sIkKFG/view" }
-  - { date: "Wk 6", topic: "Threads & Inter-Process Communication", slides: "https://drive.google.com/file/d/1_xzFoG0OjubzkgwFoKYB2eBzmaDJrxWI/view" }
-  - { date: "Wk 7", topic: "Process Synchronization & Deadlock", slides: "https://drive.google.com/file/d/1h3P9z5DKBPezavIWhJoYo-fCgn_ni_CD/view" }
-  - { date: "Wk 8", topic: "Memory Management", slides: "https://drive.google.com/file/d/14uOgvLiND8jfetePLf-lPXYqypraIDvn/view" }
+  - { date: "Wk 2", topic: "OS Structures & System Calls", slides: "TBU" }
+  - { date: "Wk 3", topic: "Basics of Process, Thread and IPC", slides: "TBU" }
+  - { date: "Wk 4", topic: "Process Scheduling", slides: "TBU" }
+  - { date: "Wk 6", topic: "Process Synchronization", slides: "TBU" }
+  - { date: "Wk 7", topic: "Process Synchronization & Deadlock", slides: "TBU" }
+  - { date: "Wk 8", topic: "Memory Management", slides: "TBU" }
+  - { date: "Wk 9", topic: "Virtual Memory", slides: "TBU" }
+  - { date: "Wk 10", topic: "Storage & I/O", slides: "TBU" }
+  - { date: "Wk 11", topic: "File Systems", slides: "TBU" }
 
 materials:
   - heading: "Syllabus"
