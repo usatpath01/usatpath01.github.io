@@ -18,32 +18,37 @@ facts:
   - { label: "Instructor", value: "Utkalika Satapathy" }
   - { label: "Duration", value: "30 Hours" }
   - { label: "Credits", value: "3" }
-  - { label: "Prerequisite", value: "Data Structures and Algorithms, Networking Concepts, Operating Systems, OOP (Java, C++, Python etc.), DBMS"}
+  - { label: "Prerequisite", value: "DSA, Networking, OS, OOP (Java, C++, Python etc.), DBMS"}
 
 schedule:
-  - { date: "Week 1", topic: "Foundations", slides: "TBU" }
-  - { date: "Week 2", topic: "Architecture, Processes" }
-  - { date: "Week 3 ", topic: "Communication, Time" }
-  - { date: "Week 4", topic: "Time, Synchronization" }
-  - { date: "Week 5", topic: "Synchronization, Coordination" }
-  - { date: "Week 6", topic: "Global State, Replication, Consistency" }
-  - { date: "Week 7", topic: "Consistency, Replication" }
-  - { date: "Week 8", topic: "Fault Tolerance, Consensus" }
-  - { date: "Week 9", topic: "Transactions, Services, Messaging" }
-  - { date: "Week 10", topic: "Storage, Databases, Cloud Native" }
+  - { date: "Week 1", topic: "Introduction", slides: "https://drive.google.com/file/d/1YaI_cR78ChAob3q9rSu4VlwPoiYSJjXs/view?usp=sharing" }
+  - { date: "Week 2", topic: "Foundations", slides: "TBU" }
+  - { date: "Week 3", topic: "Architecture, Processes", slides: "TBU"}
+  - { date: "Week 4", topic: "Communication, Time", slides: "TBU"}
+  - { date: "Week 5", topic: "Time, Synchronization", slides: "TBU"}
+  - { date: "Week 6", topic: "Synchronization, Coordination", slides: "TBU"}
+  - { date: "Week 7", topic: "Global State, Replication, Consistency", slides: "TBU"}
+  - { date: "Week 8", topic: "Consistency, Replication", slides: "TBU"}
+  - { date: "Week 9", topic: "Fault Tolerance, Consensus", slides: "TBU"}
+  - { date: "Week 10", topic: "Transactions, Services, Messaging", slides: "TBU"}
+  - { date: "Week 11", topic: "Storage, Databases, Cloud Native", slides: "TBU"}
 
 materials:
-  - heading: "Lecture Slides & Syllabus"
+  - heading: "Syllabus"
     items:
-      - { title: "All Slides (Drive folder)", url: "https://drive.google.com/drive/folders/1jP3rJx7VnM8992RE98q6c7iYyf3rRBMh", icon: "fa-folder-open" }
-      - { title: "Course Syllabus", url: "https://drive.google.com/file/d/11hcqAMIz3x56uyABihOZz8CMuwPb1zan/view", icon: "fa-file-lines" }
+      - { title: "Course Syllabus", url: "https://drive.google.com/file/d/1NKJGc5pohuEKJwcdJUxKBwDAQuNygE94/view?usp=sharing", icon: "fa-file-lines" }
 
 textbooks:
-  - { title: "Elmasri & Navathe — Fundamentals of Database Systems", url: "https://drive.google.com/file/d/163lEtyDeKfKSllWPMvgYyVMtTjVuh_xG/view" }
-  - { title: "Silberschatz, Korth, Sudarshan — Database System Concepts, 5th Ed.", url: "https://drive.google.com/file/d/12rfIclniX29DLQ46QpwQyeAnPyLmfMOC/view" }
-  - { title: "Ramakrishnan & Gehrke — Database Management Systems, 3rd Ed.", url: "https://drive.google.com/file/d/1oL_7rLj47dMu9RSPcol7ACctrzpIRsn3/view" }
-  - { title: "Rob & Coronel — Database Systems, 7th Ed.", url: "https://drive.google.com/file/d/1L2Z0pWHrxUTGth889tK71LSkj4LguEjc/view" }
-  - { title: "Alex Petrov — Database Internals", url: "https://drive.google.com/file/d/13w711SJbf-mt5VJXW-GatdDrsQCvYv5M/view" }
+  - { title: "Andrew Tanenbaum and Maarten Van Steen — Distributed Systems: Principles and Paradigms, 2nd Ed.", url: "to do" }
+  - { title: "Sukumar Ghosh — Distributed Systems - An Algorithmic approach, 2nd Ed.", url: "to do" }
+  - { title: "Kleppmann, M. (2017), O’Reilly — Designing data-intensive applications", url: "to do" }
+  - { title: "A. D. Kshemkalyani and M. Singhal — Distributed Algorithms: Principles, Algorithms, and Systems ", url: "to do" }
+  - { title: "Nicola Santoro — Design and Analysis of Distributed Algorithms", url: "todo" }
+
+  - { title: "Nancy Lynch — Distributed Algorithms", url: "to do" }
+  - { title: "Mukesh Singhal and Nirajan Shivaratri — Advanced Operating Systems", url: "to do" }
+  - { title: "Bacon, J. and Harris, T. (2003), Addison-Wesley — Operating systems: distributed and concurrent software design ", url: "to do" }
+  - { title: "Cachin, C., Guerraoui, R. and Rodrigues, L. (2011) — Introduction to Reliable and Secure Distributed Programming, Springer (2nd edition)", url: "todo" }
 
 grading:
   - { item: "Quizzes", weight: 15 }
