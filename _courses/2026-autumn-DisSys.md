@@ -39,16 +39,16 @@ materials:
       - { title: "Course Syllabus", url: "https://drive.google.com/file/d/1NKJGc5pohuEKJwcdJUxKBwDAQuNygE94/view?usp=sharing", icon: "fa-file-lines" }
 
 textbooks:
-  - { title: "Andrew Tanenbaum and Maarten Van Steen — Distributed Systems: Principles and Paradigms, 2nd Ed.", url: "to do" }
-  - { title: "Sukumar Ghosh — Distributed Systems - An Algorithmic approach, 2nd Ed.", url: "to do" }
-  - { title: "Kleppmann, M. (2017), O’Reilly — Designing data-intensive applications", url: "to do" }
-  - { title: "A. D. Kshemkalyani and M. Singhal — Distributed Algorithms: Principles, Algorithms, and Systems ", url: "to do" }
-  - { title: "Nicola Santoro — Design and Analysis of Distributed Algorithms", url: "todo" }
+  - { title: "Andrew Tanenbaum and Maarten Van Steen — Distributed Systems: Principles and Paradigms, 2nd Ed.", url: "https://drive.google.com/file/d/1S0G1gWjiohGbPu4yZW6gcWhqVMdi67iF/view?usp=sharing" }
+  - { title: "Sukumar Ghosh — Distributed Systems - An Algorithmic approach, 2nd Ed.", url: "https://drive.google.com/file/d/1pciTLXuogIA6usNjJTugHLP62mENo5fN/view?usp=sharing" }
+  - { title: "Kleppmann, M. (2017), O’Reilly — Designing data-intensive applications", url: "https://drive.google.com/file/d/1zUjzsPTkI3hp14hU4w11xOp8l8wWCdV4/view?usp=sharing" }
+  - { title: "A. D. Kshemkalyani and M. Singhal — Distributed Algorithms: Principles, Algorithms, and Systems ", url: "https://drive.google.com/file/d/1WWMdZdL6m4OWP_GOSk2ETJ25tD05nYeA/view?usp=sharing" }
+  - { title: "Nicola Santoro — Design and Analysis of Distributed Algorithms", url: "https://drive.google.com/file/d/1hzW-C26-REdnkiAXnOH-UAihSA3g_KSo/view?usp=sharing" }
 
-  - { title: "Nancy Lynch — Distributed Algorithms", url: "to do" }
-  - { title: "Mukesh Singhal and Nirajan Shivaratri — Advanced Operating Systems", url: "to do" }
-  - { title: "Bacon, J. and Harris, T. (2003), Addison-Wesley — Operating systems: distributed and concurrent software design ", url: "to do" }
-  - { title: "Cachin, C., Guerraoui, R. and Rodrigues, L. (2011) — Introduction to Reliable and Secure Distributed Programming, Springer (2nd edition)", url: "todo" }
+  - { title: "Nancy Lynch — Distributed Algorithms", url: "https://drive.google.com/file/d/1cqdaymKtmHmb0pjUyMAlIG4C5xGwoVNn/view?usp=sharing" }
+  - { title: "Mukesh Singhal and Nirajan Shivaratri — Advanced Operating Systems", url: "http://antares.cs.kent.edu/~mikhail/classes/aos.f02/" }
+  - { title: "Bacon, J. and Harris, T. (2003), Addison-Wesley — Operating systems: distributed and concurrent software design ", url: "https://archive.org/details/operatingsystems0000baco/mode/2up" }
+  - { title: "Cachin, C., Guerraoui, R. and Rodrigues, L. (2011) — Introduction to Reliable and Secure Distributed Programming, Springer (2nd edition)", url: "https://drive.google.com/file/d/16nB3i1op0wu0Po6cAGd5Q69C9nRkgvRF/view?usp=sharing" }
 
 grading:
   - { item: "Quizzes", weight: 15 }
