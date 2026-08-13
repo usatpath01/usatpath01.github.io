@@ -18,12 +18,12 @@ facts:
   - { label: "Instructor", value: "Utkalika Satapathy" }
   - { label: "Duration", value: "40 Hours" }
   - { label: "Credits", value: "4" }
-  - { label: "Prerequisite", value: "Data structures, Basics of Computer Organization, High-level Programming Language (C or JAVA), Basic knowledge of Computer Hardware and System Software" }
+  - { label: "Prerequisite", value: "DSA, COA, Programming Language (C or JAVA)" }
 
 schedule:
   - { date: "Wk 1", topic: "Foundations: Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1hhqjFMbbmgwIyRpajdflHcwbDI4hZ1Nn/view?usp=sharing" }
   - { date: "Wk 2", topic: "Foundations: Computer Organization", slides: "https://drive.google.com/file/d/1TFDNrZZD0ZsYuLbpwixfHA6ecrIztu7e/view?usp=sharing" }  
-  - { date: "Wk 3", topic: "Foundations: OS Structures & System Calls", slides: "TBU" }
+  - { date: "Wk 3", topic: "Foundations: System Calls & Interrupt", slides: "TBU" }
   - { date: "Wk 3", topic: "Basics of Process, Thread and IPC", slides: "TBU" }
   - { date: "Wk 4", topic: "Process Scheduling", slides: "TBU" }
   - { date: "Wk 6", topic: "Process Synchronization", slides: "TBU" }
