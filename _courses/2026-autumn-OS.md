@@ -23,7 +23,7 @@ facts:
 schedule:
   - { date: "Wk 1", topic: "Foundations: Introduction to Operating Systems", slides: "https://drive.google.com/file/d/1hhqjFMbbmgwIyRpajdflHcwbDI4hZ1Nn/view?usp=sharing" }
   - { date: "Wk 2", topic: "Foundations: Computer Organization", slides: "https://drive.google.com/file/d/1TFDNrZZD0ZsYuLbpwixfHA6ecrIztu7e/view?usp=sharing" }  
-  - { date: "Wk 3", topic: "Foundations: System Calls & Interrupts", slides: "https://drive.google.com/file/d/1oMOn4M4XfuKcCsr9iSHV4yusQJUpgMtY/view?usp=sharing" }
+  - { date: "Wk 3", topic: "Foundations: System Calls & Interrupts", slides: "https://drive.google.com/file/d/1Ats47W4KpdQ-QSs4DASN6ejhO2_R_Q6l/view?usp=sharing" }
   - { date: "Wk 3", topic: "Basics of Process, Thread and IPC", slides: "TBU" }
   - { date: "Wk 4", topic: "Process Scheduling", slides: "TBU" }
   - { date: "Wk 6", topic: "Process Synchronization", slides: "TBU" }
