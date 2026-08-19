@@ -2,7 +2,7 @@
 title: "Distributed System"
 collection: courses
 type: "Undergraduate Course"
-permalink: /courses/2026-spring-DBMS
+permalink: /courses/2026-autumn-DS
 venue: "Department of Computer Science, IIIT Bhubaneswar"
 date: 2026-07-27
 location: "India"
