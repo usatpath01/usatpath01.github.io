@@ -22,7 +22,7 @@ facts:
 
 schedule:
   - { date: "Week 1", topic: "Introduction", slides: "https://drive.google.com/file/d/1YaI_cR78ChAob3q9rSu4VlwPoiYSJjXs/view?usp=sharing" }
-  - { date: "Week 2", topic: "Foundations", slides: "TBU" }
+  - { date: "Week 2", topic: "Foundations", slides: "https://drive.google.com/file/d/1p3JYrR3CRuvNU9-06HLBRbQU4e8VsXin/view?usp=sharing" }
   - { date: "Week 3", topic: "Architecture, Processes", slides: "TBU"}
   - { date: "Week 4", topic: "Communication, Time", slides: "TBU"}
   - { date: "Week 5", topic: "Time, Synchronization", slides: "TBU"}
