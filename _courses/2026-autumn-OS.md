@@ -27,7 +27,7 @@ schedule:
   - { date: "Wk 4", topic: "Basics of Process, Thread", slides: "https://drive.google.com/file/d/1ku05h2gJfdrsvM3CKc610kNLOy_7L0h4/view?usp=sharing" }
   - { date: "Wk 5", topic: "Process Scheduling", slides: "https://drive.google.com/file/d/1FGdG_UAJBtv0Np4Ysvoi8w6xYsiAxNW1/view?usp=sharing" }
   - { date: "Wk 6", topic: "IPC", slides: "https://drive.google.com/file/d/1c4NMaLQlv2SKuefyZ2jaCMOK-BXajZC6/view?usp=sharing" }
-  - { date: "Wk 7", topic: "Process Synchronization", slides: "" }
+  - { date: "Wk 7", topic: "Process Synchronization", slides: "https://drive.google.com/file/d/12MQVboN19INKu0K8YEzi8ZLkZMUbpiiD/view?usp=sharing" }
   - { date: "Wk 8", topic: "Deadlock", slides: "TBU" }
   - { date: "Wk 9", topic: "Memory Management", slides: "TBU" }
   - { date: "Wk 10", topic: "Disk Management", slides: "TBU" }
