@@ -23,15 +23,11 @@ facts:
 schedule:
   - { date: "Week 1", topic: "Introduction", slides: "https://drive.google.com/file/d/1YaI_cR78ChAob3q9rSu4VlwPoiYSJjXs/view?usp=sharing" }
   - { date: "Week 2", topic: "Foundations", slides: "https://drive.google.com/file/d/1p3JYrR3CRuvNU9-06HLBRbQU4e8VsXin/view?usp=sharing" }
-  - { date: "Week 3", topic: "Architecture, Processes", slides: "TBU"}
-  - { date: "Week 4", topic: "Communication, Time", slides: "TBU"}
-  - { date: "Week 5", topic: "Time, Synchronization", slides: "TBU"}
-  - { date: "Week 6", topic: "Synchronization, Coordination", slides: "TBU"}
-  - { date: "Week 7", topic: "Global State, Replication, Consistency", slides: "TBU"}
-  - { date: "Week 8", topic: "Consistency, Replication", slides: "TBU"}
-  - { date: "Week 9", topic: "Fault Tolerance, Consensus", slides: "TBU"}
-  - { date: "Week 10", topic: "Transactions, Services, Messaging", slides: "TBU"}
-  - { date: "Week 11", topic: "Storage, Databases, Cloud Native", slides: "TBU"}
+  - { date: "Week 3", topic: "Processes and Communication", slides: "https://drive.google.com/file/d/1xxC-ccayEKLz89j2f2EdvoyF4BSLjf6s/view?usp=sharing"}
+  - { date: "Week 4", topic: "Time in Distributed System", slides: "https://drive.google.com/file/d/1CHHtphSkS7IwVO470Z6OigTX_SVOU7s_/view?usp=sharing"}
+  - { date: "Week 5", topic: "Broacast Protocols", slides: "https://drive.google.com/file/d/18EAFIAP6F0-9DFdLrBxa2_Cx2z2Rkljh/view?usp=sharing"}
+  - { date: "Week 6", topic: "Replication", slides: "https://drive.google.com/file/d/17fSGC1W5GMehw8x9tNt4-8rDF1kcg-9A/view?usp=sharing"}
+  - { date: "Week 7", topic: "Consensus", slides: "TBU"}
 
 materials:
   - heading: "Syllabus"
