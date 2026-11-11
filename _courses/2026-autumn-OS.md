@@ -29,9 +29,9 @@ schedule:
   - { date: "Wk 6", topic: "IPC", slides: "https://drive.google.com/file/d/1c4NMaLQlv2SKuefyZ2jaCMOK-BXajZC6/view?usp=sharing" }
   - { date: "Wk 7", topic: "Process Synchronization", slides: "https://drive.google.com/file/d/12MQVboN19INKu0K8YEzi8ZLkZMUbpiiD/view?usp=sharing" }
   - { date: "Wk 8", topic: "Deadlock", slides: "https://drive.google.com/file/d/1Z4HpAvhBm8YIM789pYtvWpz24CWS-sKY/view?usp=sharing" }
-  - { date: "Wk 9", topic: "Memory Management", slides: "TBU" }
-  - { date: "Wk 10", topic: "Disk Management", slides: "TBU" }
-  - { date: "Wk 11", topic: "File Systems", slides: "TBU" }
+  - { date: "Wk 9", topic: "Memory Management", slides: "https://drive.google.com/file/d/1vG1yfKq67TYZxB4YkOq0_5Ll8DicAc8j/view?usp=sharing" }
+  - { date: "Wk 10", topic: "Disk Management", slides: "https://docs.google.com/presentation/d/1B_BS4_gZ9YEk5sbq7CoydiRCkMM-idoD/edit?usp=sharing&ouid=106301523648693335151&rtpof=true&sd=true" }
+  - { date: "Wk 11", topic: "File Systems", slides: "https://docs.google.com/presentation/d/1EdtJ5cP0wmbbrYdAgTUktL49TR2ujZPJ/edit?usp=sharing&ouid=106301523648693335151&rtpof=true&sd=true" }
 
 materials:
   - heading: "Syllabus"
